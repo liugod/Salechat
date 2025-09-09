@@ -52,6 +52,9 @@ if ($form->hasValidData( 'msg' ) && trim($form->msg) != '' && trim(str_replace('
                     erLhcoreClassChatEventDispatcher::getInstance()->dispatch('chat.before_msg_user_saved',array('msg' => & $msg,'chat' => & $chat));
 
                     erLhcoreClassChat::getSession()->save($msg);
+                    
+                    // Debug logging for message save confirmation
+                    error_log("Message saved - ID: {$msg->id}, User: {$msg->user_id}, Content: " . substr($msg->msg, 0, 100));
                 }
 	        }
 
