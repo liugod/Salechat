@@ -329,6 +329,9 @@ if ($activeTabEnabled == true) {
     }
 
 	$chats = erLhcoreClassChat::getActiveChats($limitList,0,$filter);
+	
+	// Debug logging for admin sync query
+	error_log("Admin sync query - Found active chats: " . count($chats));
 
     if (!empty($chats)) {
         $subjectByChat = erLhcoreClassChat::getChatSubjects($chats,2);
@@ -614,6 +617,9 @@ if ($pendingTabEnabled == true) {
 	 * Pending chats
 	 * */
 	$pendingChats = erLhcoreClassChat::getPendingChats($limitList, 0, $additionalFilter, $filterAdditionalMainAttr, ['check_list_permissions' => true]);
+	
+	// Debug logging for admin sync query
+	error_log("Admin sync query - Found pending chats: " . count($pendingChats));
 
     if (!empty($pendingChats)) {
         $subjectByChat = erLhcoreClassChat::getChatSubjects($pendingChats,1);
@@ -879,6 +885,9 @@ if (is_array($Params['user_parameters_unordered']['w']) && in_array($mapsWidgets
     $filterAdditionalMainAttr['sort'] = 'priority ASC, id ASC';
 
     $pendingMails = erLhcoreClassChat::getPendingMails($limitList, 0, $additionalFilter, $filterAdditionalMainAttr, ['check_list_permissions' => true, 'check_list_scope' => 'mails']);
+    
+    // Debug logging for admin sync query
+    error_log("Admin sync query - Found pending mails: " . count($pendingMails));
 
     erLhcoreClassChat::prefillGetAttributes($pendingMails, array('ctime_front','department_name','wait_time_pending','plain_user_name','from_name','from_address','subject_front'), array('body','department','time','status','user','subject'));
 
