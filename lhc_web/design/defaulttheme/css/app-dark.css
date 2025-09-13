@@ -6,28 +6,56 @@
 
 [data-bs-theme=dark]{
     --bs-light-rgb: 59,66,72;
-    --bs-body-bg:#343a40;
+    --bs-body-bg: #0f172a;
     --bs-link-color-rgb: 232,232,232;
-    --bs-link-color: 232,232,232;
+    --bs-link-color: #e2e8f0;
     --bs-link-hover-color-rgb: 194,194,194;
-    --bs-body-color: #f2f2f2;
-    --bs-secondary-color: #adb5bd;
-    --lhc-page-content-wrapper-bg: none;
-    --lhc-dashboard-card-header-bg: none;
-    --lhc-main-menu-link-hover: var(--bs-link-hover-color-rgb);
-    --lhc-main-menu-link: #e8e8e8;
-    --lhc-nav-underline-nav-link:  #adb5bd;
-    --lhc-nav-underline-nav-link-active-border: #63676b;
-    --lhc-msg-body-response: #616161;
-    --lhc-sidebar-li-active-link-bg: #2a2d31;
-    --lhc-sidebar-li-border-bottom: #495057;
-    --lhc-sidebar-wrapper-br: #63676b;
-    --lhc-msg-body-sys-tit-bg:#495057;
-    --lhc-msg-body-sys-tit-text: #d4d0d0;
-    --lhc-msg-date-text: #bcbcbc;
-    --lhc-gradient-tab-end: #343a40;
-    --lhc-gradient-tab-start: #000000;
-    --lhc-tab-link-bg: #3c4248;
+    --bs-body-color: #f1f5f9;
+    --bs-secondary-color: #64748b;
+    
+    /* Dark theme modern colors */
+    --lhc-primary: #6366f1;
+    --lhc-primary-hover: #4f46e5;
+    --lhc-primary-light: #1e1b4b;
+    --lhc-secondary: #64748b;
+    --lhc-success: #10b981;
+    --lhc-warning: #f59e0b;
+    --lhc-danger: #ef4444;
+    --lhc-info: #06b6d4;
+    
+    /* Dark backgrounds */
+    --lhc-page-content-wrapper-bg: #0f172a;
+    --lhc-dashboard-card-header-bg: #1e293b;
+    --lhc-sidebar-bg: #020617;
+    --lhc-card-bg: #1e293b;
+    --lhc-surface-elevated: #334155;
+    
+    /* Dark text colors */
+    --lhc-text-primary: #f1f5f9;
+    --lhc-text-secondary: #cbd5e1;
+    --lhc-text-muted: #64748b;
+    --lhc-text-inverse: #0f172a;
+    
+    /* Dark navigation */
+    --lhc-main-menu-link-hover: #f1f5f9;
+    --lhc-main-menu-link: #cbd5e1;
+    --lhc-nav-underline-nav-link: #64748b;
+    --lhc-nav-underline-nav-link-active-border: var(--lhc-primary);
+    
+    /* Dark sidebar */
+    --lhc-sidebar-li-active-link-bg: rgba(99, 102, 241, 0.15);
+    --lhc-sidebar-li-border-bottom: #334155;
+    --lhc-sidebar-wrapper-br: #334155;
+    --lhc-sidebar-link-hover: rgba(99, 102, 241, 0.2);
+    
+    /* Dark messages */
+    --lhc-msg-body-response: #334155;
+    --lhc-msg-body-sys-tit-bg: #475569;
+    --lhc-msg-body-sys-tit-text: #f1f5f9;
+    --lhc-msg-date-text: #64748b;
+    --lhc-gradient-tab-end: #1e293b;
+    --lhc-gradient-tab-start: #0f172a;
+    --lhc-tab-link-bg: #334155;
 }
 
 .nav {
