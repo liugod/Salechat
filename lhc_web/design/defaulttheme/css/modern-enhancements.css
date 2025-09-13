@@ -1,0 +1,293 @@
+/* 
+ * Modern Backend Interface Enhancements
+ * Additional CSS improvements for a more contemporary look
+ */
+
+/* Smooth transitions for better UX */
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Enhanced form controls */
+.form-control,
+.form-select {
+    border: 2px solid #e2e8f0;
+    border-radius: var(--lhc-radius);
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--lhc-primary);
+    box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.1);
+    transform: scale(1.02);
+}
+
+/* Modern input groups */
+.input-group {
+    box-shadow: var(--lhc-shadow-sm);
+    border-radius: var(--lhc-radius);
+    overflow: hidden;
+}
+
+/* Enhanced alerts */
+.alert {
+    border: none;
+    border-radius: var(--lhc-radius-md);
+    box-shadow: var(--lhc-shadow);
+    border-left: 4px solid;
+}
+
+.alert-primary {
+    background: var(--lhc-primary-light);
+    color: var(--lhc-primary);
+    border-left-color: var(--lhc-primary);
+}
+
+.alert-success {
+    background: var(--lhc-success-light);
+    color: var(--lhc-success);
+    border-left-color: var(--lhc-success);
+}
+
+.alert-warning {
+    background: var(--lhc-warning-light);
+    color: var(--lhc-warning);
+    border-left-color: var(--lhc-warning);
+}
+
+.alert-danger {
+    background: var(--lhc-danger-light);
+    color: var(--lhc-danger);
+    border-left-color: var(--lhc-danger);
+}
+
+.alert-info {
+    background: var(--lhc-info-light);
+    color: var(--lhc-info);
+    border-left-color: var(--lhc-info);
+}
+
+/* Modern breadcrumbs */
+.breadcrumb {
+    background: var(--lhc-surface-elevated);
+    border-radius: var(--lhc-radius);
+    padding: 0.75rem 1rem;
+    box-shadow: var(--lhc-shadow-sm);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "›";
+    color: var(--lhc-text-muted);
+    font-size: 1.2rem;
+}
+
+/* Enhanced pagination */
+.pagination {
+    gap: 0.25rem;
+}
+
+.page-link {
+    border: 1px solid #e2e8f0;
+    color: var(--lhc-text-secondary);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--lhc-radius);
+    transition: all 0.2s ease;
+}
+
+.page-link:hover {
+    background: var(--lhc-primary-light);
+    border-color: var(--lhc-primary);
+    color: var(--lhc-primary);
+    transform: translateY(-1px);
+}
+
+.page-item.active .page-link {
+    background: var(--lhc-primary);
+    border-color: var(--lhc-primary);
+    color: white;
+    box-shadow: var(--lhc-shadow);
+}
+
+/* Modern progress bars */
+.progress {
+    height: 0.75rem;
+    border-radius: var(--lhc-radius);
+    background: #e2e8f0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    border-radius: var(--lhc-radius);
+    background: linear-gradient(135deg, var(--lhc-primary) 0%, var(--lhc-primary-hover) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    animation: progress-shine 2s infinite;
+}
+
+@keyframes progress-shine {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+/* Enhanced tooltips and popovers */
+.tooltip {
+    font-size: 0.75rem;
+}
+
+.tooltip-inner {
+    background: var(--lhc-text-primary);
+    color: var(--lhc-text-inverse);
+    border-radius: var(--lhc-radius);
+    padding: 0.5rem 0.75rem;
+    box-shadow: var(--lhc-shadow-lg);
+}
+
+/* Modern modal styles */
+.modal-content {
+    border: none;
+    border-radius: var(--lhc-radius-lg);
+    box-shadow: var(--lhc-shadow-xl);
+    overflow: hidden;
+}
+
+.modal-header {
+    background: linear-gradient(135deg, var(--lhc-primary) 0%, var(--lhc-primary-hover) 100%);
+    color: white;
+    border-bottom: none;
+    padding: 1.5rem;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+    opacity: 0.8;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-footer {
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    padding: 1.5rem;
+}
+
+/* Enhanced dropdown menus */
+.dropdown-menu {
+    border: none;
+    border-radius: var(--lhc-radius-md);
+    box-shadow: var(--lhc-shadow-lg);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.dropdown-item {
+    border-radius: var(--lhc-radius);
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.125rem;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background: var(--lhc-primary-light);
+    color: var(--lhc-primary);
+    transform: translateX(4px);
+}
+
+/* Loading states */
+.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid var(--lhc-primary);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: loading-spin 1s linear infinite;
+}
+
+@keyframes loading-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Improved focus indicators for accessibility */
+.btn:focus-visible,
+.form-control:focus-visible,
+.form-select:focus-visible,
+.nav-link:focus-visible {
+    outline: 2px solid var(--lhc-primary);
+    outline-offset: 2px;
+}
+
+/* Dark theme adjustments for the new styles */
+[data-bs-theme="dark"] {
+    --lhc-surface-elevated: #334155;
+}
+
+[data-bs-theme="dark"] .form-control,
+[data-bs-theme="dark"] .form-select {
+    background: var(--lhc-surface-elevated);
+    border-color: #475569;
+    color: var(--lhc-text-primary);
+}
+
+[data-bs-theme="dark"] .breadcrumb {
+    background: var(--lhc-surface-elevated);
+}
+
+[data-bs-theme="dark"] .modal-footer {
+    background: var(--lhc-surface-elevated);
+    border-top-color: #475569;
+}
+
+[data-bs-theme="dark"] .progress {
+    background: #475569;
+}
+
+[data-bs-theme="dark"] .page-link {
+    background: var(--lhc-surface-elevated);
+    border-color: #475569;
+    color: var(--lhc-text-secondary);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+    
+    .table {
+        font-size: 0.8rem;
+    }
+    
+    .modal-body {
+        padding: 1.5rem 1rem;
+    }
+}
