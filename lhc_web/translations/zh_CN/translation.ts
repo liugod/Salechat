@@ -6990,7 +6990,7 @@
     </message>
     <message>
       <source>Rule ||| Replace symbol</source>
-      <translation>Rule ||| Replace symbol</translation>
+      <translation>规则|||替换符号</translation>
     </message>
     <message>
       <source>Sample</source>
@@ -7117,18 +7117,18 @@
     </message>
     <message>
       <source>Invalid email address</source>
-      <translation>Invalid email address</translation>
+      <translation>无效的电子邮件地址</translation>
     </message>
     <message>
       <source>Invalid chat!</source>
-      <translation>Invalid chat!</translation>
+      <translation>无效的聊天！</translation>
     </message>
   </context>
   <context>
     <name>chat/subject</name>
     <message>
       <source>Will appear as very first items to select for the subject</source>
-      <translation>Will appear as very first items to select for the subject</translation>
+      <translation>将作为主题选择的第一项显示</translation>
     </message>
     <message>
       <source>If you do not choose any department, subject will be visible for all departments</source>
@@ -7136,11 +7136,11 @@
     </message>
     <message>
       <source>This is usefull if you need additional filtering for your own purposes. Leave it empty in most cases.</source>
-      <translation>This is usefull if you need additional filtering for your own purposes. Leave it empty in most cases.</translation>
+      <translation>如果您需要为自己的目的进行额外过滤，这很有用。在大多数情况下请保持空白。</translation>
     </message>
     <message>
       <source>Internal subjects will not be shown in a subject choosing modal window for the operators. They are good for setting them in the bot, extensions etc.</source>
-      <translation>Internal subjects will not be shown in a subject choosing modal window for the operators. They are good for setting them in the bot, extensions etc.</translation>
+      <translation>内部主题不会在客服人员的主题选择模态窗口中显示。它们适合在机器人、扩展等中设置。</translation>
     </message>
     <message>
       <source>Choose a subject</source>
@@ -7156,15 +7156,15 @@
     </message>
     <message>
       <source>Pinned</source>
-      <translation>Pinned</translation>
+      <translation>置顶</translation>
     </message>
     <message>
       <source>Standard</source>
-      <translation>Standard</translation>
+      <translation>标准</translation>
     </message>
     <message>
       <source>Invalid CSRF token</source>
-      <translation>Invalid CSRF token</translation>
+      <translation>无效的CSRF令牌</translation>
     </message>
     <message>
       <source>Subject selected!</source>
@@ -7180,14 +7180,14 @@
     </message>
     <message>
       <source>Invalid CSRF token!</source>
-      <translation>Invalid CSRF token!</translation>
+      <translation>无效的CSRF令牌！</translation>
     </message>
   </context>
   <context>
     <name>abstract/chatsubject</name>
     <message>
       <source>Choose in what widgets this subject will be visible directly</source>
-      <translation>Choose in what widgets this subject will be visible directly</translation>
+      <translation>选择此主题将在哪些小部件中直接显示</translation>
     </message>
     <message>
       <source>Internal</source>
@@ -7195,11 +7195,11 @@
     </message>
     <message>
       <source>Pinned</source>
-      <translation>Pinned</translation>
+      <translation>置顶</translation>
     </message>
     <message>
       <source>Internal type</source>
-      <translation>Internal type</translation>
+      <translation>内部类型</translation>
     </message>
   </context>
   <context>
@@ -7237,7 +7237,7 @@
     </message>
     <message>
       <source>New message!</source>
-      <translation>New message!</translation>
+      <translation>新消息！</translation>
     </message>
     <message>
       <source>Chat is currently unavailable</source>
@@ -7301,7 +7301,7 @@
     </message>
     <message>
       <source>At this moment you can contact us via email only. Sorry for the inconveniences.</source>
-      <translation>At this moment you can contact us via email only. Sorry for the inconveniences.</translation>
+      <translation>目前您只能通过电子邮件联系我们。为给您带来的不便深表歉意。</translation>
     </message>
     <message>
       <source>Live support is not available in your country</source>
@@ -7429,7 +7429,7 @@
     </message>
     <message>
       <source>Your language</source>
-      <translation>Your language</translation>
+      <translation>您的语言</translation>
     </message>
     <message>
       <source>Choose your language</source>
@@ -7449,19 +7449,19 @@
     </message>
     <message>
       <source>Switch to Classic</source>
-      <translation>Switch to Classic</translation>
+      <translation>切换到经典模式</translation>
     </message>
     <message>
       <source>Switch to Column</source>
-      <translation>Switch to Column</translation>
+      <translation>切换到列模式</translation>
     </message>
     <message>
       <source>You</source>
-      <translation>You</translation>
+      <translation>您</translation>
     </message>
     <message>
       <source>Us</source>
-      <translation>Us</translation>
+      <translation>我们</translation>
     </message>
     <message>
       <source>Summary</source>
@@ -7553,39 +7553,39 @@
     </message>
     <message>
       <source>Chat started by</source>
-      <translation>Chat started by</translation>
+      <translation>聊天发起者</translation>
     </message>
     <message>
       <source>payload!</source>
-      <translation>payload!</translation>
+      <translation>负载！</translation>
     </message>
     <message>
       <source>File is to big! Maximum</source>
-      <translation>File is to big! Maximum</translation>
+      <translation>文件过大！最大</translation>
     </message>
     <message>
       <source>File is to big!</source>
-      <translation>File is to big!</translation>
+      <translation>文件过大！</translation>
     </message>
     <message>
       <source>File upload is not for this chat!</source>
-      <translation>File upload is not for this chat!</translation>
+      <translation>文件上传不适用于此聊天！</translation>
     </message>
     <message>
       <source>File upload is not enabled for the visitor!</source>
-      <translation>File upload is not enabled for the visitor!</translation>
+      <translation>访客未启用文件上传！</translation>
     </message>
     <message>
       <source>There was a problem with your uploaded file!</source>
-      <translation>There was a problem with your uploaded file!</translation>
+      <translation>您上传的文件出现问题！</translation>
     </message>
     <message>
       <source>We could not download a file!</source>
-      <translation>We could not download a file!</translation>
+      <translation>我们无法下载文件！</translation>
     </message>
     <message>
       <source>Media attribute could not be found or there was an error:</source>
-      <translation>Media attribute could not be found or there was an error:</translation>
+      <translation>找不到媒体属性或出现错误：</translation>
     </message>
     <message>
       <source>Invalid file extension</source>
@@ -7601,7 +7601,7 @@
     </message>
     <message>
       <source>Please complete previous process!</source>
-      <translation>Please complete previous process!</translation>
+      <translation>请完成上一个流程！</translation>
     </message>
     <message>
       <source>Chat was transferred to operator!</source>
@@ -7625,7 +7625,7 @@
     </message>
     <message>
       <source>We are still working on your previous request!</source>
-      <translation>We are still working on your previous request!</translation>
+      <translation>我们仍在处理您之前的请求！</translation>
     </message>
     <message>
       <source>Please enter a message, max characters</source>
@@ -7637,23 +7637,23 @@
     </message>
     <message>
       <source>Message was removed!</source>
-      <translation>Message was removed!</translation>
+      <translation>消息已删除！</translation>
     </message>
     <message>
       <source>Message could not be found!</source>
-      <translation>Message could not be found!</translation>
+      <translation>找不到消息！</translation>
     </message>
     <message>
       <source>You can edit only your last message!</source>
-      <translation>You can edit only your last message!</translation>
+      <translation>您只能编辑最后一条消息！</translation>
     </message>
     <message>
       <source>You can edit your own message!</source>
-      <translation>You can edit your own message!</translation>
+      <translation>您可以编辑自己的消息！</translation>
     </message>
     <message>
       <source>No last message was found!</source>
-      <translation>No last message was found!</translation>
+      <translation>找不到最后一条消息！</translation>
     </message>
     <message>
       <source>Pending Chat</source>
@@ -7661,15 +7661,15 @@
     </message>
     <message>
       <source>New mail</source>
-      <translation>New mail</translation>
+      <translation>新邮件</translation>
     </message>
     <message>
       <source>Unresponded mail</source>
-      <translation>Unresponded mail</translation>
+      <translation>未响应邮件</translation>
     </message>
     <message>
       <source>Transferred mail</source>
-      <translation>Transferred mail</translation>
+      <translation>已转移邮件</translation>
     </message>
     <message>
       <source>Unread message</source>
@@ -7677,11 +7677,11 @@
     </message>
     <message>
       <source>Alert notification</source>
-      <translation>Alert notification</translation>
+      <translation>警报通知</translation>
     </message>
     <message>
       <source>Bot Chat</source>
-      <translation>Bot Chat</translation>
+      <translation>机器人聊天</translation>
     </message>
     <message>
       <source>New message from operator</source>
@@ -7693,7 +7693,7 @@
     </message>
     <message>
       <source>Trigger alert chat!</source>
-      <translation>Trigger alert chat!</translation>
+      <translation>触发警报聊天！</translation>
     </message>
     <message>
       <source>Assigned Chat</source>
@@ -7709,15 +7709,15 @@
     </message>
     <message>
       <source>You can edit only your own messages!</source>
-      <translation>You can edit only your own messages!</translation>
+      <translation>您只能编辑自己的消息！</translation>
     </message>
     <message>
       <source>Chat was already closed!</source>
-      <translation>Chat was already closed!</translation>
+      <translation>聊天已关闭！</translation>
     </message>
     <message>
       <source>You have subscribed to new messages notifications!</source>
-      <translation>You have subscribed to new messages notifications!</translation>
+      <translation>您已订阅新消息通知！</translation>
     </message>
     <message>
       <source>Enter a message</source>
@@ -7753,11 +7753,11 @@
     </message>
     <message>
       <source>Provided survey does not exists!</source>
-      <translation>Provided survey does not exists!</translation>
+      <translation>提供的调查不存在！</translation>
     </message>
     <message>
       <source>You cannot send messages to this chat. Chat has been closed.</source>
-      <translation>You cannot send messages to this chat. Chat has been closed.</translation>
+      <translation>您无法向此聊天发送消息。聊天已关闭。</translation>
     </message>
     <message>
       <source>Please enter a message</source>
@@ -7769,27 +7769,27 @@
     </message>
     <message>
       <source>Start a chat</source>
-      <translation>Start a chat</translation>
+      <translation>开始聊天</translation>
     </message>
     <message>
       <source>BB code</source>
-      <translation>BB Code</translation>
+      <translation>BB代码</translation>
     </message>
     <message>
       <source>Send to email</source>
-      <translation>Send to email</translation>
+      <translation>发送到电子邮件</translation>
     </message>
     <message>
       <source>Send a message</source>
-      <translation>Send a message</translation>
+      <translation>发送消息</translation>
     </message>
     <message>
       <source>Start a chat with us!</source>
-      <translation>Start a chat with us!</translation>
+      <translation>与我们开始聊天！</translation>
     </message>
     <message>
       <source>New messages!</source>
-      <translation>New messages!</translation>
+      <translation>新消息！</translation>
     </message>
     <message>
       <source>Close</source>
@@ -7801,11 +7801,11 @@
     </message>
     <message>
       <source>We will send you a transcript of your chat with agent, so you can browse it later.</source>
-      <translation>We will send you a transcript of your chat with agent, so you can browse it later.</translation>
+      <translation>我们会向您发送与客服的聊天记录，以便您稍后查看。</translation>
     </message>
     <message>
       <source>Change language</source>
-      <translation>Change language</translation>
+      <translation>更改语言</translation>
     </message>
     <message>
       <source>Next 〉</source>
@@ -7841,15 +7841,15 @@
     </message>
     <message>
       <source>There was an issue sending the message. Try again.</source>
-      <translation>There was an issue sending the message. Try again.</translation>
+      <translation>发送消息时出现问题。请重试。</translation>
     </message>
     <message>
       <source>No internet connection.</source>
-      <translation>No internet connection.</translation>
+      <translation>没有互联网连接。</translation>
     </message>
     <message>
       <source>Visitor is typing</source>
-      <translation>Visitor is typing</translation>
+      <translation>访客正在输入</translation>
     </message>
     <message>
       <source>Please choose!</source>
@@ -7869,7 +7869,7 @@
     </message>
     <message>
       <source>There was a problem sending your request. Please try again later!</source>
-      <translation>There was a problem sending your request. Please try again later!</translation>
+      <translation>发送您的请求时出现问题。请稍后重试！</translation>
     </message>
     <message>
       <source>Offline request message was saved</source>
@@ -7892,27 +7892,27 @@
     <name>system/htmlcode</name>
     <message>
       <source>Absent</source>
-      <translation>Absent</translation>
+      <translation>不在</translation>
     </message>
     <message>
       <source>Top right</source>
-      <translation>Top right</translation>
+      <translation>右上角</translation>
     </message>
     <message>
       <source>Bottom left</source>
-      <translation>Bottom left</translation>
+      <translation>左下角</translation>
     </message>
     <message>
       <source>Always enabled</source>
-      <translation>Always enabled</translation>
+      <translation>始终启用</translation>
     </message>
     <message>
       <source>Enabled on mobile</source>
-      <translation>Enabled on mobile</translation>
+      <translation>在移动端启用</translation>
     </message>
     <message>
       <source>Always off</source>
-      <translation>Always off</translation>
+      <translation>始终关闭</translation>
     </message>
     <message>
       <source>Bottom right corner of the screen</source>
@@ -7944,7 +7944,7 @@
     </message>
     <message>
       <source>HTML code</source>
-      <translation>HTML 代码</translation>
+      <translation>HTML代码</translation>
     </message>
     <message>
       <source>Popup width</source>
@@ -7972,7 +7972,7 @@
     </message>
     <message>
       <source>example.com</source>
-      <translation>example.com</translation>
+      <translation>示例网站.com</translation>
     </message>
     <message>
       <source>Choose prefered http mode</source>
@@ -7988,7 +7988,7 @@
     </message>
     <message>
       <source>Chatbox messages content height</source>
-      <translation>Chatbox 消息内容高度</translation>
+      <translation>聊天框消息内容高度</translation>
     </message>
     <message>
       <source>Theme</source>
@@ -8012,7 +8012,7 @@
     </message>
     <message>
       <source>Chatbox</source>
-      <translation>Chatbox</translation>
+      <translation>聊天框</translation>
     </message>
     <message>
       <source>Position from the top, is only used if the Middle left or the Middle right side is chosen</source>
@@ -8080,7 +8080,7 @@
     </message>
     <message>
       <source>FAQ</source>
-      <translation>FAQ</translation>
+      <translation>常见问题</translation>
     </message>
     <message>
       <source>Position from the top, only used if the Middle left or the Middle right side is chosen</source>
@@ -8204,7 +8204,7 @@
     </message>
     <message>
       <source>Cookie is valid only for domain where javascript embedded (excludes subdomains)</source>
-      <translation>Cookie仅对嵌入了javascript的域有效（不包括子域）</translation>
+      <translation>Cookie仅对嵌入了JavaScript的域有效（不包括子域）</translation>
     </message>
     <message>
       <source>Try to detect language automatically</source>
@@ -8288,7 +8288,7 @@
     </message>
     <message>
       <source>Static image</source>
-      <translation>Static image</translation>
+      <translation>静态图片</translation>
     </message>
     <message>
       <source>On each refresh start a new chat. Users will loose chat session browsing through pages! Usefull in embed mode.</source>
@@ -8312,31 +8312,31 @@
     </message>
     <message>
       <source>Widget position placement.</source>
-      <translation>Widget position placement.</translation>
+      <translation>小部件位置放置。</translation>
     </message>
     <message>
       <source>Bottom right</source>
-      <translation>Bottom right</translation>
+      <translation>右下角</translation>
     </message>
     <message>
       <source>Middle right</source>
-      <translation>Middle right</translation>
+      <translation>右中</translation>
     </message>
     <message>
       <source>Middle left</source>
-      <translation>Middle left</translation>
+      <translation>左中</translation>
     </message>
     <message>
       <source>Bottom right, full height</source>
-      <translation>Bottom right, full height</translation>
+      <translation>右下角，全高</translation>
     </message>
     <message>
       <source>Bottom left, full height</source>
-      <translation>Bottom left, full height</translation>
+      <translation>左下角，全高</translation>
     </message>
     <message>
       <source>Online status text</source>
-      <translation>Online status text</translation>
+      <translation>在线状态文本</translation>
     </message>
     <message>
       <source>Offline status text. If you lave empty we will return empty image.</source>
@@ -8822,7 +8822,7 @@
     </message>
     <message>
       <source>Start a chat</source>
-      <translation>Start a chat</translation>
+      <translation>开始聊天</translation>
     </message>
     <message>
       <source>+20 (More than 20 seconds spend on site) 20 (Less than 20 seconds spend on site)</source>
@@ -9416,7 +9416,7 @@
     </message>
     <message>
       <source>HTML Code</source>
-      <translation>HTML 代码</translation>
+      <translation>HTML代码</translation>
     </message>
     <message>
       <source>Bold</source>
@@ -9852,7 +9852,7 @@
     </message>
     <message>
       <source>BB Code</source>
-      <translation>BB Code</translation>
+      <translation>BB代码</translation>
     </message>
     <message>
       <source>Personal</source>
@@ -10016,7 +10016,7 @@
     </message>
     <message>
       <source>Invalid CSRF token!</source>
-      <translation>Invalid CSRF token!</translation>
+      <translation>无效的CSRF令牌！</translation>
     </message>
     <message>
       <source>Invalid chat status</source>
@@ -10166,7 +10166,7 @@
     </message>
     <message>
       <source>HTML code</source>
-      <translation>HTML 代码</translation>
+      <translation>HTML代码</translation>
     </message>
   </context>
   <context>
@@ -10185,7 +10185,7 @@
     </message>
     <message>
       <source>HTML Code</source>
-      <translation>HTML 代码</translation>
+      <translation>HTML代码</translation>
     </message>
     <message>
       <source>Forms</source>
@@ -11006,7 +11006,7 @@
     </message>
     <message>
       <source>Standard</source>
-      <translation>Standard</translation>
+      <translation>标准</translation>
     </message>
     <message>
       <source>Subject filter</source>
@@ -11880,11 +11880,11 @@
     </message>
     <message>
       <source>Chatbox</source>
-      <translation>Chatbox</translation>
+      <translation>聊天框</translation>
     </message>
     <message>
       <source>FAQ</source>
-      <translation>FAQ</translation>
+      <translation>常见问题</translation>
     </message>
     <message>
       <source>Questionary</source>
@@ -13250,7 +13250,7 @@
     </message>
     <message>
       <source>Just now</source>
-      <translation>Just now</translation>
+      <translation>刚刚</translation>
     </message>
     <message>
       <source>Statistic</source>
@@ -13548,14 +13548,14 @@
     <name>chat/status_blocked</name>
     <message>
       <source>At this moment you can contact us via email only. Sorry for the inconveniences.</source>
-      <translation>At this moment you can contact us via email only. Sorry for the inconveniences.</translation>
+      <translation>目前您只能通过电子邮件联系我们。为给您带来的不便深表歉意。</translation>
     </message>
   </context>
   <context>
     <name>chat/blocked_survey</name>
     <message>
       <source>At this moment you can contact us via email only. Sorry for the inconveniences.</source>
-      <translation>At this moment you can contact us via email only. Sorry for the inconveniences.</translation>
+      <translation>目前您只能通过电子邮件联系我们。为给您带来的不便深表歉意。</translation>
     </message>
   </context>
   <context>
@@ -13614,7 +13614,7 @@
     </message>
     <message>
       <source>At this moment you can contact us via email only. Sorry for the inconveniences.</source>
-      <translation>At this moment you can contact us via email only. Sorry for the inconveniences.</translation>
+      <translation>目前您只能通过电子邮件联系我们。为给您带来的不便深表歉意。</translation>
     </message>
     <message>
       <source>Type your message here and hit enter to send...</source>
@@ -13630,11 +13630,11 @@
     </message>
     <message>
       <source>New message!</source>
-      <translation>New message!</translation>
+      <translation>新消息！</translation>
     </message>
     <message>
       <source>New messages!</source>
-      <translation>New messages!</translation>
+      <translation>新消息！</translation>
     </message>
     <message>
       <source>↓ Scroll to the bottom</source>
@@ -14993,7 +14993,7 @@
     </message>
     <message>
       <source>Message was removed!</source>
-      <translation>Message was removed!</translation>
+      <translation>消息已删除！</translation>
     </message>
   </context>
   <context>
@@ -16535,7 +16535,7 @@
     <name>chatbox/configuration</name>
     <message>
       <source>Chatbox</source>
-      <translation>Chatbox</translation>
+      <translation>聊天框</translation>
     </message>
     <message>
       <source>General</source>
@@ -16627,7 +16627,7 @@
     </message>
     <message>
       <source>Chatbox</source>
-      <translation>Chatbox</translation>
+      <translation>聊天框</translation>
     </message>
   </context>
   <context>
@@ -17293,7 +17293,7 @@
     <name>faq/faqwidget</name>
     <message>
       <source>FAQ</source>
-      <translation>FAQ</translation>
+      <translation>常见问题</translation>
     </message>
     <message>
       <source>Ask a question</source>
@@ -17379,7 +17379,7 @@
     <name>faq/list</name>
     <message>
       <source>FAQ</source>
-      <translation>FAQ</translation>
+      <translation>常见问题</translation>
     </message>
     <message>
       <source>Question</source>
@@ -17446,7 +17446,7 @@
     </message>
     <message>
       <source>FAQ</source>
-      <translation>FAQ</translation>
+      <translation>常见问题</translation>
     </message>
     <message>
       <source>FAQ description</source>
@@ -18693,7 +18693,7 @@
     <name>chat/start_chat_blocked</name>
     <message>
       <source>At this moment you can contact us via email only. Sorry for the inconveniences.</source>
-      <translation>At this moment you can contact us via email only. Sorry for the inconveniences.</translation>
+      <translation>目前您只能通过电子邮件联系我们。为给您带来的不便深表歉意。</translation>
     </message>
   </context>
   <context>
