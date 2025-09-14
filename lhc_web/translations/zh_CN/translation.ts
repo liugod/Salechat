@@ -383,7 +383,7 @@
     </message>
     <message>
       <source>Automatically close pending chats where visitor has left a chat. Timeout in minutes, last activity by visitor &lt;desktop timeout&gt;,&lt;mobile timeout&gt;.</source>
-      <translation>当访客离开聊天时，自动关闭等待中的聊天。超时时间以分钟计算，访客最后活动时间 <桌面超时>,<手机超时></translation>
+      <translation>当访客离开聊天时，自动关闭等待中的聊天。超时时间以分钟计算，访客最后活动时间 &lt;桌面超时&gt;,&lt;手机超时&gt;</translation>
     </message>
     <message>
       <source>Chats waiting in pending queue more than n seconds should be auto-assigned first. Time in seconds</source>
