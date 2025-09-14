@@ -9044,7 +9044,7 @@
     </message>
     <message>
       <source>No valid messages were found from candidates</source>
-      <translation>No valid messages were found from candidates</translation>
+      <translation>从候选者中未找到有效消息</translation>
     </message>
     <message>
       <source>Skipped because of no online operators</source>
@@ -9072,7 +9072,7 @@
     </message>
     <message>
       <source>Message selected</source>
-      <translation>Message selected</translation>
+      <translation>已选择消息</translation>
     </message>
     <message>
       <source>Attributes online visitor</source>
@@ -9084,15 +9084,15 @@
     </message>
     <message>
       <source>Online user output</source>
-      <translation>Online user output</translation>
+      <translation>在线用户输出</translation>
     </message>
     <message>
       <source>Raw output debug</source>
-      <translation>Raw output debug</translation>
+      <translation>原始输出调试</translation>
     </message>
     <message>
       <source>Proactive invitation to test against. Choose Any for auto select.</source>
-      <translation>Proactive invitation to test against. Choose Any for auto select.</translation>
+      <translation>用于测试的主动邀请。选择"任何"进行自动选择。</translation>
     </message>
     <message>
       <source>Tag to test against. E.g. error_deposit</source>
@@ -9139,7 +9139,7 @@
     </message>
     <message>
       <source>Rest API Calls</source>
-      <translation>REST API 呼叫</translation>
+      <translation>REST API调用</translation>
     </message>
     <message>
       <source>Bot individualization</source>
@@ -9294,7 +9294,7 @@
     </message>
     <message>
       <source>Real Time Active chats</source>
-      <translation>Real Time Active chats</translation>
+      <translation>实时活跃聊天</translation>
     </message>
     <message>
       <source>Update stats</source>
@@ -9314,11 +9314,11 @@
     </message>
     <message>
       <source>Maximum number of chats operator can have.</source>
-      <translation>Maximum number of chats operator can have.</translation>
+      <translation>客服可以拥有的最大聊天数。</translation>
     </message>
     <message>
       <source>Number of chats</source>
-      <translation>Number of chats</translation>
+      <translation>聊天数量</translation>
     </message>
     <message>
       <source>Last login</source>
@@ -9504,7 +9504,7 @@
     </message>
     <message>
       <source>Redirect to another url</source>
-      <translation>Redirect to another url</translation>
+      <translation>重定向到另一个网址</translation>
     </message>
     <message>
       <source>Mail was send</source>
@@ -9544,7 +9544,7 @@
     </message>
     <message>
       <source>Passed as encrypted variable</source>
-      <translation>Passed as encrypted variable</translation>
+      <translation>作为加密变量传递</translation>
     </message>
     <message>
       <source>Identifier</source>
@@ -9624,7 +9624,7 @@
     </message>
     <message>
       <source>Operator chats during this conversations.</source>
-      <translation>Operator chats during this conversations.</translation>
+      <translation>此对话期间的客服聊天。</translation>
     </message>
     <message>
       <source>Transferred by</source>
@@ -9676,7 +9676,7 @@
     </message>
     <message>
       <source>Fetching related mails...</source>
-      <translation>Fetching related mails...</translation>
+      <translation>获取相关邮件...</translation>
     </message>
     <message>
       <source>Max response time (agent)</source>
@@ -9684,11 +9684,11 @@
     </message>
     <message>
       <source>Online profile</source>
-      <translation>Online profile</translation>
+      <translation>在线资料</translation>
     </message>
     <message>
       <source>Previous chats</source>
-      <translation>Previous chats</translation>
+      <translation>以前的聊天</translation>
     </message>
     <message>
       <source>Phone</source>
@@ -9700,7 +9700,7 @@
     </message>
     <message>
       <source>Page from where visitor started a chat.</source>
-      <translation>Page from where visitor started a chat.</translation>
+      <translation>访客开始聊天的来源页面。</translation>
     </message>
     <message>
       <source>Screenshot</source>
@@ -9708,7 +9708,7 @@
     </message>
     <message>
       <source>Page from where visitor come and was seen very first time in current session.</source>
-      <translation>Page from where visitor come and was seen very first time in current session.</translation>
+      <translation>访客在当前会话中首次出现的来源页面。</translation>
     </message>
     <message>
       <source>Theme</source>
@@ -9760,7 +9760,7 @@
     </message>
     <message>
       <source>No information</source>
-      <translation>No information</translation>
+      <translation>无信息</translation>
     </message>
     <message>
       <source>Refresh</source>
@@ -9776,7 +9776,7 @@
     </message>
     <message>
       <source>Chat notes</source>
-      <translation>Chat notes</translation>
+      <translation>聊天备注</translation>
     </message>
     <message>
       <source>These are saved per chat</source>
@@ -9800,7 +9800,7 @@
     </message>
     <message>
       <source>Private chat between operators</source>
-      <translation>Private chat between operators</translation>
+      <translation>客服之间的私人聊天</translation>
     </message>
     <message>
       <source>Include system messages</source>
@@ -9808,15 +9808,15 @@
     </message>
     <message>
       <source>Include meta messages</source>
-      <translation>Include meta messages</translation>
+      <translation>包含元消息</translation>
     </message>
     <message>
       <source>Include bot messages</source>
-      <translation>Include bot messages</translation>
+      <translation>包含机器人消息</translation>
     </message>
     <message>
       <source>Include whisper messages</source>
-      <translation>Include whisper messages</translation>
+      <translation>包含私语消息</translation>
     </message>
     <message>
       <source>Messages</source>
@@ -9900,11 +9900,11 @@
     </message>
     <message>
       <source>Previous item</source>
-      <translation>Previous item</translation>
+      <translation>上一项</translation>
     </message>
     <message>
       <source>Next item</source>
-      <translation>Next item</translation>
+      <translation>下一项</translation>
     </message>
     <message>
       <source>Use Alt+↑↓ arrows to navigate in the list.</source>
@@ -9916,7 +9916,7 @@
     </message>
     <message>
       <source>Close selected</source>
-      <translation>Close selected</translation>
+      <translation>关闭所选</translation>
     </message>
     <message>
       <source>Please enter a URL</source>
@@ -9928,7 +9928,7 @@
     </message>
     <message>
       <source>Automatic translation</source>
-      <translation>Automatic translation</translation>
+      <translation>自动翻译</translation>
     </message>
     <message>
       <source>You are in whisper mode! To execute commands properly switch to write mode.</source>
@@ -9948,7 +9948,7 @@
     </message>
     <message>
       <source>Check e-email for close on ticket close</source>
-      <translation>Check e-email for close on ticket close</translation>
+      <translation>工单关闭时检查关闭电子邮件</translation>
     </message>
     <message>
       <source>pending</source>
@@ -10304,7 +10304,7 @@
     </message>
     <message>
       <source>Inline survey</source>
-      <translation>Inline survey</translation>
+      <translation>内联调查</translation>
     </message>
     <message>
       <source>Hide</source>
@@ -10316,7 +10316,7 @@
     </message>
     <message>
       <source>Chat was assigned to chat opener event it had other agent assigned at that moment</source>
-      <translation>Chat was assigned to chat opener event it had other agent assigned at that moment</translation>
+      <translation>聊天被分配给聊天开启者，即使当时已有其他客服分配</translation>
     </message>
     <message>
       <source>Opened chat by</source>
@@ -10336,11 +10336,11 @@
     </message>
     <message>
       <source>Last operator message</source>
-      <translation>Last operator message</translation>
+      <translation>最后客服消息</translation>
     </message>
     <message>
       <source>Last time visitor seen</source>
-      <translation>Last time visitor seen</translation>
+      <translation>访客最后出现时间</translation>
     </message>
     <message>
       <source>Delay</source>
@@ -10348,7 +10348,7 @@
     </message>
     <message>
       <source>Hide/Show HTML Code</source>
-      <translation>Hide/Show HTML Code</translation>
+      <translation>隐藏/显示HTML代码</translation>
     </message>
     <message>
       <source>Transferred to</source>
@@ -10368,23 +10368,23 @@
     </message>
     <message>
       <source>Chat was closed by cron!</source>
-      <translation>Chat was closed by cron!</translation>
+      <translation>聊天被定时任务关闭！</translation>
     </message>
     <message>
       <source>Chat was closed by cron because of inactivity!</source>
-      <translation>Chat was closed by cron because of inactivity!</translation>
+      <translation>由于不活跃，聊天被定时任务关闭！</translation>
     </message>
     <message>
       <source>Chat was closed by cron because visitor left the bot chat!</source>
-      <translation>Chat was closed by cron because visitor left the bot chat!</translation>
+      <translation>由于访客离开机器人聊天，聊天被定时任务关闭！</translation>
     </message>
     <message>
       <source>Chat was closed by cron because visitor left the active chat!</source>
-      <translation>Chat was closed by cron because visitor left the active chat!</translation>
+      <translation>由于访客离开活跃聊天，聊天被定时任务关闭！</translation>
     </message>
     <message>
       <source>Chat was closed by cron because visitor left the pending chat!</source>
-      <translation>Chat was closed by cron because visitor left the pending chat!</translation>
+      <translation>由于访客离开待处理聊天，聊天被定时任务关闭！</translation>
     </message>
     <message>
       <source>Support has closed the chat window, but You can leave messages, and the administrator will read them later.</source>
@@ -10427,7 +10427,7 @@
     </message>
     <message>
       <source>Impersonate</source>
-      <translation>Impersonate</translation>
+      <translation>模拟</translation>
     </message>
     <message>
       <source>You are not chat owner, type with caution.</source>
@@ -10443,11 +10443,11 @@
     </message>
     <message>
       <source>Chat owner</source>
-      <translation>Chat owner</translation>
+      <translation>聊天所有者</translation>
     </message>
     <message>
       <source>Join as</source>
-      <translation>Join as</translation>
+      <translation>加入为</translation>
     </message>
     <message>
       <source>This chat was closed. You can not write messages anymore.</source>
@@ -10535,7 +10535,7 @@
     </message>
     <message>
       <source>Chatbox is disabled.</source>
-      <translation>Chatbox 被禁用。</translation>
+      <translation>聊天框被禁用。</translation>
     </message>
     <message>
       <source>Invalid hash or auto creation is disabled</source>
@@ -10609,7 +10609,7 @@
     <name>chat/avatarbuilder</name>
     <message>
       <source>Build your avatar</source>
-      <translation>Build your avatar</translation>
+      <translation>构建您的头像</translation>
     </message>
     <message>
       <source>We will generate avatar based on this string if you do not choose some parts</source>
@@ -10625,15 +10625,15 @@
     </message>
     <message>
       <source>Girl</source>
-      <translation>Girl</translation>
+      <translation>女孩</translation>
     </message>
     <message>
       <source>Blonde</source>
-      <translation>Blonde</translation>
+      <translation>金发</translation>
     </message>
     <message>
       <source>Evilnormie</source>
-      <translation>Evilnormie</translation>
+      <translation>邪恶普通人</translation>
     </message>
     <message>
       <source>Country</source>
@@ -10641,11 +10641,11 @@
     </message>
     <message>
       <source>Johnyold</source>
-      <translation>Johnyold</translation>
+      <translation>老约翰</translation>
     </message>
     <message>
       <source>Asian</source>
-      <translation>Asian</translation>
+      <translation>亚洲人</translation>
     </message>
     <message>
       <source>Punk</source>
@@ -10653,7 +10653,7 @@
     </message>
     <message>
       <source>Afrohair</source>
-      <translation>Afrohair</translation>
+      <translation>非洲发型</translation>
     </message>
     <message>
       <source>Normie female</source>
@@ -10665,15 +10665,15 @@
     </message>
     <message>
       <source>Firehair</source>
-      <translation>Firehair</translation>
+      <translation>火红发型</translation>
     </message>
     <message>
       <source>Blond</source>
-      <translation>Blond</translation>
+      <translation>金发</translation>
     </message>
     <message>
       <source>Ateam</source>
-      <translation>Ateam</translation>
+      <translation>A队</translation>
     </message>
     <message>
       <source>Rasta</source>
@@ -10775,19 +10775,19 @@
     </message>
     <message>
       <source>Block ID</source>
-      <translation>Block ID</translation>
+      <translation>阻止ID</translation>
     </message>
     <message>
       <source>Block history</source>
-      <translation>Block history</translation>
+      <translation>阻止历史</translation>
     </message>
     <message>
       <source>IP/E-mail</source>
-      <translation>IP/E-mail</translation>
+      <translation>IP/电子邮件</translation>
     </message>
     <message>
       <source>Block type</source>
-      <translation>Block type</translation>
+      <translation>阻止类型</translation>
     </message>
     <message>
       <source>Department</source>
@@ -10799,11 +10799,11 @@
     </message>
     <message>
       <source>Expires in</source>
-      <translation>Expires in</translation>
+      <translation>过期于</translation>
     </message>
     <message>
       <source>Block date</source>
-      <translation>Block date</translation>
+      <translation>阻止日期</translation>
     </message>
     <message>
       <source>User who blocked</source>
@@ -10843,7 +10843,7 @@
     </message>
     <message>
       <source>Bocked by</source>
-      <translation>Bocked by</translation>
+      <translation>被阻止者</translation>
     </message>
     <message>
       <source>Sender e-mail</source>
@@ -10851,7 +10851,7 @@
     </message>
     <message>
       <source>Expires</source>
-      <translation>Expires</translation>
+      <translation>过期</translation>
     </message>
     <message>
       <source>Block</source>
@@ -10887,7 +10887,7 @@
     </message>
     <message>
       <source>Block sender</source>
-      <translation>Block sender</translation>
+      <translation>阻止发送者</translation>
     </message>
     <message>
       <source>Please enter an IP to block</source>
@@ -10907,11 +10907,11 @@
     </message>
     <message>
       <source>Chat does not have an e-mail set!</source>
-      <translation>Chat does not have an e-mail set!</translation>
+      <translation>聊天没有设置电子邮件！</translation>
     </message>
     <message>
       <source>Chat does not have online user</source>
-      <translation>Chat does not have online user</translation>
+      <translation>聊天没有在线用户</translation>
     </message>
     <message>
       <source>Please choose expire option!</source>
@@ -10931,7 +10931,7 @@
     </message>
     <message>
       <source>E-mail hidden</source>
-      <translation>E-mailhidden</translation>
+      <translation>电子邮件已隐藏</translation>
     </message>
   </context>
   <context>
@@ -10946,7 +10946,7 @@
     </message>
     <message>
       <source>Copy nick</source>
-      <translation>Copy nick</translation>
+      <translation>复制昵称</translation>
     </message>
     <message>
       <source>Copied</source>
@@ -10990,15 +10990,15 @@
     </message>
     <message>
       <source>Do not count button click as a visitor message</source>
-      <translation>Do not count button click as a visitor message</translation>
+      <translation>不将按钮点击计为访客消息</translation>
     </message>
     <message>
       <source>Enabled for display</source>
-      <translation>Enabled for display</translation>
+      <translation>启用显示</translation>
     </message>
     <message>
       <source>If translation is not found use translation service</source>
-      <translation>If translation is not found use translation service</translation>
+      <translation>如果找不到翻译则使用翻译服务</translation>
     </message>
     <message>
       <source>Mails</source>
@@ -11018,7 +11018,7 @@
     </message>
     <message>
       <source>Explorer</source>
-      <translation>Explorer</translation>
+      <translation>探索者</translation>
     </message>
     <message>
       <source>URL Explorer</source>
@@ -11178,7 +11178,7 @@
     </message>
     <message>
       <source>Do not scroll to the bottom on chat open</source>
-      <translation>Do not scroll to the bottom on chat open</translation>
+      <translation>打开聊天时不滚动到底部</translation>
     </message>
     <message>
       <source>Remove my closed chats from opened chat list on page refresh</source>
@@ -11186,7 +11186,7 @@
     </message>
     <message>
       <source>Include not only my chats</source>
-      <translation>Include not only my chats</translation>
+      <translation>不仅包含我的聊天</translation>
     </message>
     <message>
       <source>Other operators chats also will be closed on page refresh</source>
@@ -11194,11 +11194,11 @@
     </message>
     <message>
       <source>How much time has to be passed after chat close before chat is removed. Time in minutes.</source>
-      <translation>How much time has to be passed after chat close before chat is removed. Time in minutes.</translation>
+      <translation>聊天关闭后需要经过多长时间才能移除聊天。时间以分钟为单位。</translation>
     </message>
     <message>
       <source>Exclude me from chats auto assign workflow</source>
-      <translation>Exclude me from chats auto assign workflow</translation>
+      <translation>将我从聊天自动分配工作流中排除</translation>
     </message>
     <message>
       <source>Auto preload previous visitor chat messages</source>
@@ -11206,7 +11206,7 @@
     </message>
     <message>
       <source>Default number of rows for chat text area</source>
-      <translation>Default number of rows for chat text area</translation>
+      <translation>聊天文本区域的默认行数</translation>
     </message>
     <message>
       <source>Number of rows</source>
@@ -11222,11 +11222,11 @@
     </message>
     <message>
       <source>Automatically accept assigned mails</source>
-      <translation>Automatically accept assigned mails</translation>
+      <translation>自动接受分配的邮件</translation>
     </message>
     <message>
       <source>Exclude me from mails auto assign workflow</source>
-      <translation>Exclude me from mails auto assign workflow</translation>
+      <translation>将我从邮件自动分配工作流中排除</translation>
     </message>
     <message>
       <source>Maximum active mails</source>
@@ -11242,7 +11242,7 @@
     </message>
     <message>
       <source>Account update failed! Please try again!</source>
-      <translation>Account update failed! Please try again!</translation>
+      <translation>账户更新失败！请重试！</translation>
     </message>
     <message>
       <source>All departments</source>
@@ -11908,7 +11908,7 @@
     </message>
     <message>
       <source>Quote</source>
-      <translation>Quote</translation>
+      <translation>引用</translation>
     </message>
     <message>
       <source>Copy</source>
@@ -14258,7 +14258,7 @@
     </message>
     <message>
       <source>Rest API Calls</source>
-      <translation>REST API 呼叫</translation>
+      <translation>REST API调用</translation>
     </message>
     <message>
       <source>Commands</source>
@@ -14920,7 +14920,7 @@
     </message>
     <message>
       <source>Rest API Calls</source>
-      <translation>REST API 呼叫</translation>
+      <translation>REST API调用</translation>
     </message>
     <message>
       <source>Bot individualization</source>
@@ -18798,7 +18798,7 @@
     </message>
     <message>
       <source>Close selected</source>
-      <translation>Close selected</translation>
+      <translation>关闭所选</translation>
     </message>
     <message>
       <source>Delete and archive selected</source>
@@ -19511,7 +19511,7 @@
     </message>
     <message>
       <source>Block sender</source>
-      <translation>Block sender</translation>
+      <translation>阻止发送者</translation>
     </message>
     <message>
       <source>Sender is blocked!</source>
@@ -24897,7 +24897,7 @@
     </message>
     <message>
       <source>Rest API Calls</source>
-      <translation>REST API 呼叫</translation>
+      <translation>REST API调用</translation>
     </message>
     <message>
       <source>Bot individualization</source>
