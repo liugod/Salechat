@@ -8340,35 +8340,35 @@
     </message>
     <message>
       <source>Offline status text. If you lave empty we will return empty image.</source>
-      <translation>Offline status text. If you lave empty we will return empty image.</translation>
+      <translation>离线状态文本。如果留空，我们将返回空图片。</translation>
     </message>
     <message>
       <source>Sample image</source>
-      <translation>Sample image</translation>
+      <translation>示例图片</translation>
     </message>
     <message>
       <source>Source code with a link</source>
-      <translation>Source code with a link</translation>
+      <translation>带链接的源代码</translation>
     </message>
     <message>
       <source>Theme, you can choose multiple to show random one.</source>
-      <translation>Theme, you can choose multiple to show random one.</translation>
+      <translation>主题，您可以选择多个来随机显示。</translation>
     </message>
     <message>
       <source>As default department theme</source>
-      <translation>As default department theme</translation>
+      <translation>作为默认部门主题</translation>
     </message>
     <message>
       <source>Show a leave a message form when there are no online operators</source>
-      <translation>Show a leave a message form when there are no online operators</translation>
+      <translation>当没有在线客服时显示留言表单</translation>
     </message>
     <message>
       <source>Widget status position from right or left depending on main position. E.g 10 or -10</source>
-      <translation>Widget status position from right or left depending on main position. E.g 10 or -10</translation>
+      <translation>小部件状态位置从右侧或左侧，取决于主位置。例如10或-10</translation>
     </message>
     <message>
       <source>Widget status position from bottom. E.g 10 or -10</source>
-      <translation>Widget status position from bottom. E.g 10 or -10</translation>
+      <translation>小部件状态位置从底部。例如10或-10</translation>
     </message>
     <message>
       <source>System configuration</source>
@@ -8398,7 +8398,7 @@
     <name>chat/onlineusers</name>
     <message>
       <source>Your request takes to long. Please contact your administrator and send them url from your browser.</source>
-      <translation>Your request takes to long. Please contact your administrator and send them url from your browser.</translation>
+      <translation>您的请求耗时过长。请联系您的管理员并发送浏览器中的URL。</translation>
     </message>
     <message>
       <source>Settings updated</source>
@@ -8406,7 +8406,7 @@
     </message>
     <message>
       <source>GEO detection configuration</source>
-      <translation>GEO 侦测配置</translation>
+      <translation>地理位置检测配置</translation>
     </message>
     <message>
       <source>Map location</source>
@@ -8414,11 +8414,11 @@
     </message>
     <message>
       <source>Test GEO</source>
-      <translation>Test GEO</translation>
+      <translation>测试地理位置</translation>
     </message>
     <message>
       <source>GEO Enabled</source>
-      <translation>GEO 已启用</translation>
+      <translation>地理位置已启用</translation>
     </message>
     <message>
       <source>Use this service</source>
@@ -8426,7 +8426,7 @@
     </message>
     <message>
       <source>API Key</source>
-      <translation>API 金钥</translation>
+      <translation>API密钥</translation>
     </message>
     <message>
       <source>Use mod_geoip2</source>
@@ -8478,7 +8478,7 @@
     </message>
     <message>
       <source>Location of city database. Make sure you uploaded file in this location.</source>
-      <translation>Location of city database. Make sure you uploaded file in this location.</translation>
+      <translation>城市数据库位置。请确保您已在此位置上传文件。</translation>
     </message>
     <message>
       <source>User country based detection, faster</source>
@@ -8514,7 +8514,7 @@
     </message>
     <message>
       <source>IP, if your site remote IP is different from detected one, please provide correct remote IP address</source>
-      <translation>IP，如果您的远端 IP 与网站检测到的不同，请提供正确的远端 IP 位址</translation>
+      <translation>IP地址，如果您的远程IP与网站检测到的不同，请提供正确的远程IP地址</translation>
     </message>
     <message>
       <source>Save</source>
@@ -8526,7 +8526,7 @@
     </message>
     <message>
       <source>Google Maps API key, saved automatically. After pasting the key, refresh the page.</source>
-      <translation>Google Maps API Key 会自动储存。贴上金钥后，重新整理页面即可。</translation>
+      <translation>Google Maps API密钥会自动存储。粘贴密钥后，刷新页面即可。</translation>
     </message>
     <message>
       <source>Test</source>
@@ -8550,11 +8550,11 @@
     </message>
     <message>
       <source>Lat.</source>
-      <translation>Lat.</translation>
+      <translation>纬度</translation>
     </message>
     <message>
       <source>Lon.</source>
-      <translation>Lon.</translation>
+      <translation>经度</translation>
     </message>
     <message>
       <source>Time zone</source>
@@ -8758,7 +8758,7 @@
     </message>
     <message>
       <source>Show only connected</source>
-      <translation>Show only connected</translation>
+      <translation>仅显示已连接</translation>
     </message>
     <message>
       <source>Group list by</source>
@@ -8830,11 +8830,11 @@
     </message>
     <message>
       <source>In progress...</source>
-      <translation>In progress...</translation>
+      <translation>进行中...</translation>
     </message>
     <message>
       <source>Visitor country</source>
-      <translation>Visitor country</translation>
+      <translation>访客国家</translation>
     </message>
     <message>
       <source>Select country</source>
@@ -8842,11 +8842,11 @@
     </message>
     <message>
       <source>Visited in the past</source>
-      <translation>Visited in the past</translation>
+      <translation>过去访问过</translation>
     </message>
     <message>
       <source>Never had a chat</source>
-      <translation>Never had a chat</translation>
+      <translation>从未聊天过</translation>
     </message>
     <message>
       <source>Usernames (*.csv)</source>
@@ -8854,7 +8854,7 @@
     </message>
     <message>
       <source>Upload usernames in CSV format</source>
-      <translation>Upload usernames in CSV format</translation>
+      <translation>上传CSV格式的用户名</translation>
     </message>
     <message>
       <source>Files upload for users is active</source>
@@ -8862,7 +8862,7 @@
     </message>
     <message>
       <source>Allow visitor to choose only one file for the upload</source>
-      <translation>Allow visitor to choose only one file for the upload</translation>
+      <translation>允许访客仅选择一个文件上传</translation>
     </message>
     <message>
       <source>Files upload for operators is active</source>
@@ -8886,7 +8886,7 @@
     </message>
     <message>
       <source>If you do not choose any department from below we will track all departments.</source>
-      <translation>If you do not choose any department from below we will track all departments.</translation>
+      <translation>如果您不从下面选择任何部门，我们将跟踪所有部门。</translation>
     </message>
     <message>
       <source>Country code variable does not exist!</source>
@@ -8918,11 +8918,11 @@
     </message>
     <message>
       <source>MaxMind city file does not exists!</source>
-      <translation>MaxMind 城市档案不存在 ！</translation>
+      <translation>MaxMind城市数据库不存在！</translation>
     </message>
     <message>
       <source>MaxMind country file does not exists!</source>
-      <translation>MaxMind 国家档案不存在 ！</translation>
+      <translation>MaxMind国家数据库不存在！</translation>
     </message>
     <message>
       <source>Setting service provider failed, please check that MaxMind database files exists!</source>
@@ -9001,19 +9001,19 @@
     </message>
     <message>
       <source>Log javascript errors</source>
-      <translation>Log javascript errors</translation>
+      <translation>记录JavaScript错误</translation>
     </message>
     <message>
       <source>Log applied blocks</source>
-      <translation>Log applied blocks</translation>
+      <translation>记录应用的阻止</translation>
     </message>
     <message>
       <source>Log users changes</source>
-      <translation>Log users changes</translation>
+      <translation>记录用户更改</translation>
     </message>
     <message>
       <source>Log failed files uploads</source>
-      <translation>Log failed files uploads</translation>
+      <translation>记录失败的文件上传</translation>
     </message>
     <message>
       <source>What objects changes log?</source>
@@ -9056,7 +9056,7 @@
     </message>
     <message>
       <source>Last time seen on website ago</source>
-      <translation>Last time seen on website ago</translation>
+      <translation>最后一次在网站上看到</translation>
     </message>
     <message>
       <source>conditions</source>
@@ -9064,11 +9064,11 @@
     </message>
     <message>
       <source>Last time had chat n minutes ago</source>
-      <translation>Last time had chat n minutes ago</translation>
+      <translation>最后一次聊天在n分钟前</translation>
     </message>
     <message>
       <source>Attributes conditions not valid</source>
-      <translation>Attributes conditions not valid</translation>
+      <translation>属性条件无效</translation>
     </message>
     <message>
       <source>Message selected</source>
@@ -9076,7 +9076,7 @@
     </message>
     <message>
       <source>Attributes online visitor</source>
-      <translation>Attributes online visitor</translation>
+      <translation>在线访客属性</translation>
     </message>
     <message>
       <source>Time on site</source>
@@ -9111,7 +9111,7 @@
     <name>genericbot/list</name>
     <message>
       <source>Login history</source>
-      <translation>Login history</translation>
+      <translation>登录历史</translation>
     </message>
     <message>
       <source>Download</source>
@@ -9119,7 +9119,7 @@
     </message>
     <message>
       <source>Commands list</source>
-      <translation>Commands list</translation>
+      <translation>命令列表</translation>
     </message>
     <message>
       <source>New</source>
@@ -9183,7 +9183,7 @@
     </message>
     <message>
       <source>Bot was assigned to one of the chats. Please remove those chats first!</source>
-      <translation>Bot was assigned to one of the chats. Please remove those chats first!</translation>
+      <translation>机器人已分配给其中一个聊天。请先移除这些聊天！</translation>
     </message>
   </context>
   <context>
@@ -9218,7 +9218,7 @@
     </message>
     <message>
       <source>Command</source>
-      <translation>Command</translation>
+      <translation>命令</translation>
     </message>
     <message>
       <source>Bot</source>
@@ -9266,7 +9266,7 @@
     </message>
     <message>
       <source>Chats served</source>
-      <translation>Chats served</translation>
+      <translation>服务的聊天数</translation>
     </message>
     <message>
       <source>Was offline for</source>
@@ -9322,7 +9322,7 @@
     </message>
     <message>
       <source>Last login</source>
-      <translation>Last login</translation>
+      <translation>最后登录</translation>
     </message>
     <message>
       <source>This user is disabled</source>
@@ -9334,7 +9334,7 @@
     </message>
     <message>
       <source>Excluded from auto assign workflow</source>
-      <translation>Excluded from auto assign workflow</translation>
+      <translation>从自动分配工作流中排除</translation>
     </message>
     <message>
       <source>ago</source>
@@ -9369,7 +9369,7 @@
     <name>chat/chatpreview</name>
     <message>
       <source>Log preview</source>
-      <translation>Log preview</translation>
+      <translation>日志预览</translation>
     </message>
     <message>
       <source>Chat preview</source>
@@ -9381,11 +9381,11 @@
     </message>
     <message>
       <source>Image preview</source>
-      <translation>Image preview</translation>
+      <translation>图像预览</translation>
     </message>
     <message>
       <source>Bot preview</source>
-      <translation>Botpreview</translation>
+      <translation>机器人预览</translation>
     </message>
     <message>
       <source>Downloading image...</source>
@@ -9397,7 +9397,7 @@
     </message>
     <message>
       <source>Dispatch event</source>
-      <translation>Dispatchevent</translation>
+      <translation>派发事件</translation>
     </message>
   </context>
   <context>
@@ -9456,11 +9456,11 @@
     </message>
     <message>
       <source>Block visitor</source>
-      <translation>Block visitor</translation>
+      <translation>阻止访客</translation>
     </message>
     <message>
       <source>Closing...</source>
-      <translation>Closing...</translation>
+      <translation>关闭中...</translation>
     </message>
     <message>
       <source>Close chat</source>
@@ -9484,11 +9484,11 @@
     </message>
     <message>
       <source>Edit chat</source>
-      <translation>Edit chat</translation>
+      <translation>编辑聊天</translation>
     </message>
     <message>
       <source>Bot commands</source>
-      <translation>Bot commands</translation>
+      <translation>机器人命令</translation>
     </message>
     <message>
       <source>Print</source>
@@ -9520,7 +9520,7 @@
     </message>
     <message>
       <source>Choose recognition language</source>
-      <translation>Choose recognition language</translation>
+      <translation>选择识别语言</translation>
     </message>
     <message>
       <source>Transfer chat</source>
@@ -9552,7 +9552,7 @@
     </message>
     <message>
       <source>Bot ID</source>
-      <translation>Bot ID</translation>
+      <translation>机器人ID</translation>
     </message>
     <message>
       <source>Bot</source>
@@ -9632,11 +9632,11 @@
     </message>
     <message>
       <source>Concurrent chats.</source>
-      <translation>Concurrent chats.</translation>
+      <translation>并发聊天数。</translation>
     </message>
     <message>
       <source>Location on map</source>
-      <translation>Location on map</translation>
+      <translation>在地图上的位置</translation>
     </message>
     <message>
       <source>Created at</source>
@@ -9668,7 +9668,7 @@
     </message>
     <message>
       <source>Collapse/Expand</source>
-      <translation>Collapse/Expand</translation>
+      <translation>折叠/展开</translation>
     </message>
     <message>
       <source>Related mail tickets</source>
@@ -10859,7 +10859,7 @@
     </message>
     <message>
       <source>Block visitor</source>
-      <translation>Block visitor</translation>
+      <translation>阻止访客</translation>
     </message>
     <message>
       <source>Online user profile</source>
@@ -11481,7 +11481,7 @@
     </message>
     <message>
       <source>Widgets</source>
-      <translation>Widgets</translation>
+      <translation>小部件</translation>
     </message>
     <message>
       <source>Alert icons</source>
@@ -13266,7 +13266,7 @@
     </message>
     <message>
       <source>Login history</source>
-      <translation>Login history</translation>
+      <translation>登录历史</translation>
     </message>
     <message>
       <source>User stats</source>
@@ -14131,7 +14131,7 @@
     </message>
     <message>
       <source>Actions</source>
-      <translation>Actions</translation>
+      <translation>操作</translation>
     </message>
     <message>
       <source>Conversation</source>
@@ -14198,7 +14198,7 @@
     </message>
     <message>
       <source>GEO detection configuration</source>
-      <translation>GEO 侦测配置</translation>
+      <translation>地理位置检测配置</translation>
     </message>
     <message>
       <source>Alert icons</source>
@@ -14218,7 +14218,7 @@
     </message>
     <message>
       <source>Login history</source>
-      <translation>Login history</translation>
+      <translation>登录历史</translation>
     </message>
     <message>
       <source>Automation</source>
@@ -14900,7 +14900,7 @@
     </message>
     <message>
       <source>Login history</source>
-      <translation>Login history</translation>
+      <translation>登录历史</translation>
     </message>
     <message>
       <source>Commands</source>
@@ -17533,7 +17533,7 @@
     </message>
     <message>
       <source>Details</source>
-      <translation>Details</translation>
+      <translation>详细信息</translation>
     </message>
   </context>
   <context>
@@ -20721,7 +20721,7 @@
     </message>
     <message>
       <source>Token</source>
-      <translation>Token</translation>
+      <translation>令牌</translation>
     </message>
     <message>
       <source>Device</source>
