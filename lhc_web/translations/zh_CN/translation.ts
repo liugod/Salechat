@@ -659,7 +659,7 @@
     </message>
     <message>
       <source>If operator has 3 max chats, and you enter here 2. Means proactive invitation will be active only if operator has less than 5 chats assigned to him.</source>
-      <translation type="unfinished"/>
+      <translation>如果客服人员最多有3个聊天，而您在这里输入2，意味着只有当客服人员分配的聊天少于5个时，主动邀请才会生效。</translation>
     </message>
     <message>
       <source>Other conditions</source>
@@ -743,7 +743,7 @@
     </message>
     <message>
       <source>Message will be sent only if chat is in active or bot status.</source>
-      <translation type="unfinished"/>
+      <translation>消息只有在聊天处于活跃或机器人状态时才会发送。</translation>
     </message>
     <message>
       <source>Conditions</source>
@@ -923,7 +923,7 @@
     </message>
     <message>
       <source>If other operator writes a message in the chat this is how their message will look a like.</source>
-      <translation type="unfinished"/>
+      <translation>如果其他客服人员在聊天中写消息，他们的消息将是这样显示的。</translation>
     </message>
     <message>
       <source>System assistant messages style</source>
@@ -943,7 +943,7 @@
     </message>
     <message>
       <source>Department group departments does not have any themes assigned to them.</source>
-      <translation type="unfinished"/>
+      <translation>部门组的部门没有分配任何主题。</translation>
     </message>
     <message>
       <source>Bubble background color</source>
@@ -979,7 +979,7 @@
     </message>
     <message>
       <source>Title text color</source>
-      <translation type="unfinished"/>
+      <translation>标题文字颜色</translation>
     </message>
     <message>
       <source>Message text color</source>
@@ -1159,7 +1159,7 @@
     </message>
     <message>
       <source>Time zone</source>
-      <translation type="unfinished"/>
+      <translation>时区</translation>
     </message>
     <message>
       <source>If variable is not passed should we keep previously recorded value?</source>
@@ -1167,7 +1167,7 @@
     </message>
     <message>
       <source>This variable is invisible for operator and will be stored in chat_variables attribute</source>
-      <translation type="unfinished"/>
+      <translation>此变量对客服人员不可见，将存储在 chat_variables 属性中</translation>
     </message>
     <message>
       <source>Event id to receive from website for conversion to finish.</source>
@@ -1187,7 +1187,7 @@
     </message>
     <message>
       <source>Any of these operators are online. Enter operator id separated by comma. Your user id is</source>
-      <translation type="unfinished"/>
+      <translation>这些客服人员中的任何一个在线。输入用逗号分隔的客服人员ID。您的用户ID是</translation>
     </message>
     <message>
       <source>Operator maximum chats limit can be exceeded by this number of chats.</source>
@@ -1555,11 +1555,11 @@
     </message>
     <message>
       <source>Title of the minimize icon</source>
-      <translation type="unfinished"/>
+      <translation>最小化图标标题</translation>
     </message>
     <message>
       <source>Title of the popup icon</source>
-      <translation type="unfinished"/>
+      <translation>弹窗图标标题</translation>
     </message>
     <message>
       <source>Title of the end chat icon</source>
@@ -1627,7 +1627,7 @@
     </message>
     <message>
       <source>Text when user starts a chat and is waiting for operator to join a chat. Only if queue is 1 or if less than a minute wait time.</source>
-      <translation type="unfinished"/>
+      <translation>当用户开始聊天并等待客服人员加入聊天时的文本。仅当队列为1或等待时间少于一分钟时。</translation>
     </message>
     <message>
       <source>Text when user starts a chat and is waiting for operator to join a chat. Only if queue is &gt; 1. {number}, {avg_wait_time}, {avg_wait_time_live}, {avg_wait_time_live__string if more than one minute live wait time}, {avg_wait_time__string if more than one minute wait time}</source>
@@ -1831,7 +1831,7 @@
     </message>
     <message>
       <source>Show start chat form instantly after operator closes a chat.</source>
-      <translation type="unfinished"/>
+      <translation>客服人员关闭聊天后立即显示开始聊天表单。</translation>
     </message>
     <message>
       <source>Show previous chat messages in chat widget.</source>
@@ -1871,7 +1871,7 @@
     </message>
     <message>
       <source>Use system timezone instead of a visitor. Visitor TZ will be overriden with system a system one.</source>
-      <translation type="unfinished"/>
+      <translation>使用系统时区而不是访客时区。访客时区将被系统时区覆盖。</translation>
     </message>
     <message>
       <source>Print button as a message as soon visitor clicks a button.</source>
@@ -2035,7 +2035,7 @@
     </message>
     <message>
       <source>Reaction to operator message bubble background color</source>
-      <translation type="unfinished"/>
+      <translation>客服消息气泡背景色反应</translation>
     </message>
     <message>
       <source>Reaction to operator message bubble icon color</source>
@@ -2058,7 +2058,7 @@
     </message>
     <message>
       <source>Internal conversion parameters. Internal conversion is used to track covnersion where final step is done by user executing specific action and letting website to know us it happened.</source>
-      <translation type="unfinished"/>
+      <translation>内部转换参数。内部转换用于跟踪转换，其中最后一步由用户执行特定操作并让网站知道它发生了。</translation>
     </message>
     <message>
       <source>Sample javascript to finish conversion</source>
@@ -2110,7 +2110,7 @@
     </message>
     <message>
       <source>[Record ID] [Object ID]</source>
-      <translation type="unfinished"/>
+      <translation>[记录ID] [对象ID]</translation>
     </message>
     <message>
       <source>Category</source>
@@ -2218,23 +2218,23 @@
     </message>
     <message>
       <source>Message for timeout [1]. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[1]。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [2]. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[2]。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [3]. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[3]。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [4]. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[4]。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [5]. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[5]。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [1]</source>
@@ -2258,35 +2258,35 @@
     </message>
     <message>
       <source>Message for timeout [1], use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[1]，使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [2], use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[2]，使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [3], use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[3]，使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [4], use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[4]，使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message for timeout [5], use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>超时消息[5]，使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message to visitor on chat close. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>聊天关闭时给访客的消息。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message to visitor if department is offline. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>如果部门离线时给访客的消息。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Message to visitor if operator speaks same language as visitor. Use ||| to separate random messages.</source>
-      <translation type="unfinished"/>
+      <translation>如果客服人员与访客说同种语言时给访客的消息。使用 ||| 分隔随机消息。</translation>
     </message>
     <message>
       <source>Icon name</source>
@@ -2370,7 +2370,7 @@
     </message>
     <message>
       <source>Message to visitor after posting sensitive information</source>
-      <translation type="unfinished"/>
+      <translation>访客发布敏感信息后的消息</translation>
     </message>
     <message>
       <source>Auto reply warning if visitor is posting information to agent which does not have permission to view sensitive data.</source>
@@ -2394,7 +2394,7 @@
     </message>
     <message>
       <source>Change department only if present department role is</source>
-      <translation type="unfinished"/>
+      <translation>仅当当前部门角色为以下时才更改部门</translation>
     </message>
     <message>
       <source>Condition is always checked independently of transfer method. Department or Department brand role.</source>
@@ -2434,7 +2434,7 @@
     </message>
     <message>
       <source>Content field to extract. You can access JWT token content field.</source>
-      <translation type="unfinished"/>
+      <translation>要提取的内容字段。您可以访问JWT令牌内容字段。</translation>
     </message>
     <message>
       <source>Default message</source>
@@ -2542,7 +2542,7 @@
     </message>
     <message>
       <source>Lock department. The department will be the one that was set when the invitation was issued.</source>
-      <translation type="unfinished"/>
+      <translation>锁定部门。部门将是发出邀请时设置的部门。</translation>
     </message>
     <message>
       <source>Requires phone</source>
@@ -2844,7 +2844,7 @@
     </message>
     <message>
       <source>Check</source>
-      <translation type="unfinished"/>
+      <translation>检查</translation>
     </message>
     <message>
       <source>Uncheck all departments from selected department group</source>
@@ -2868,7 +2868,7 @@
     </message>
     <message>
       <source>Variable Time Zone</source>
-      <translation type="unfinished"/>
+      <translation>变量时区</translation>
     </message>
     <message>
       <source>If you do not choose time zone in the back office replacement will be happening based on operator time zone. Variable used on widget interface - we will use visitor time zone.</source>
@@ -3116,7 +3116,7 @@
     </message>
     <message>
       <source>Subject</source>
-      <translation type="unfinished"/>
+      <translation>主题</translation>
     </message>
     <message>
       <source>Canned messages</source>
@@ -3283,7 +3283,7 @@
     </message>
     <message>
       <source>Time zone used for the visitor will be</source>
-      <translation type="unfinished"/>
+      <translation>访客使用的时区将是</translation>
     </message>
     <message>
       <source>Server default timezone.</source>
@@ -3307,11 +3307,11 @@
     </message>
     <message>
       <source>Time from</source>
-      <translation type="unfinished"/>
+      <translation>开始时间</translation>
     </message>
     <message>
       <source>Time to</source>
-      <translation type="unfinished"/>
+      <translation>结束时间</translation>
     </message>
     <message>
       <source>Choose department group</source>
@@ -3331,7 +3331,7 @@
     </message>
     <message>
       <source>Time in database server</source>
-      <translation type="unfinished"/>
+      <translation>数据库服务器时间</translation>
     </message>
     <message>
       <source>Edit department</source>
@@ -3823,7 +3823,7 @@
     </message>
     <message>
       <source>Subject added!</source>
-      <translation type="unfinished"/>
+      <translation>主题已添加！</translation>
     </message>
     <message>
       <source>Info message is usefull if you want to show operator that command was executed without storing any real message within chat.</source>
@@ -3847,7 +3847,7 @@
     </message>
     <message>
       <source>Name of the field</source>
-      <translation type="unfinished"/>
+      <translation>字段名称</translation>
     </message>
     <message>
       <source>Placeholder</source>
@@ -4648,7 +4648,7 @@
     </message>
     <message>
       <source>Message body</source>
-      <translation type="unfinished"/>
+      <translation>消息正文</translation>
     </message>
     <message>
       <source>Search</source>
@@ -4668,7 +4668,7 @@
     </message>
     <message>
       <source>User ID</source>
-      <translation type="unfinished"/>
+      <translation>用户ID</translation>
     </message>
     <message>
       <source>Delete all items</source>
@@ -4948,7 +4948,7 @@
     </message>
     <message>
       <source>Visitor ID</source>
-      <translation type="unfinished"/>
+      <translation>访客ID</translation>
     </message>
     <message>
       <source>Chat duration</source>
@@ -5368,7 +5368,7 @@
     </message>
     <message>
       <source>Conversation ID</source>
-      <translation type="unfinished"/>
+      <translation>对话ID</translation>
     </message>
     <message>
       <source>Mail subject</source>
@@ -5464,7 +5464,7 @@
     </message>
     <message>
       <source>Subject contains</source>
-      <translation type="unfinished"/>
+      <translation>主题包含</translation>
     </message>
     <message>
       <source>Template HTML</source>
@@ -5564,7 +5564,7 @@
     </message>
     <message>
       <source>Date filter templates</source>
-      <translation type="unfinished"/>
+      <translation>日期过滤模板</translation>
     </message>
     <message>
       <source>Previous Day</source>
@@ -5596,7 +5596,7 @@
     </message>
     <message>
       <source>Date range start value</source>
-      <translation type="unfinished"/>
+      <translation>日期范围开始值</translation>
     </message>
     <message>
       <source>Last n days.</source>
@@ -6479,7 +6479,7 @@
     </message>
     <message>
       <source>Send</source>
-      <translation type="unfinished"/>
+      <translation>发送</translation>
     </message>
     <message>
       <source>Manual</source>
@@ -6782,7 +6782,7 @@
     </message>
     <message>
       <source>Test</source>
-      <translation type="unfinished"/>
+      <translation>测试</translation>
     </message>
   </context>
   <context>
@@ -8282,7 +8282,7 @@
     </message>
     <message>
       <source>Test</source>
-      <translation type="unfinished"/>
+      <translation>测试</translation>
     </message>
     <message>
       <source>Send message</source>
@@ -8844,7 +8844,7 @@
     </message>
     <message>
       <source>Test</source>
-      <translation type="unfinished"/>
+      <translation>测试</translation>
     </message>
     <message>
       <source>Any</source>
@@ -8938,7 +8938,7 @@
     </message>
     <message>
       <source>User ID</source>
-      <translation type="unfinished"/>
+      <translation>用户ID</translation>
     </message>
     <message>
       <source>Message</source>
@@ -9620,7 +9620,7 @@
     </message>
     <message>
       <source>Visitor ID</source>
-      <translation type="unfinished"/>
+      <translation>访客ID</translation>
     </message>
     <message>
       <source>Previous item</source>
@@ -10012,7 +10012,7 @@
     </message>
     <message>
       <source>Hide</source>
-      <translation type="unfinished"/>
+      <translation>隐藏</translation>
     </message>
     <message>
       <source>Typing...</source>
@@ -10393,7 +10393,7 @@
     </message>
     <message>
       <source>Set</source>
-      <translation type="unfinished"/>
+      <translation>设置</translation>
     </message>
   </context>
   <context>
@@ -10559,7 +10559,7 @@
     </message>
     <message>
       <source>Block</source>
-      <translation type="unfinished"/>
+      <translation>屏蔽</translation>
     </message>
     <message>
       <source>Block visitor</source>
@@ -12067,7 +12067,7 @@
     </message>
     <message>
       <source>Subject</source>
-      <translation type="unfinished"/>
+      <translation>主题</translation>
     </message>
     <message>
       <source>Sort by operator name</source>
@@ -12666,7 +12666,7 @@
     </message>
     <message>
       <source>User ID</source>
-      <translation type="unfinished"/>
+      <translation>用户ID</translation>
     </message>
     <message>
       <source>Last activity ago</source>
@@ -13543,7 +13543,7 @@
     <name>chat/modifychat</name>
     <message>
       <source>Debug</source>
-      <translation type="unfinished"/>
+      <translation>调试</translation>
     </message>
     <message>
       <source>User attribute</source>
@@ -15204,7 +15204,7 @@
     <name>chat/chatcommand</name>
     <message>
       <source>Visitor ID</source>
-      <translation type="unfinished"/>
+      <translation>访客ID</translation>
     </message>
     <message>
       <source>Department</source>
@@ -15812,7 +15812,7 @@
     </message>
     <message>
       <source>User ID</source>
-      <translation type="unfinished"/>
+      <translation>用户ID</translation>
     </message>
     <message>
       <source>Archive ID</source>
@@ -17975,7 +17975,7 @@
     </message>
     <message>
       <source>Date range to</source>
-      <translation type="unfinished"/>
+      <translation>日期范围至</translation>
     </message>
     <message>
       <source>choose today and choose</source>
@@ -18058,7 +18058,7 @@
     <name>module/mailconvconv</name>
     <message>
       <source>Subject</source>
-      <translation type="unfinished"/>
+      <translation>主题</translation>
     </message>
     <message>
       <source>Sender</source>
@@ -18140,7 +18140,7 @@
     </message>
     <message>
       <source>Attach</source>
-      <translation type="unfinished"/>
+      <translation>附加</translation>
     </message>
     <message>
       <source>Insert as link</source>
@@ -18583,7 +18583,7 @@
     </message>
     <message>
       <source>Subject</source>
-      <translation type="unfinished"/>
+      <translation>主题</translation>
     </message>
     <message>
       <source>To</source>
@@ -18627,7 +18627,7 @@
     </message>
     <message>
       <source>View</source>
-      <translation type="unfinished"/>
+      <translation>查看</translation>
     </message>
     <message>
       <source>Follow up of</source>
@@ -18843,7 +18843,7 @@
     </message>
     <message>
       <source>Send</source>
-      <translation type="unfinished"/>
+      <translation>发送</translation>
     </message>
     <message>
       <source>Sending...</source>
@@ -18927,7 +18927,7 @@
     </message>
     <message>
       <source>Uploading</source>
-      <translation type="unfinished"/>
+      <translation>上传中</translation>
     </message>
     <message>
       <source>Choose file from uploaded files</source>
@@ -19029,7 +19029,7 @@
     </message>
     <message>
       <source>Subject contains</source>
-      <translation type="unfinished"/>
+      <translation>主题包含</translation>
     </message>
     <message>
       <source>From mail</source>
@@ -19152,7 +19152,7 @@
     </message>
     <message>
       <source>Subject</source>
-      <translation type="unfinished"/>
+      <translation>主题</translation>
     </message>
     <message>
       <source>Recipient E-mail</source>
@@ -19925,7 +19925,7 @@
     </message>
     <message>
       <source>User ID</source>
-      <translation type="unfinished"/>
+      <translation>用户ID</translation>
     </message>
     <message>
       <source>Status</source>
@@ -22709,7 +22709,7 @@
     </message>
     <message>
       <source>System configuration</source>
-      <translation type="unfinished"/>
+      <translation>系统配置</translation>
     </message>
     <message>
       <source>Webhooks</source>
@@ -22783,7 +22783,7 @@
     </message>
     <message>
       <source>Send</source>
-      <translation type="unfinished"/>
+      <translation>发送</translation>
     </message>
     <message>
       <source>Message was send!</source>
@@ -23238,7 +23238,7 @@
     </message>
     <message>
       <source>Visitor ID</source>
-      <translation type="unfinished"/>
+      <translation>访客ID</translation>
     </message>
     <message>
       <source>Duration</source>
@@ -23370,7 +23370,7 @@
     </message>
     <message>
       <source>Subject</source>
-      <translation type="unfinished"/>
+      <translation>主题</translation>
     </message>
     <message>
       <source>Chat average in seconds</source>
@@ -23948,7 +23948,7 @@
     <name>system/settings</name>
     <message>
       <source>System configuration</source>
-      <translation type="unfinished"/>
+      <translation>系统配置</translation>
     </message>
   </context>
   <context>
@@ -24065,7 +24065,7 @@
     <name>lhelasticsearch/module</name>
     <message>
       <source>System configuration</source>
-      <translation type="unfinished"/>
+      <translation>系统配置</translation>
     </message>
     <message>
       <source>Options</source>
