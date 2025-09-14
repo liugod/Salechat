@@ -71,7 +71,7 @@
     </message>
     <message>
       <source>Play sound on invitation to chat.</source>
-      <translation>聊天邀请时播放音效。</translation>
+      <translation>交谈邀请时播放音效。</translation>
     </message>
     <message>
       <source>Show users option to switch language at widget</source>
@@ -115,7 +115,7 @@
     </message>
     <message>
       <source>Should cronjob run departments transfer workflow, even if user leaves a chat</source>
-      <translation>是否 Cronjob 应该运行部门转移工作流，即使用户离开了聊天</translation>
+      <translation>是否 Cronjob 应该运行部门转移工作流，即使用户离开了交谈</translation>
     </message>
     <message>
       <source>Make default pending chats order from old to new</source>
@@ -123,11 +123,11 @@
     </message>
     <message>
       <source>Reopen chat functionality enabled</source>
-      <translation>启用 重启聊天功能</translation>
+      <translation>启用 重启交谈功能</translation>
     </message>
     <message>
       <source>Reopen closed chat as new? Otherwise it will be reopened as active.</source>
-      <translation>要重启已完成聊天为新的聊天吗？否则它将重启为进行中聊天。</translation>
+      <translation>要重启已完成交谈为新的交谈吗？否则它将重启为进行中交谈。</translation>
     </message>
     <message>
       <source>Should we remember username for the next time visitor starts a chat?</source>
@@ -147,7 +147,7 @@
     </message>
     <message>
       <source>Is pro active chat invitation active. Online users tracking also has to be enabled</source>
-      <translation>是否启用主动聊天邀请。在线访客追踪必须被启用</translation>
+      <translation>是否启用主动交谈邀请。在线访客追踪必须被启用</translation>
     </message>
     <message>
       <source>Preload iframes. It will avoid loading delay after clicking widget</source>
@@ -331,7 +331,7 @@
     </message>
     <message>
       <source>Interval between chat status checks in seconds, 0 disabled.</source>
-      <translation>检查聊天状态的时间间隔，0 为禁用。</translation>
+      <translation>检查交谈状态的时间间隔，0 为禁用。</translation>
     </message>
     <message>
       <source>How long operator can wait for message from visitor before time between messages are ignored. Values in minutes.</source>
@@ -347,15 +347,15 @@
     </message>
     <message>
       <source>Which ip should not be allowed to chat</source>
-      <translation>哪些 IP 不被允许聊天</translation>
+      <translation>哪些 IP 不被允许交谈</translation>
     </message>
     <message>
       <source>Automatic chats purging. 0 - disabled, n &gt; 0 time in minutes before chat is automatically deleted</source>
-      <translation>自动清除聊天。0 - 禁用，n &gt; 0 分钟后聊天会自动被删除</translation>
+      <translation>自动清除聊天。0 - 禁用，n &gt; 0 分钟后交谈会自动被删除</translation>
     </message>
     <message>
       <source>Automatically reopen chat on widget open</source>
-      <translation>在 小部件开启时自动重启聊天</translation>
+      <translation>在 小部件开启时自动重启交谈</translation>
     </message>
     <message>
       <source>Automatic pending chats closing. 0 - disabled, n &gt; 0 time in minutes before chat is automatically closed</source>
@@ -371,7 +371,7 @@
     </message>
     <message>
       <source>Automatic chats closing. 0 - disabled, n &gt; 0 time in minutes before chat is automatically closed</source>
-      <translation>关闭自动聊天。0 - 禁用，n &gt; 0 - 在多少分钟后自动关闭聊天</translation>
+      <translation>关闭自动交谈。0 - 禁用，n &gt; 0 - 在多少分钟后自动关闭交谈</translation>
     </message>
     <message>
       <source>Automatically close active chat if from last visitor/operator message passed. 0 - disabled, n &gt; 0 time in minutes</source>
@@ -803,7 +803,7 @@
     </message>
     <message>
       <source>Chat widget</source>
-      <translation>聊天小部件</translation>
+      <translation>交谈小部件</translation>
     </message>
     <message>
       <source>Custom content</source>
@@ -1447,7 +1447,7 @@
     </message>
     <message>
       <source>Operator image in chat widget</source>
-      <translation>聊天小部件的中的客服人员图片</translation>
+      <translation>交谈小部件的中的客服人员图片</translation>
     </message>
     <message>
       <source>Logo image, visible in popup</source>
@@ -1503,7 +1503,7 @@
     </message>
     <message>
       <source>Text above start chat form fields</source>
-      <translation>开始聊天表单栏位上方的文字</translation>
+      <translation>开始交谈表单栏位上方的文字</translation>
     </message>
     <message>
       <source>Custom html before start chat form fields, popup</source>
@@ -1643,11 +1643,11 @@
     </message>
     <message>
       <source>Text when user starts chat based on proactive invitation</source>
-      <translation>设定使用主动邀请时，开始聊天的文字</translation>
+      <translation>设定使用主动邀请时，开始交谈的文字</translation>
     </message>
     <message>
       <source>Text when operator closes a chat</source>
-      <translation>客服人员关闭聊天时的文字</translation>
+      <translation>客服人员关闭交谈时的文字</translation>
     </message>
     <message>
       <source>Text when user starts a chat and is waiting for operator to join a chat. Only if queue is 1 or if less than a minute wait time.</source>
@@ -1659,7 +1659,7 @@
     </message>
     <message>
       <source>Text when user starts a chat but department is offline</source>
-      <translation>当访客开启聊天但部门为离线状态的文字</translation>
+      <translation>当访客开启交谈但部门为离线状态的文字</translation>
     </message>
     <message>
       <source>Leave a message form text</source>
@@ -1851,7 +1851,7 @@
     </message>
     <message>
       <source>Before closing chat ask user if they really want to to close chat</source>
-      <translation>在关闭聊天之前询问用户他是否真的想关闭聊天</translation>
+      <translation>在关闭交谈之前询问用户他是否真的想关闭交谈</translation>
     </message>
     <message>
       <source>Show start chat form instantly after operator closes a chat.</source>
@@ -1875,7 +1875,7 @@
     </message>
     <message>
       <source>Close chat if page is refreshed. Usefull if you have embed code in popup.</source>
-      <translation>如果刷新页面，则关闭聊天。 如果您在弹出窗口中嵌入了代码，则很有用。</translation>
+      <translation>如果刷新页面，则关闭交谈。 如果您在弹出窗口中嵌入了代码，则很有用。</translation>
     </message>
     <message>
       <source>Do not prefill offline message with chat messages.</source>
@@ -1907,7 +1907,7 @@
     </message>
     <message>
       <source>Show go to survey button on chat close</source>
-      <translation>在聊天关闭时显示转到调查按钮</translation>
+      <translation>在交谈关闭时显示转到调查按钮</translation>
     </message>
     <message>
       <source>Enable reactions for visitor</source>
@@ -1955,7 +1955,7 @@
     </message>
     <message>
       <source>Hide chat status block</source>
-      <translation>隐藏聊天状态块</translation>
+      <translation>隐藏交谈状态块</translation>
     </message>
     <message>
       <source>Use expanding message area</source>
@@ -2090,11 +2090,11 @@
     <name>abstract/proactivechatinvitation</name>
     <message>
       <source>If department is online and visitor starts a chat and is waiting for some to accept chat. This will be initial message they will get.</source>
-      <translation>如果部门在线并且访客开始聊天并正在等待某些人接受聊天。 这将是他得到的初步信息。</translation>
+      <translation>如果部门在线并且访客开始交谈并正在等待某些人接受交谈。 这将是他得到的初步信息。</translation>
     </message>
     <message>
       <source>If department is offline and visitor starts a chat this message will be send instaed of default welcome message. If this message is empty - welcome message will be send.</source>
-      <translation>如果部门离线并且访客开始聊天，则会发送此信息，而不是预设的欢迎消息。 如果此信息为空-将发送欢迎消息。</translation>
+      <translation>如果部门离线并且访客开始交谈，则会发送此信息，而不是预设的欢迎消息。 如果此信息为空-将发送欢迎消息。</translation>
     </message>
     <message>
       <source>Internal conversion parameters. Internal conversion is used to track covnersion where final step is done by user executing specific action and letting website to know us it happened.</source>
@@ -2134,11 +2134,11 @@
     </message>
     <message>
       <source>If you want pro active chat invitation to work it has to be enabled in</source>
-      <translation>如果你想要使用主动聊天邀请，此功能必须被启用</translation>
+      <translation>如果你想要使用主动交谈邀请，此功能必须被启用</translation>
     </message>
     <message>
       <source>chat configuration</source>
-      <translation>聊天配置</translation>
+      <translation>交谈配置</translation>
     </message>
     <message>
       <source>also online users tracking has to be</source>
@@ -2210,7 +2210,7 @@
     </message>
     <message>
       <source>Wait message. Visible when users starts chat and is waiting for someone to accept a chat.</source>
-      <translation>等待信息。 当用户开始聊天并正在等待某人接受聊天时可见。</translation>
+      <translation>等待信息。 当用户开始交谈并正在等待某人接受交谈时可见。</translation>
     </message>
     <message>
       <source>Wait timeout.</source>
@@ -2782,15 +2782,15 @@
     </message>
     <message>
       <source>Chat variables</source>
-      <translation>聊天变数</translation>
+      <translation>交谈变数</translation>
     </message>
     <message>
       <source>Pro active chat campaigns</source>
-      <translation>主动聊天运动</translation>
+      <translation>主动交谈运动</translation>
     </message>
     <message>
       <source>Pro active chat events</source>
-      <translation>主动聊天事件</translation>
+      <translation>主动交谈事件</translation>
     </message>
     <message>
       <source>Mouse leaves a browser window</source>
@@ -2802,11 +2802,11 @@
     </message>
     <message>
       <source>Pro active chat invitations</source>
-      <translation>主动聊天邀请</translation>
+      <translation>主动交谈邀请</translation>
     </message>
     <message>
       <source>Pro active chat variables</source>
-      <translation>主动聊天邀请变数</translation>
+      <translation>主动交谈邀请变数</translation>
     </message>
     <message>
       <source>Subject</source>
@@ -3188,7 +3188,7 @@
     </message>
     <message>
       <source>Automatically send this message to user then chat is accepted</source>
-      <translation>在聊天接受后，自动向用户发送此消息</translation>
+      <translation>在交谈接受后，自动向用户发送此消息</translation>
     </message>
     <message>
       <source>Delay in seconds</source>
@@ -3523,7 +3523,7 @@
     </message>
     <message>
       <source>Priority, used for chats priority</source>
-      <translation>优先顺序，用于聊天的顺序</translation>
+      <translation>优先顺序，用于交谈的顺序</translation>
     </message>
     <message>
       <source>Priority, used for departments sort</source>
@@ -3539,7 +3539,7 @@
     </message>
     <message>
       <source>Chat transfer worklow</source>
-      <translation>聊天转接设定</translation>
+      <translation>交谈转接设定</translation>
     </message>
     <message>
       <source>Auto assignment</source>
@@ -3587,7 +3587,7 @@
     </message>
     <message>
       <source>Workdays/work hours, during these days/hours chat will be active automatically</source>
-      <translation>上班日 / 工作时数，在这些时间内聊天会自动启用</translation>
+      <translation>上班日 / 工作时数，在这些时间内交谈会自动启用</translation>
     </message>
     <message>
       <source>Work hours, 24 hours format, 1 - 24, minutes format 0 - 60</source>
@@ -3707,7 +3707,7 @@
     </message>
     <message>
       <source>Inform about new chats using</source>
-      <translation>使用新聊天的通知</translation>
+      <translation>使用新交谈的通知</translation>
     </message>
     <message>
       <source>XMPP messages</source>
@@ -3715,7 +3715,7 @@
     </message>
     <message>
       <source>Send XMPP messages to all department operators</source>
-      <translation>XMPP消息发送到所有部门客服人员</translation>
+      <translation>XMPP消息发送到所有部门运营商</translation>
     </message>
     <message>
       <source>Mail messages</source>
@@ -3755,11 +3755,11 @@
     </message>
     <message>
       <source>E-mail is sent in the following order 1. To e-mail template recipient if filled 2. Department e-mail 3. First system operator</source>
-      <translation>邮件按以下顺序发送：1. 如果填写了邮件模板收件人 2. 部门邮件 3. 第一个系统客服人员</translation>
+      <translation>邮件按以下顺序发送：1. 如果填写了邮件模板收件人 2. 部门邮件 3. 第一个系统操作员</translation>
     </message>
     <message>
       <source>To what department chat should be transferred if it is not accepted</source>
-      <translation>如果聊天没有被接受，应该转接哪个部门</translation>
+      <translation>如果交谈没有被接受，应该转接哪个部门</translation>
     </message>
     <message>
       <source>Minimum chat priority for transfer to happen.</source>
@@ -3767,7 +3767,7 @@
     </message>
     <message>
       <source>Timeout in seconds before chat is transferred to another department. Minimum 5 seconds.</source>
-      <translation>在聊天转到另一个部门之前的超时秒数。最小值为 5 秒。</translation>
+      <translation>在交谈转到另一个部门之前的超时秒数。最小值为 5 秒。</translation>
     </message>
     <message>
       <source>Transfer immediately to this department if current department has no online operators?</source>
@@ -3779,15 +3779,15 @@
     </message>
     <message>
       <source>Reset assigned user on chat transfer?</source>
-      <translation>重置聊天转移中分配的用户？</translation>
+      <translation>重置交谈转移中分配的用户？</translation>
     </message>
     <message>
       <source>Automatic transfer is disabled if there is online operators</source>
-      <translation>如果有在线客服人员，自动转移将被禁用</translation>
+      <translation>如果有在线操作员，自动转移将被禁用</translation>
     </message>
     <message>
       <source>Execute new chat logic again for recipient department?</source>
-      <translation>要再次为收件者的部门执行新的聊天逻辑吗？</translation>
+      <translation>要再次为收件者的部门执行新的交谈逻辑吗？</translation>
     </message>
     <message>
       <source>Execute unanswered chat logic again for recipient department?</source>
@@ -3943,7 +3943,7 @@
     </message>
     <message>
       <source>Info message is usefull if you want to show operator that command was executed without storing any real message within chat.</source>
-      <translation>如果您想向客服人员显示命令已执行而不在聊天中存储任何真实消息，信息消息很有用。</translation>
+      <translation>如果您想向操作员显示命令已执行而不在聊天中存储任何真实消息，信息消息很有用。</translation>
     </message>
     <message>
       <source>Choose</source>
@@ -4087,7 +4087,7 @@
     </message>
     <message>
       <source>Edit a group chat</source>
-      <translation>编辑群组聊天</translation>
+      <translation>编辑群组交谈</translation>
     </message>
     <message>
       <source>Hidden departments are not shown in department choosing dropdown. They do not participate in online status check if department is not provided.</source>
@@ -4186,7 +4186,7 @@
     </message>
     <message>
       <source>Assign the chat to me if the visitor replies</source>
-      <translation>若访客回复，将我加入聊天</translation>
+      <translation>若访客回复，将我加入交谈</translation>
     </message>
     <message>
       <source>Do not send automated messages if the customer replies</source>
@@ -4281,7 +4281,7 @@
     </message>
     <message>
       <source>Start a chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始交谈表单设定</translation>
     </message>
     <message>
       <source>At least one field has to be visible and required in the popup and page widget</source>
@@ -4481,11 +4481,11 @@
     </message>
     <message>
       <source>Automatically start chat then user starts typing. Only message field has to be required</source>
-      <translation>当用户开始打字后自动开始聊天。只有消息栏位必须要被请求。</translation>
+      <translation>当用户开始打字后自动开始交谈。只有消息栏位必须要被请求。</translation>
     </message>
     <message>
       <source>Start chat process in the background as soon user submits form. Only message field has to be required</source>
-      <translation>当用户开始打字后自动开始聊天。只有消息栏位是必须。</translation>
+      <translation>当用户开始打字后自动开始交谈。只有消息栏位是必须。</translation>
     </message>
     <message>
       <source>Phone</source>
@@ -4705,7 +4705,7 @@
     </message>
     <message>
       <source>Start chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始交谈表单设定</translation>
     </message>
     <message>
       <source>Default settings</source>
@@ -5040,7 +5040,7 @@
     </message>
     <message>
       <source>Chat ID</source>
-      <translation>聊天 ID</translation>
+      <translation>交谈 ID</translation>
     </message>
     <message>
       <source>E-mail</source>
@@ -5092,7 +5092,7 @@
     </message>
     <message>
       <source>Chat status</source>
-      <translation>聊天状态</translation>
+      <translation>交谈状态</translation>
     </message>
     <message>
       <source>Product</source>
@@ -5104,11 +5104,11 @@
     </message>
     <message>
       <source>Chat duration</source>
-      <translation>聊天持续时间</translation>
+      <translation>交谈持续时间</translation>
     </message>
     <message>
       <source>Chat duration from</source>
-      <translation>聊天持续时间从</translation>
+      <translation>交谈持续时间从</translation>
     </message>
     <message>
       <source>From</source>
@@ -5196,7 +5196,7 @@
     </message>
     <message>
       <source>Unanswered chat</source>
-      <translation>未回复的聊天</translation>
+      <translation>未回复的交谈</translation>
     </message>
     <message>
       <source>Anonymised</source>
@@ -5300,11 +5300,11 @@
     </message>
     <message>
       <source>Pending chats</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>Active chats</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>Bot chats</source>
@@ -5312,15 +5312,15 @@
     </message>
     <message>
       <source>Closed chats</source>
-      <translation>已完成聊天</translation>
+      <translation>已完成交谈</translation>
     </message>
     <message>
       <source>Chatbox chats</source>
-      <translation>聊天框聊天</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chats</source>
-      <translation>客服人员聊天</translation>
+      <translation>客服人员交谈</translation>
     </message>
     <message>
       <source>Select product</source>
@@ -5520,7 +5520,7 @@
     </message>
     <message>
       <source>Conversation ID</source>
-      <translation>聊天ID</translation>
+      <translation>对话ID</translation>
     </message>
     <message>
       <source>Mail subject</source>
@@ -5880,7 +5880,7 @@
     </message>
     <message>
       <source>Chats</source>
-      <translation>聊天</translation>
+      <translation>交谈</translation>
     </message>
     <message>
       <source>Mails</source>
@@ -6423,11 +6423,11 @@
     </message>
     <message>
       <source>Close conversations older than n days. Only conversations of the active mailboxes will be closed.</source>
-      <translation>关闭超过n天的聊天。只有活跃邮箱的聊天会被关闭。</translation>
+      <translation>关闭超过n天的对话。只有活跃邮箱的对话会被关闭。</translation>
     </message>
     <message>
       <source>What status conversations we should close?</source>
-      <translation>我们应该关闭什么状态的聊天？</translation>
+      <translation>我们应该关闭什么状态的对话？</translation>
     </message>
     <message>
       <source>Pending</source>
@@ -7057,7 +7057,7 @@
     </message>
     <message>
       <source>Chat nickname</source>
-      <translation>聊天暱称</translation>
+      <translation>交谈暱称</translation>
     </message>
     <message>
       <source>Name</source>
@@ -7241,7 +7241,7 @@
     </message>
     <message>
       <source>Chat is currently unavailable</source>
-      <translation>聊天目前不可用</translation>
+      <translation>交谈目前不可用</translation>
     </message>
     <message>
       <source>Please try again later.</source>
@@ -7293,7 +7293,7 @@
     </message>
     <message>
       <source>Are you sure you want to close this chat?</source>
-      <translation>您确定要关闭此聊天吗？</translation>
+      <translation>您确定要关闭此交谈吗？</translation>
     </message>
     <message>
       <source>Type your message here...</source>
@@ -7369,7 +7369,7 @@
     </message>
     <message>
       <source>Start chat</source>
-      <translation>开始聊天</translation>
+      <translation>开始交谈</translation>
     </message>
     <message>
       <source>Department</source>
@@ -7409,7 +7409,7 @@
     </message>
     <message>
       <source>Fill out this form to start a chat</source>
-      <translation>填写表单后开始聊天</translation>
+      <translation>填写表单后开始交谈</translation>
     </message>
     <message>
       <source>There are no online operators at the moment, please leave your message</source>
@@ -7445,7 +7445,7 @@
     </message>
     <message>
       <source>End chat</source>
-      <translation>结束聊天</translation>
+      <translation>结束交谈</translation>
     </message>
     <message>
       <source>Switch to Classic</source>
@@ -7657,7 +7657,7 @@
     </message>
     <message>
       <source>Pending Chat</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>New mail</source>
@@ -7701,11 +7701,11 @@
     </message>
     <message>
       <source>You do not have permission to chat! Please contact site owner.</source>
-      <translation>您没有聊天权限！请联络网站的管理员。</translation>
+      <translation>您没有交谈权限！请联络网站的管理员。</translation>
     </message>
     <message>
       <source>Fill in the form to start a chat</source>
-      <translation>填写表单开始聊天</translation>
+      <translation>填写表单开始交谈</translation>
     </message>
     <message>
       <source>You can edit only your own messages!</source>
@@ -8212,7 +8212,7 @@
     </message>
     <message>
       <source>Survey at the end of chat</source>
-      <translation>在聊天结束显示调查</translation>
+      <translation>在交谈结束显示调查</translation>
     </message>
     <message>
       <source>Product</source>
@@ -8292,7 +8292,7 @@
     </message>
     <message>
       <source>On each refresh start a new chat. Users will loose chat session browsing through pages! Usefull in embed mode.</source>
-      <translation>每次刷新时，开始新的聊天。 用户将失去聊天工作阶段浏览页面！ 在嵌入模式下很有用。</translation>
+      <translation>每次刷新时，开始新的交谈。 用户将失去交谈工作阶段浏览页面！ 在嵌入模式下很有用。</translation>
     </message>
     <message>
       <source>Check for operator invitation messages. If you are planning to send messages to online visitors manually you can check this.</source>
@@ -8384,7 +8384,7 @@
     </message>
     <message>
       <source>Chat was removed</source>
-      <translation>聊天已删除</translation>
+      <translation>交谈已删除</translation>
     </message>
   </context>
   <context>
@@ -8538,7 +8538,7 @@
     </message>
     <message>
       <source>Chat list</source>
-      <translation>聊天列表</translation>
+      <translation>交谈列表</translation>
     </message>
     <message>
       <source>Dashboard</source>
@@ -8606,7 +8606,7 @@
     </message>
     <message>
       <source>User is chatting</source>
-      <translation>访客正在聊天中</translation>
+      <translation>访客正在交谈中</translation>
     </message>
     <message>
       <source>User is not having any chat right now</source>
@@ -8678,7 +8678,7 @@
     </message>
     <message>
       <source>Chat configuration</source>
-      <translation>聊天配置</translation>
+      <translation>交谈配置</translation>
     </message>
     <message>
       <source>Online visitors list</source>
@@ -8690,7 +8690,7 @@
     </message>
     <message>
       <source>Preview chat</source>
-      <translation>预览聊天</translation>
+      <translation>预览交谈</translation>
     </message>
     <message>
       <source>Visits</source>
@@ -8814,7 +8814,7 @@
     </message>
     <message>
       <source>Chat</source>
-      <translation>聊天</translation>
+      <translation>交谈</translation>
     </message>
     <message>
       <source>Returning</source>
@@ -9282,15 +9282,15 @@
     </message>
     <message>
       <source>Active chats</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>Pending chats</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>Inactive chats</source>
-      <translation>闲置聊天</translation>
+      <translation>闲置交谈</translation>
     </message>
     <message>
       <source>Real Time Active chats</source>
@@ -9373,7 +9373,7 @@
     </message>
     <message>
       <source>Chat preview</source>
-      <translation>聊天预览</translation>
+      <translation>交谈预览</translation>
     </message>
     <message>
       <source>Send chat</source>
@@ -9464,7 +9464,7 @@
     </message>
     <message>
       <source>Close chat</source>
-      <translation>完成此聊天</translation>
+      <translation>完成此交谈</translation>
     </message>
     <message>
       <source>Screen sharing</source>
@@ -9476,11 +9476,11 @@
     </message>
     <message>
       <source>Delete chat</source>
-      <translation>删除聊天记录</translation>
+      <translation>删除交谈记录</translation>
     </message>
     <message>
       <source>Modify chat</source>
-      <translation>编辑聊天</translation>
+      <translation>编辑交谈</translation>
     </message>
     <message>
       <source>Edit chat</source>
@@ -9524,7 +9524,7 @@
     </message>
     <message>
       <source>Transfer chat</source>
-      <translation>转接聊天</translation>
+      <translation>转接交谈</translation>
     </message>
     <message>
       <source>Footprint</source>
@@ -9584,27 +9584,27 @@
     </message>
     <message>
       <source>Click to change chat status</source>
-      <translation>点选以更改聊天状态</translation>
+      <translation>点选以更改交谈状态</translation>
     </message>
     <message>
       <source>Pending chat</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>Active chat</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>Closed chat</source>
-      <translation>已完成聊天</translation>
+      <translation>已完成交谈</translation>
     </message>
     <message>
       <source>Chatbox chat</source>
-      <translation>聊天框聊天</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chat</source>
-      <translation>客服聊天</translation>
+      <translation>客服交谈</translation>
     </message>
     <message>
       <source>Bot chat</source>
@@ -9616,7 +9616,7 @@
     </message>
     <message>
       <source>Chat duration</source>
-      <translation>聊天持续时间</translation>
+      <translation>交谈持续时间</translation>
     </message>
     <message>
       <source>Chat owner</source>
@@ -9624,7 +9624,7 @@
     </message>
     <message>
       <source>Operator chats during this conversations.</source>
-      <translation>此聊天期间的客服聊天。</translation>
+      <translation>此对话期间的客服聊天。</translation>
     </message>
     <message>
       <source>Transferred by</source>
@@ -9772,7 +9772,7 @@
     </message>
     <message>
       <source>Chats</source>
-      <translation>聊天记录</translation>
+      <translation>交谈记录</translation>
     </message>
     <message>
       <source>Chat notes</source>
@@ -10000,7 +10000,7 @@
     </message>
     <message>
       <source>did not accepted chat in time.</source>
-      <translation>没有及时接受聊天。</translation>
+      <translation>没有及时接受交谈。</translation>
     </message>
     <message>
       <source>Chat was assigned to</source>
@@ -10012,7 +10012,7 @@
     </message>
     <message>
       <source>has accepted the chat!</source>
-      <translation>已接受聊天！</translation>
+      <translation>已接受交谈！</translation>
     </message>
     <message>
       <source>Invalid CSRF token!</source>
@@ -10048,7 +10048,7 @@
     </message>
     <message>
       <source>Has no access to this chat</source>
-      <translation>不具有存取这次聊天的权限</translation>
+      <translation>不具有存取这次交谈的权限</translation>
     </message>
     <message>
       <source>has modified a message.</source>
@@ -10288,7 +10288,7 @@
     </message>
     <message>
       <source>Support staff member has closed this chat</source>
-      <translation>客服人员已关闭此聊天</translation>
+      <translation>客服人员已关闭此交谈</translation>
     </message>
     <message>
       <source>Read more</source>
@@ -10360,7 +10360,7 @@
     </message>
     <message>
       <source>Chat was automatically transferred to</source>
-      <translation>聊天已自动转接到</translation>
+      <translation>交谈已自动转接到</translation>
     </message>
     <message>
       <source>from</source>
@@ -10388,11 +10388,11 @@
     </message>
     <message>
       <source>Support has closed the chat window, but You can leave messages, and the administrator will read them later.</source>
-      <translation>客服人员已关闭聊天视窗，您可以留下你的消息，待稍后管理员将会协助处理您的问题。</translation>
+      <translation>客服人员已关闭交谈视窗，您可以留下你的消息，待稍后管理员将会协助处理您的问题。</translation>
     </message>
     <message>
       <source>You do not have permission to view this chat, or the chat was deleted</source>
-      <translation>你没有权限查看此聊天，或是该聊天已被删除</translation>
+      <translation>你没有权限查看此交谈，或是该交谈已被删除</translation>
     </message>
   </context>
   <context>
@@ -10483,11 +10483,11 @@
     </message>
     <message>
       <source>Chatbox chat</source>
-      <translation>聊天框聊天</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chat</source>
-      <translation>客服聊天</translation>
+      <translation>客服交谈</translation>
     </message>
     <message>
       <source>Bot chat</source>
@@ -10495,7 +10495,7 @@
     </message>
     <message>
       <source>Change chat status</source>
-      <translation>更改聊天状态</translation>
+      <translation>更改交谈状态</translation>
     </message>
     <message>
       <source>Cancel</source>
@@ -10523,7 +10523,7 @@
     </message>
     <message>
       <source>This chat is closed.</source>
-      <translation>已关闭此聊天</translation>
+      <translation>已关闭此交谈</translation>
     </message>
     <message>
       <source>Pending confirm</source>
@@ -10543,7 +10543,7 @@
     </message>
     <message>
       <source>Back to chat</source>
-      <translation>回到聊天</translation>
+      <translation>回到交谈</translation>
     </message>
     <message>
       <source>Switch to widget</source>
@@ -10555,7 +10555,7 @@
     </message>
     <message>
       <source>Chat started</source>
-      <translation>开始聊天</translation>
+      <translation>开始交谈</translation>
     </message>
     <message>
       <source>is typing now...</source>
@@ -10982,11 +10982,11 @@
     </message>
     <message>
       <source>Hide bot profile while chat is in bot mode</source>
-      <translation>在聊天处于机器人模式时隐藏机器人个人资料</translation>
+      <translation>在交谈处于机器人模式时隐藏机器人个人资料</translation>
     </message>
     <message>
       <source>Start chat with hidden message box</source>
-      <translation>使用隐藏的信息框开始聊天</translation>
+      <translation>使用隐藏的信息框开始交谈</translation>
     </message>
     <message>
       <source>Do not count button click as a visitor message</source>
@@ -11070,7 +11070,7 @@
     </message>
     <message>
       <source>Chats</source>
-      <translation>聊天</translation>
+      <translation>交谈</translation>
     </message>
     <message>
       <source>Do not enter a password unless you want to change it</source>
@@ -11110,7 +11110,7 @@
     </message>
     <message>
       <source>Chat nickname</source>
-      <translation>聊天暱称</translation>
+      <translation>交谈暱称</translation>
     </message>
     <message>
       <source>Surname</source>
@@ -11166,7 +11166,7 @@
     </message>
     <message>
       <source>I can see all pending chats, not only assigned to me</source>
-      <translation>我能看到所有等待中聊天，不仅限于分配给我的聊天</translation>
+      <translation>我能看到所有等待中交谈，不仅限于分配给我的交谈</translation>
     </message>
     <message>
       <source>Automatically accept assigned chats</source>
@@ -11322,7 +11322,7 @@
     </message>
     <message>
       <source>Chat status will not change upon pending chat opening</source>
-      <translation>开启之前的聊天后，不会改变聊天状态</translation>
+      <translation>开启之前的交谈后，不会改变交谈状态</translation>
     </message>
     <message>
       <source>Assign in read only mode</source>
@@ -11374,7 +11374,7 @@
     </message>
     <message>
       <source>User can see all pending chats, not only assigned to him</source>
-      <translation>用户可以看到所有等待中聊天，不限于分配给他的聊天</translation>
+      <translation>用户可以看到所有等待中交谈，不限于分配给他的交谈</translation>
     </message>
     <message>
       <source>Exclude from auto assign workflow</source>
@@ -11553,7 +11553,7 @@
     </message>
     <message>
       <source>Active chats</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>Online visitors</source>
@@ -11565,11 +11565,11 @@
     </message>
     <message>
       <source>Pending chats</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>Transfered chats</source>
-      <translation>已转接聊天</translation>
+      <translation>已转接交谈</translation>
     </message>
     <message>
       <source>Ongoing trigger alerts</source>
@@ -11577,11 +11577,11 @@
     </message>
     <message>
       <source>Group chats</source>
-      <translation>群组聊天</translation>
+      <translation>群组交谈</translation>
     </message>
     <message>
       <source>Unread chats</source>
-      <translation>未读取聊天</translation>
+      <translation>未读取交谈</translation>
     </message>
     <message>
       <source>My active and pending chats</source>
@@ -11640,11 +11640,11 @@
     </message>
     <message>
       <source>Active chats</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>Closed chats</source>
-      <translation>已完成聊天</translation>
+      <translation>已完成交谈</translation>
     </message>
     <message>
       <source>My active and pending chats</source>
@@ -11652,7 +11652,7 @@
     </message>
     <message>
       <source>Pending chats</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>Unread messages</source>
@@ -11660,7 +11660,7 @@
     </message>
     <message>
       <source>Chats transferred to you directly</source>
-      <translation>有一个转接给你的聊天</translation>
+      <translation>有一个转接给你的交谈</translation>
     </message>
     <message>
       <source>Transferred to your department</source>
@@ -11708,7 +11708,7 @@
     </message>
     <message>
       <source>Group chats</source>
-      <translation>群组聊天</translation>
+      <translation>群组交谈</translation>
     </message>
     <message>
       <source>Number of elements in list</source>
@@ -11812,7 +11812,7 @@
     </message>
     <message>
       <source>Transferred chats</source>
-      <translation>已转接聊天</translation>
+      <translation>已转接交谈</translation>
     </message>
     <message>
       <source>Inline</source>
@@ -11892,7 +11892,7 @@
     </message>
     <message>
       <source>New chat request</source>
-      <translation>新的聊天请求</translation>
+      <translation>新的交谈请求</translation>
     </message>
     <message>
       <source>New chat has been transferred to you directly!</source>
@@ -12016,7 +12016,7 @@
     </message>
     <message>
       <source>New chats</source>
-      <translation>新的聊天</translation>
+      <translation>新的交谈</translation>
     </message>
     <message>
       <source>Always online</source>
@@ -12127,7 +12127,7 @@
     </message>
     <message>
       <source>No previous chats</source>
-      <translation>没有之前的聊天记录</translation>
+      <translation>没有之前的交谈记录</translation>
     </message>
     <message>
       <source>h.</source>
@@ -12151,11 +12151,11 @@
     </message>
     <message>
       <source>Accept chat</source>
-      <translation>接受聊天</translation>
+      <translation>接受交谈</translation>
     </message>
     <message>
       <source>Add chat</source>
-      <translation>加入聊天</translation>
+      <translation>加入交谈</translation>
     </message>
     <message>
       <source>Empty...</source>
@@ -12315,7 +12315,7 @@
     </message>
     <message>
       <source>Pending chat</source>
-      <translation>等待中的聊天</translation>
+      <translation>等待中的交谈</translation>
     </message>
     <message>
       <source>Sort by online status</source>
@@ -12327,15 +12327,15 @@
     </message>
     <message>
       <source>Active chats</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>Sort by active chats number</source>
-      <translation>依进行中聊天编号排序</translation>
+      <translation>依进行中交谈编号排序</translation>
     </message>
     <message>
       <source>Start chat</source>
-      <translation>开始聊天</translation>
+      <translation>开始交谈</translation>
     </message>
     <message>
       <source>Change operator status</source>
@@ -12395,7 +12395,7 @@
     </message>
     <message>
       <source>Pending chats</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>Bot chats</source>
@@ -12407,7 +12407,7 @@
     </message>
     <message>
       <source>Group chats will appear here.</source>
-      <translation>群组聊天将出现在这里。</translation>
+      <translation>群组交谈将出现在这里。</translation>
     </message>
     <message>
       <source>Mail alarms will appear here.</source>
@@ -12419,7 +12419,7 @@
     </message>
     <message>
       <source>Delete chat</source>
-      <translation>删除聊天</translation>
+      <translation>删除交谈</translation>
     </message>
     <message>
       <source>All new mails will appear here.</source>
@@ -12431,7 +12431,7 @@
     </message>
     <message>
       <source>Transferred chats to you will appear here.</source>
-      <translation>转移至您的聊天将出现在这里。</translation>
+      <translation>转移至您的交谈将出现在这里。</translation>
     </message>
     <message>
       <source>Transfer time</source>
@@ -12439,11 +12439,11 @@
     </message>
     <message>
       <source>Transferred chats to your department will appear here.</source>
-      <translation>转移到您部门的聊天将出现在这里。</translation>
+      <translation>转移到您部门的交谈将出现在这里。</translation>
     </message>
     <message>
       <source>Transferred chats to you or your department will appear here.</source>
-      <translation>已转移给您或您部门的聊天记录将显示在此处。</translation>
+      <translation>已转移给您或您部门的交谈记录将显示在此处。</translation>
     </message>
     <message>
       <source>Last assignment ago</source>
@@ -13401,7 +13401,7 @@
     </message>
     <message>
       <source>Active chats</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>My active and pending chats</source>
@@ -13413,15 +13413,15 @@
     </message>
     <message>
       <source>All pending chats</source>
-      <translation>所有等待中聊天</translation>
+      <translation>所有等待中交谈</translation>
     </message>
     <message>
       <source>All active chats</source>
-      <translation>所有进行中聊天</translation>
+      <translation>所有进行中交谈</translation>
     </message>
     <message>
       <source>All unread chats</source>
-      <translation>所有未读取聊天</translation>
+      <translation>所有未读取交谈</translation>
     </message>
     <message>
       <source>You do not have permission to use chattabschrome function</source>
@@ -13441,15 +13441,15 @@
     </message>
     <message>
       <source>Open last 10 my active chats</source>
-      <translation>打开我的最近 10 个进行中聊天</translation>
+      <translation>打开我的最近 10 个进行中交谈</translation>
     </message>
     <message>
       <source>Open my active chats</source>
-      <translation>打开我的进行中聊天</translation>
+      <translation>打开我的进行中交谈</translation>
     </message>
     <message>
       <source>Last 10 your active chats will be always visible</source>
-      <translation>您最近进行的10个聊天将始终可见</translation>
+      <translation>您最近进行的10个交谈将始终可见</translation>
     </message>
     <message>
       <source>Keep my active chats</source>
@@ -13566,11 +13566,11 @@
     </message>
     <message>
       <source>A support staff member has closed this chat</source>
-      <translation>客服人员已关闭此聊天</translation>
+      <translation>客服人员已关闭此交谈</translation>
     </message>
     <message>
       <source>A support staff member has joined this chat</source>
-      <translation>客服人员加入了此聊天</translation>
+      <translation>客服人员加入了此交谈</translation>
     </message>
     <message>
       <source>At this moment there are no logged in support staff members, but you can leave your messages</source>
@@ -13578,7 +13578,7 @@
     </message>
     <message>
       <source>Pending a support staff member to join, you can write your questions, and as soon as a support staff member confirms this chat, they will get your messages</source>
-      <translation>正在等待客服人员加入，可以在下方先输入您的问题，待客服人员确认聊天后，会马上收到您的消息。</translation>
+      <translation>正在等待客服人员加入，可以在下方先输入您的问题，待客服人员确认交谈后，会马上收到您的消息。</translation>
     </message>
     <message>
       <source>You have been transferred. Please wait for operator to join a chat...</source>
@@ -13672,7 +13672,7 @@
     <name>chat/user_settings</name>
     <message>
       <source>End the chat</source>
-      <translation>结束聊天</translation>
+      <translation>结束交谈</translation>
     </message>
     <message>
       <source>Enable/Disable sound about new messages from the operator</source>
@@ -13684,7 +13684,7 @@
     </message>
     <message>
       <source>Send chat transcript to your e-mail</source>
-      <translation>将聊天记录发送到您的 E-mail</translation>
+      <translation>将交谈记录发送到您的 E-mail</translation>
     </message>
     <message>
       <source>Change my visibility to visible/invisible</source>
@@ -13700,7 +13700,7 @@
     </message>
     <message>
       <source>Enable/Disable sound about new pending chats</source>
-      <translation>有新的等待中聊天时 开启 / 关闭 音效通知</translation>
+      <translation>有新的等待中交谈时 开启 / 关闭 音效通知</translation>
     </message>
     <message>
       <source>Download as txt</source>
@@ -13772,7 +13772,7 @@
     <name>chat/chatnotexists</name>
     <message>
       <source>Chat was deleted</source>
-      <translation>聊天已删除</translation>
+      <translation>交谈已删除</translation>
     </message>
     <message>
       <source>Survey not exist please check embed code options</source>
@@ -13780,7 +13780,7 @@
     </message>
     <message>
       <source>Resume chat</source>
-      <translation>恢复聊天</translation>
+      <translation>恢复交谈</translation>
     </message>
   </context>
   <context>
@@ -13853,7 +13853,7 @@
     </message>
     <message>
       <source>XMPP Message about accepted chat</source>
-      <translation>XMPP 消息关于接受聊天</translation>
+      <translation>XMPP 消息关于接受交谈</translation>
     </message>
     <message>
       <source>XMPP</source>
@@ -13992,11 +13992,11 @@
     <name>chat/geoadjustment</name>
     <message>
       <source>Apply to chat widget status indicator these rules also? performance decrease is associated with this option</source>
-      <translation>聊天小部件狀態指示燈也适用于这些规则吗？此选项可能会导致性能下降</translation>
+      <translation>交谈小部件狀態指示燈也适用于这些规则吗？此选项可能会导致性能下降</translation>
     </message>
     <message>
       <source>Make chat status normal for these countries, countries can be separated by comma "de,gb,us,fr" means chat would be shown as usual only for these countries.</source>
-      <translation>让聊天状态对这些国家为正常，国家可以用逗号来分隔 "de,gb,us,fr" 意味着聊天将会跟平常一样只显示这些国家。</translation>
+      <translation>让交谈状态对这些国家为正常，国家可以用逗号来分隔 "de,gb,us,fr" 意味着交谈将会跟平常一样只显示这些国家。</translation>
     </message>
     <message>
       <source>For</source>
@@ -14016,7 +14016,7 @@
     </message>
     <message>
       <source>Other countries, put widget/chat status to</source>
-      <translation>其他国家，把 小部件/ 聊天狀態</translation>
+      <translation>其他国家，把 小部件/ 交谈狀態</translation>
     </message>
     <message>
       <source>offline status</source>
@@ -14079,11 +14079,11 @@
     </message>
     <message>
       <source>Update chat</source>
-      <translation>更新聊天</translation>
+      <translation>更新交谈</translation>
     </message>
     <message>
       <source>Unanswered chat</source>
-      <translation>未回复的聊天</translation>
+      <translation>未回复的交谈</translation>
     </message>
     <message>
       <source>Department</source>
@@ -14127,7 +14127,7 @@
     </message>
     <message>
       <source>Chat information was updated</source>
-      <translation>聊天资讯已更新</translation>
+      <translation>交谈资讯已更新</translation>
     </message>
     <message>
       <source>Actions</source>
@@ -14135,7 +14135,7 @@
     </message>
     <message>
       <source>Conversation</source>
-      <translation>聊天</translation>
+      <translation>对话</translation>
     </message>
     <message>
       <source>Messages</source>
@@ -14154,11 +14154,11 @@
     </message>
     <message>
       <source>Chat duration</source>
-      <translation>聊天持续时间</translation>
+      <translation>交谈持续时间</translation>
     </message>
     <message>
       <source>New chat notification settings</source>
-      <translation>新的聊天通知设定</translation>
+      <translation>新的交谈通知设定</translation>
     </message>
     <message>
       <source>Supported: group_chats, online_operators, departments_stats, online_visitors, pending_chats, unread_chats, transfered_chats, active_chats, bot_chats, my_chats</source>
@@ -14206,7 +14206,7 @@
     </message>
     <message>
       <source>Chat archive</source>
-      <translation>聊天建档</translation>
+      <translation>交谈建档</translation>
     </message>
     <message>
       <source>Audit Logs</source>
@@ -14294,7 +14294,7 @@
     </message>
     <message>
       <source>Chat configuration</source>
-      <translation>聊天配置</translation>
+      <translation>交谈配置</translation>
     </message>
     <message>
       <source>Live help embed code</source>
@@ -14302,7 +14302,7 @@
     </message>
     <message>
       <source>Chats list</source>
-      <translation>聊天列表</translation>
+      <translation>交谈列表</translation>
     </message>
     <message>
       <source>Chat priority</source>
@@ -14342,11 +14342,11 @@
     </message>
     <message>
       <source>Group chat</source>
-      <translation>群组聊天</translation>
+      <translation>群组交谈</translation>
     </message>
     <message>
       <source>Group chats list</source>
-      <translation>群组聊天列表</translation>
+      <translation>群组交谈列表</translation>
     </message>
     <message>
       <source>Options</source>
@@ -14438,19 +14438,19 @@
     </message>
     <message>
       <source>Pro active chat invitations</source>
-      <translation>主动聊天邀请</translation>
+      <translation>主动交谈邀请</translation>
     </message>
     <message>
       <source>Pro active chat campaigns</source>
-      <translation>主动聊天运动</translation>
+      <translation>主动交谈运动</translation>
     </message>
     <message>
       <source>Pro active chat events</source>
-      <translation>主动聊天事件</translation>
+      <translation>主动交谈事件</translation>
     </message>
     <message>
       <source>Pro active chat variables</source>
-      <translation>主动聊天邀请变数</translation>
+      <translation>主动交谈邀请变数</translation>
     </message>
     <message>
       <source>Product</source>
@@ -14470,7 +14470,7 @@
     </message>
     <message>
       <source>Start chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始交谈表单设定</translation>
     </message>
     <message>
       <source>Statistic</source>
@@ -14785,7 +14785,7 @@
     </message>
     <message>
       <source>Notifications about new chats</source>
-      <translation>新的聊天通知</translation>
+      <translation>新的交谈通知</translation>
     </message>
     <message>
       <source>Copyright settings</source>
@@ -14809,7 +14809,7 @@
     </message>
     <message>
       <source>Chat configuration</source>
-      <translation>聊天配置</translation>
+      <translation>交谈配置</translation>
     </message>
     <message>
       <source>Online if</source>
@@ -14829,7 +14829,7 @@
     </message>
     <message>
       <source>List chat configuration</source>
-      <translation>列举聊天配置</translation>
+      <translation>列举交谈配置</translation>
     </message>
   </context>
   <context>
@@ -14856,7 +14856,7 @@
     </message>
     <message>
       <source>Reject chat</source>
-      <translation>拒绝此聊天</translation>
+      <translation>拒绝此交谈</translation>
     </message>
     <message>
       <source>Empty...</source>
@@ -14864,23 +14864,23 @@
     </message>
     <message>
       <source>Pending chat</source>
-      <translation>等待中聊天</translation>
+      <translation>等待中交谈</translation>
     </message>
     <message>
       <source>Active chat</source>
-      <translation>进行中聊天</translation>
+      <translation>进行中交谈</translation>
     </message>
     <message>
       <source>Closed chat</source>
-      <translation>已完成聊天</translation>
+      <translation>已完成交谈</translation>
     </message>
     <message>
       <source>Chatbox chat</source>
-      <translation>聊天框聊天</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chat</source>
-      <translation>客服人员聊天</translation>
+      <translation>客服人员交谈</translation>
     </message>
     <message>
       <source>Bot chat</source>
@@ -14888,7 +14888,7 @@
     </message>
     <message>
       <source>Chats list</source>
-      <translation>聊天列表</translation>
+      <translation>交谈列表</translation>
     </message>
     <message>
       <source>Nick</source>
@@ -14931,11 +14931,11 @@
     <name>chat/activechats</name>
     <message>
       <source>Close chat</source>
-      <translation>完成此聊天</translation>
+      <translation>完成此交谈</translation>
     </message>
     <message>
       <source>Delete chat</source>
-      <translation>删除此聊天</translation>
+      <translation>删除此交谈</translation>
     </message>
     <message>
       <source>Offline request</source>
@@ -14954,7 +14954,7 @@
     <name>chat/closedchats</name>
     <message>
       <source>Delete chat</source>
-      <translation>删除此聊天</translation>
+      <translation>删除此交谈</translation>
     </message>
     <message>
       <source>Empty...</source>
@@ -15004,27 +15004,27 @@
     </message>
     <message>
       <source>Automatic chats close, click to close old chats</source>
-      <translation>自动聊天关闭，点选关闭旧的聊天</translation>
+      <translation>自动交谈关闭，点选关闭旧的交谈</translation>
     </message>
     <message>
       <source>Automatic chats purge, click to purge old chats</source>
-      <translation>自动聊天记录清除，点选以清除旧的聊天</translation>
+      <translation>自动交谈记录清除，点选以清除旧的交谈</translation>
     </message>
     <message>
       <source>Update chats duration by using new algorithm</source>
-      <translation>使用新的演算法更新聊天持续时间</translation>
+      <translation>使用新的演算法更新交谈持续时间</translation>
     </message>
     <message>
       <source>Closed chats</source>
-      <translation>已完成聊天</translation>
+      <translation>已完成交谈</translation>
     </message>
     <message>
       <source>Purged chats</source>
-      <translation>已清除聊天</translation>
+      <translation>已清除交谈</translation>
     </message>
     <message>
       <source>Chats duration was updated</source>
-      <translation>聊天持续时间已更新</translation>
+      <translation>交谈持续时间已更新</translation>
     </message>
   </context>
   <context>
@@ -15043,7 +15043,7 @@
     </message>
     <message>
       <source>Unanswered chat numbers</source>
-      <translation>未回复聊天量</translation>
+      <translation>未回复交谈量</translation>
     </message>
     <message>
       <source>Message types</source>
@@ -15051,7 +15051,7 @@
     </message>
     <message>
       <source>Proactive chats number vs visitors initiated</source>
-      <translation>主动聊天量 vs 访客发起聊天量</translation>
+      <translation>主动交谈量 vs 访客发起交谈量</translation>
     </message>
     <message>
       <source>Device type</source>
@@ -15059,7 +15059,7 @@
     </message>
     <message>
       <source>Number of chats by subject</source>
-      <translation>聊天量（依主旨）</translation>
+      <translation>交谈量（依主旨）</translation>
     </message>
     <message>
       <source>Canned messages statistic</source>
@@ -15071,7 +15071,7 @@
     </message>
     <message>
       <source>Number of chats by country</source>
-      <translation>聊天量（依国家）</translation>
+      <translation>交谈量（依国家）</translation>
     </message>
     <message>
       <source>Number of messages by user</source>
@@ -15079,7 +15079,7 @@
     </message>
     <message>
       <source>Number of chats per hour, average chat duration</source>
-      <translation>每小时的聊天量，平均聊天时间</translation>
+      <translation>每小时的交谈量，平均交谈时间</translation>
     </message>
     <message>
       <source>Average wait time in seconds (maximum of 10 minutes)</source>
@@ -15087,7 +15087,7 @@
     </message>
     <message>
       <source>Number of chats by user</source>
-      <translation>聊天量（依用户）</translation>
+      <translation>交谈量（依用户）</translation>
     </message>
     <message>
       <source>Number of chats by user (participant)</source>
@@ -15115,7 +15115,7 @@
     </message>
     <message>
       <source>Average chat duration by user in seconds</source>
-      <translation>依用户平均聊天时间秒数</translation>
+      <translation>依用户平均交谈时间秒数</translation>
     </message>
     <message>
       <source>Usefull if you prefill usernames always</source>
@@ -15139,7 +15139,7 @@
     </message>
     <message>
       <source>Number of chats</source>
-      <translation>聊天量次数</translation>
+      <translation>交谈量次数</translation>
     </message>
     <message>
       <source>Unique records</source>
@@ -15219,7 +15219,7 @@
     </message>
     <message>
       <source>Average chats</source>
-      <translation>平均聊天</translation>
+      <translation>平均交谈</translation>
     </message>
     <message>
       <source>Max chats</source>
@@ -15255,7 +15255,7 @@
     </message>
     <message>
       <source>Total chats</source>
-      <translation>总聊天量</translation>
+      <translation>总交谈量</translation>
     </message>
     <message>
       <source>Proactive chats number vs visitor initiated</source>
@@ -15279,7 +15279,7 @@
     </message>
     <message>
       <source>Chats statistic</source>
-      <translation>聊天统计</translation>
+      <translation>交谈统计</translation>
     </message>
     <message>
       <source>Number of messages per interval</source>
@@ -15487,7 +15487,7 @@
     </message>
     <message>
       <source>Chats Started</source>
-      <translation>聊天开始</translation>
+      <translation>交谈开始</translation>
     </message>
     <message>
       <source>Abandoned Chats</source>
@@ -15531,7 +15531,7 @@
     </message>
     <message>
       <source>Chatbox chats</source>
-      <translation>聊天框聊天</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Last 24h statistics</source>
@@ -15583,7 +15583,7 @@
     </message>
     <message>
       <source>Operators statistic, top 100 by chats number</source>
-      <translation>客服人员统计，前 100 位（依聊天量）</translation>
+      <translation>客服人员统计，前 100 位（依交谈量）</translation>
     </message>
     <message>
       <source>Agents statistics</source>
@@ -15603,11 +15603,11 @@
     </message>
     <message>
       <source>Total active chats</source>
-      <translation>进行中聊天量总数</translation>
+      <translation>进行中交谈量总数</translation>
     </message>
     <message>
       <source>Total closed chats</source>
-      <translation>已完成聊天总数</translation>
+      <translation>已完成交谈总数</translation>
     </message>
     <message>
       <source>Total messages (including visitors, system and operator messages)</source>
@@ -15631,7 +15631,7 @@
     </message>
     <message>
       <source>Total pending chats</source>
-      <translation>等待中聊天总数</translation>
+      <translation>等待中交谈总数</translation>
     </message>
     <message>
       <source>Total statistics</source>
@@ -15639,7 +15639,7 @@
     </message>
     <message>
       <source>Unanswered chats</source>
-      <translation>未回复聊天</translation>
+      <translation>未回复交谈</translation>
     </message>
     <message>
       <source>Returning visitors</source>
@@ -15784,7 +15784,7 @@
     </message>
     <message>
       <source>You do not have permission to transfer chat directly!</source>
-      <translation>您无权直接转移聊天！</translation>
+      <translation>您无权直接转移交谈！</translation>
     </message>
     <message>
       <source>User could not be found!</source>
@@ -15816,7 +15816,7 @@
     </message>
     <message>
       <source>Started chat from</source>
-      <translation>开始聊天从</translation>
+      <translation>开始交谈从</translation>
     </message>
     <message>
       <source>Refered from</source>
@@ -15840,27 +15840,27 @@
     </message>
     <message>
       <source>Chat was closed!</source>
-      <translation>聊天已关闭。</translation>
+      <translation>交谈已关闭。</translation>
     </message>
     <message>
       <source>You do not have permission to close a chat!</source>
-      <translation>您无权关闭聊天！</translation>
+      <translation>您无权关闭交谈！</translation>
     </message>
     <message>
       <source>Chat was deleted!</source>
-      <translation>聊天已删除！</translation>
+      <translation>交谈已删除！</translation>
     </message>
     <message>
       <source>You do not have permission to delete a chat!</source>
-      <translation>您无权删除聊天！</translation>
+      <translation>您无权删除交谈！</translation>
     </message>
     <message>
       <source>Chat status was changed to pending!</source>
-      <translation>聊天状态已更改为待处理！</translation>
+      <translation>交谈状态已更改为待处理！</translation>
     </message>
     <message>
       <source>Chat status was changed to active!</source>
-      <translation>聊天状态已更改为有效！</translation>
+      <translation>交谈状态已更改为有效！</translation>
     </message>
     <message>
       <source>Remarks were saved!</source>
@@ -15984,7 +15984,7 @@
     </message>
     <message>
       <source>Sync for new chats, interval in seconds</source>
-      <translation>同步新的聊天，时间间隔以秒为单位</translation>
+      <translation>同步新的交谈，时间间隔以秒为单位</translation>
     </message>
     <message>
       <source>Check for messages from the operators, interval in seconds</source>
@@ -16008,11 +16008,11 @@
     </message>
     <message>
       <source>New chat request notification settings</source>
-      <translation>设定新聊天的请求通知</translation>
+      <translation>设定新交谈的请求通知</translation>
     </message>
     <message>
       <source>Play a new pending chat sound on a new chat request</source>
-      <translation>在新的聊天请求出现时，播放等待中聊天音效</translation>
+      <translation>在新的交谈请求出现时，播放等待中交谈音效</translation>
     </message>
     <message>
       <source>Play a sound on a new message for a back office user</source>
@@ -16024,7 +16024,7 @@
     </message>
     <message>
       <source>Show alert message on a new chat request</source>
-      <translation>在一个新的聊天请求中，显示警报消息</translation>
+      <translation>在一个新的交谈请求中，显示警报消息</translation>
     </message>
     <message>
       <source>How many times play sound notification</source>
@@ -16107,7 +16107,7 @@
     </message>
     <message>
       <source>Transfer a chat to one of your departments users</source>
-      <translation>转接聊天至你的部门人员</translation>
+      <translation>转接交谈至你的部门人员</translation>
     </message>
     <message>
       <source>Only logged and online operators</source>
@@ -16139,25 +16139,25 @@
     </message>
     <message>
       <source>Transfer chat</source>
-      <translation>转接聊天</translation>
+      <translation>转接交谈</translation>
     </message>
   </context>
   <context>
     <name>chat/userjoined</name>
     <message>
       <source>Visitor has joined the chat!</source>
-      <translation>访客已加入聊天 ！</translation>
+      <translation>访客已加入交谈 ！</translation>
     </message>
     <message>
       <source>Visitor has joined the chat from popup chat window!</source>
-      <translation>访客已从快显聊天视窗加入聊天 ！</translation>
+      <translation>访客已从快显交谈视窗加入交谈 ！</translation>
     </message>
   </context>
   <context>
     <name>chat/userleftchat</name>
     <message>
       <source>Visitor has left the chat!</source>
-      <translation>访客已离开聊天 ！</translation>
+      <translation>访客已离开交谈 ！</translation>
     </message>
     <message>
       <source>Visitor</source>
@@ -16181,14 +16181,14 @@
     </message>
     <message>
       <source>Visitor has closed the chat explicitly!</source>
-      <translation>访客已确定关闭聊天 ！</translation>
+      <translation>访客已确定关闭交谈 ！</translation>
     </message>
   </context>
   <context>
     <name>chatarchive/archive</name>
     <message>
       <source>Chat archive</source>
-      <translation>聊天建档</translation>
+      <translation>交谈建档</translation>
     </message>
     <message>
       <source>Archives list</source>
@@ -16219,7 +16219,7 @@
     </message>
     <message>
       <source>See archived chats</source>
-      <translation>查看已建档的聊天</translation>
+      <translation>查看已建档的交谈</translation>
     </message>
     <message>
       <source>See archived mails</source>
@@ -16296,7 +16296,7 @@
     </message>
     <message>
       <source>List chats</source>
-      <translation>聊天列表</translation>
+      <translation>交谈列表</translation>
     </message>
     <message>
       <source>Process again</source>
@@ -16412,7 +16412,7 @@
     </message>
     <message>
       <source>Archived chats</source>
-      <translation>已建档聊天</translation>
+      <translation>已建档交谈</translation>
     </message>
     <message>
       <source>Archived mails</source>
@@ -16431,7 +16431,7 @@
     <name>chatarchive/listarchivechats</name>
     <message>
       <source>Archived chats</source>
-      <translation>已建档聊天</translation>
+      <translation>已建档交谈</translation>
     </message>
     <message>
       <source>Information</source>
@@ -16971,7 +16971,7 @@
     </message>
     <message>
       <source>Group chat</source>
-      <translation>群组聊天</translation>
+      <translation>群组交谈</translation>
     </message>
     <message>
       <source>Operator</source>
@@ -17027,7 +17027,7 @@
     </message>
     <message>
       <source>Group chats</source>
-      <translation>群组聊天</translation>
+      <translation>群组交谈</translation>
     </message>
     <message>
       <source>Mail archive configuration</source>
@@ -17085,7 +17085,7 @@
     </message>
     <message>
       <source>Maximum number of active chats user can have at a time, 0 - unlimited</source>
-      <translation>用户能同时拥有的进行中聊天最大数量，0 - 无限</translation>
+      <translation>用户能同时拥有的进行中交谈最大数量，0 - 无限</translation>
     </message>
     <message>
       <source>Maximum number of department active chats, 0 - unlimited</source>
@@ -17097,7 +17097,7 @@
     </message>
     <message>
       <source>Automatically assign chat to another operator if operator did not accepted chat in seconds, 0 - disabled</source>
-      <translation>如果客服在几秒内没有接受聊天，将自动分配指派给另一位客服，0 - 禁用</translation>
+      <translation>如果客服在几秒内没有接受交谈，将自动分配指派给另一位客服，0 - 禁用</translation>
     </message>
     <message>
       <source>Minimum delay between chat assignment to operator</source>
@@ -17109,7 +17109,7 @@
     </message>
     <message>
       <source>Exclude inactive chats</source>
-      <translation>排除闲置聊天</translation>
+      <translation>排除闲置交谈</translation>
     </message>
     <message>
       <source>Pending and active chats which visitors has closed chats explicitly or visitors being redirected to survey will be excluded</source>
@@ -17255,7 +17255,7 @@
     </message>
     <message>
       <source>New group chat</source>
-      <translation>添加群组聊天</translation>
+      <translation>添加群组交谈</translation>
     </message>
     <message>
       <source>System configuration</source>
@@ -17481,7 +17481,7 @@
     </message>
     <message>
       <source>Chat</source>
-      <translation>聊天</translation>
+      <translation>交谈</translation>
     </message>
     <message>
       <source>Persistent</source>
@@ -19367,7 +19367,7 @@
     </message>
     <message>
       <source>Conversations</source>
-      <translation>聊天</translation>
+      <translation>对话</translation>
     </message>
     <message>
       <source>View</source>
@@ -20780,7 +20780,7 @@
     </message>
     <message>
       <source>Chat ID</source>
-      <translation>聊天 ID</translation>
+      <translation>交谈 ID</translation>
     </message>
     <message>
       <source>Online Visitor ID</source>
@@ -20853,7 +20853,7 @@
     <name>notification/list</name>
     <message>
       <source>Chat ID</source>
-      <translation>聊天 ID</translation>
+      <translation>交谈 ID</translation>
     </message>
     <message>
       <source>Department</source>
@@ -20979,11 +20979,11 @@
     <name>paidchat/expiredchat</name>
     <message>
       <source>Chat</source>
-      <translation>聊天</translation>
+      <translation>交谈</translation>
     </message>
     <message>
       <source>Chat was closed.</source>
-      <translation>聊天已关闭。</translation>
+      <translation>交谈已关闭。</translation>
     </message>
     <message>
       <source>Invalid hash</source>
@@ -21006,7 +21006,7 @@
     </message>
     <message>
       <source>User can not access old chat if chat is closed</source>
-      <translation>完成聊天后，用户将不能连接旧的聊天</translation>
+      <translation>完成交谈后，用户将不能连接旧的交谈</translation>
     </message>
     <message>
       <source>Secret hash, used for verification</source>
@@ -21769,7 +21769,7 @@
     </message>
     <message>
       <source>Choose speech recognition language for this chat</source>
-      <translation>选择此聊天的语音辨识语言</translation>
+      <translation>选择此交谈的语音辨识语言</translation>
     </message>
     <message>
       <source>Default speech recognition language</source>
@@ -21831,7 +21831,7 @@
     </message>
     <message>
       <source>Chat started</source>
-      <translation>开始聊天</translation>
+      <translation>开始交谈</translation>
     </message>
     <message>
       <source>Visitor started chat by online invitation</source>
@@ -21925,11 +21925,11 @@
     </message>
     <message>
       <source>Chats</source>
-      <translation>聊天记录</translation>
+      <translation>交谈记录</translation>
     </message>
     <message>
       <source>Chat</source>
-      <translation>聊天</translation>
+      <translation>交谈</translation>
     </message>
     <message>
       <source>Department</source>
@@ -21968,7 +21968,7 @@
     <name>survey/fill</name>
     <message>
       <source>Preview chat</source>
-      <translation>预览聊天</translation>
+      <translation>预览交谈</translation>
     </message>
     <message>
       <source>star</source>
@@ -22209,7 +22209,7 @@
     </message>
     <message>
       <source>Conversations</source>
-      <translation>聊天</translation>
+      <translation>对话</translation>
     </message>
     <message>
       <source>Mail archive</source>
@@ -22594,7 +22594,7 @@
     </message>
     <message>
       <source>Chat nickname</source>
-      <translation>聊天暱称</translation>
+      <translation>交谈暱称</translation>
     </message>
     <message>
       <source>Name</source>
@@ -23995,7 +23995,7 @@
     </message>
     <message>
       <source>has joined the chat!</source>
-      <translation>已加入聊天 ！</translation>
+      <translation>已加入交谈 ！</translation>
     </message>
     <message>
       <source>has accepted a transferred chat!</source>
@@ -24018,11 +24018,11 @@
     </message>
     <message>
       <source>Pending chats number</source>
-      <translation>等待中聊天编号</translation>
+      <translation>等待中交谈编号</translation>
     </message>
     <message>
       <source>Active chats number</source>
-      <translation>进行中聊天编号</translation>
+      <translation>进行中交谈编号</translation>
     </message>
     <message>
       <source>Visitor Name</source>
@@ -24190,7 +24190,7 @@
     </message>
     <message>
       <source>Chat content</source>
-      <translation>聊天内容</translation>
+      <translation>交谈内容</translation>
     </message>
     <message>
       <source>Messages</source>
@@ -24254,7 +24254,7 @@
     </message>
     <message>
       <source>Chat average in seconds</source>
-      <translation>平均聊天时间 / 秒</translation>
+      <translation>平均交谈时间 / 秒</translation>
     </message>
     <message>
       <source>Agent</source>
@@ -24262,7 +24262,7 @@
     </message>
     <message>
       <source>Chats</source>
-      <translation>聊天</translation>
+      <translation>交谈</translation>
     </message>
     <message>
       <source>Total number of chats</source>
@@ -24397,7 +24397,7 @@
     </message>
     <message>
       <source>has closed the chat!</source>
-      <translation>已完成此聊天</translation>
+      <translation>已完成此交谈</translation>
     </message>
     <message>
       <source>has changed chat status to pending!</source>
@@ -24488,7 +24488,7 @@
     </message>
     <message>
       <source>Please enter chat id!</source>
-      <translation>请输入聊天ID！</translation>
+      <translation>请输入交谈ID！</translation>
     </message>
     <message>
       <source>Please enter a name!</source>
@@ -24676,11 +24676,11 @@
     </message>
     <message>
       <source>Could not find chat by chat_id!</source>
-      <translation>找不到通过chat_id进行的聊天！</translation>
+      <translation>找不到通过chat_id进行的交谈！</translation>
     </message>
     <message>
       <source>You do not have permission to read this chat!</source>
-      <translation>您无权阅读此聊天！</translation>
+      <translation>您无权阅读此交谈！</translation>
     </message>
   </context>
   <context>
@@ -24729,7 +24729,7 @@
     <name>chat/deletechatadmin</name>
     <message>
       <source>You do not have rights to delete a chat</source>
-      <translation>您没有权限删除聊天</translation>
+      <translation>您没有权限删除交谈</translation>
     </message>
   </context>
   <context>
@@ -24766,7 +24766,7 @@
     <name>chat/single</name>
     <message>
       <source>Chat started with</source>
-      <translation>开始聊天</translation>
+      <translation>开始交谈</translation>
     </message>
   </context>
   <context>
@@ -24800,15 +24800,15 @@
     </message>
     <message>
       <source>Chat owner was changed to</source>
-      <translation>聊天所有者已更改为</translation>
+      <translation>交谈所有者已更改为</translation>
     </message>
     <message>
       <source>has transferred chat to</source>
-      <translation>已将聊天转移到</translation>
+      <translation>已将交谈转移到</translation>
     </message>
     <message>
       <source>Chat was assigned to selected department</source>
-      <translation>聊天已分配给所选部门</translation>
+      <translation>交谈已分配给所选部门</translation>
     </message>
     <message>
       <source>Chat was assigned to selected user</source>
@@ -24837,7 +24837,7 @@
     <name>chatarchive/viewarchivedchat</name>
     <message>
       <source>View archived chat</source>
-      <translation>查看已存档的聊天</translation>
+      <translation>查看已存档的交谈</translation>
     </message>
   </context>
   <context>
@@ -24851,19 +24851,19 @@
     <name>lhchatsettings/startchat</name>
     <message>
       <source>Start chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始交谈表单设定</translation>
     </message>
     <message>
       <source>Start chat settings list</source>
-      <translation>开始聊天设置列表</translation>
+      <translation>开始交谈设置列表</translation>
     </message>
     <message>
       <source>Edit start chat settings</source>
-      <translation>编辑开始聊天设置</translation>
+      <translation>编辑开始交谈设置</translation>
     </message>
     <message>
       <source>New start chat settings</source>
-      <translation>新的开始聊天设置</translation>
+      <translation>新的开始交谈设置</translation>
     </message>
   </context>
   <context>
@@ -24920,15 +24920,15 @@
     </message>
     <message>
       <source>Group chats list</source>
-      <translation>群组聊天列表</translation>
+      <translation>群组交谈列表</translation>
     </message>
     <message>
       <source>Group chats</source>
-      <translation>群组聊天</translation>
+      <translation>群组交谈</translation>
     </message>
     <message>
       <source>New group chat</source>
-      <translation>添加群组聊天</translation>
+      <translation>添加群组交谈</translation>
     </message>
   </context>
   <context>
@@ -25020,7 +25020,7 @@
     <name>chat/backtochat</name>
     <message>
       <source>Visitor has been redirected back to chat!</source>
-      <translation>访客已被重定向回聊天！</translation>
+      <translation>访客已被重定向回交谈！</translation>
     </message>
   </context>
   <context>
