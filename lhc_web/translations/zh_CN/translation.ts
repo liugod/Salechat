@@ -167,7 +167,7 @@
     </message>
     <message>
       <source>Cookie should be valid only for domain where Javascript is embedded</source>
-      <translation>Cookie仅对嵌入了 Javascript 的网域有效</translation>
+      <translation>Cookie仅对嵌入了Javascript的网域有效</translation>
     </message>
     <message>
       <source>Need help tooltip timeout, after how many hours show again tooltip?</source>
@@ -3691,11 +3691,11 @@
     </message>
     <message>
       <source>XMPP recipients</source>
-      <translation>XMPP 收件者</translation>
+      <translation>XMPP收件者</translation>
     </message>
     <message>
       <source>XMPP group recipients</source>
-      <translation>XMPP 群组收件者</translation>
+      <translation>XMPP群组收件者</translation>
     </message>
     <message>
       <source>E.g somechat@conference.server.org/LiveChat</source>
@@ -3711,15 +3711,15 @@
     </message>
     <message>
       <source>XMPP messages</source>
-      <translation>XMPP 邮件</translation>
+      <translation>XMPP邮件</translation>
     </message>
     <message>
       <source>Send XMPP messages to all department operators</source>
-      <translation>XMPP 消息发送到所有部门运营商</translation>
+      <translation>XMPP消息发送到所有部门运营商</translation>
     </message>
     <message>
       <source>Mail messages</source>
-      <translation>Mail 消息</translation>
+      <translation>Mail消息</translation>
     </message>
     <message>
       <source>How many seconds chat can be pending before about chat is informed a staff</source>
@@ -3895,7 +3895,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>These bot logic applies also</source>
@@ -4194,7 +4194,7 @@
     </message>
     <message>
       <source>Requires e-mail</source>
-      <translation>E-mail 请求</translation>
+      <translation>电子邮件请求</translation>
     </message>
     <message>
       <source>Requires name</source>
@@ -4912,7 +4912,7 @@
     </message>
     <message>
       <source>CSV</source>
-      <translation>CSV</translation>
+      <translation>CSV文件</translation>
     </message>
     <message>
       <source>Import</source>
@@ -5176,7 +5176,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>First response time (agent)</source>
@@ -5316,7 +5316,7 @@
     </message>
     <message>
       <source>Chatbox chats</source>
-      <translation>Chatbox 交谈</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chats</source>
@@ -6351,11 +6351,11 @@
     </message>
     <message>
       <source>Use only In-Reply value as reference to the thread. Otherwise Reference attribute also would be used.</source>
-      <translation>Use only In-Reply value as reference to the thread. Otherwise Reference attribute also would be used.</translation>
+      <translation>仅使用In-Reply值作为线程参考。否则也会使用Reference属性。</translation>
     </message>
     <message>
       <source>Import messages n hours old from present time</source>
-      <translation>Import messages n hours old from present time</translation>
+      <translation>从当前时间导入n小时前的消息</translation>
     </message>
     <message>
       <source>48 hours is default.</source>
@@ -6363,15 +6363,15 @@
     </message>
     <message>
       <source>User present time to import messages from instead of last import time.</source>
-      <translation>User present time to import messages from instead of last import time.</translation>
+      <translation>用户指定时间导入消息，而不是上次导入时间。</translation>
     </message>
     <message>
       <source>Import since this unix timestamp.</source>
-      <translation>Import since this unix timestamp.</translation>
+      <translation>从此Unix时间戳开始导入。</translation>
     </message>
     <message>
       <source>Set to now</source>
-      <translation>Set to now</translation>
+      <translation>设为现在</translation>
     </message>
     <message>
       <source>Import</source>
@@ -6379,55 +6379,55 @@
     </message>
     <message>
       <source>On a new mail arrival, default</source>
-      <translation>On a new mail arrival, default</translation>
+      <translation>新邮件到达时，默认</translation>
     </message>
     <message>
       <source>Every half hour</source>
-      <translation>Every half hour</translation>
+      <translation>每半小时</translation>
     </message>
     <message>
       <source>Every hour</source>
-      <translation>Every hour</translation>
+      <translation>每小时</translation>
     </message>
     <message>
       <source>Every two hour</source>
-      <translation>Every two hour</translation>
+      <translation>每两小时</translation>
     </message>
     <message>
       <source>Every three hour</source>
-      <translation>Every three hour</translation>
+      <translation>每三小时</translation>
     </message>
     <message>
       <source>Every 6 hours</source>
-      <translation>Every 6 hours</translation>
+      <translation>每6小时</translation>
     </message>
     <message>
       <source>Every 12 hours</source>
-      <translation>Every 12 hours</translation>
+      <translation>每12小时</translation>
     </message>
     <message>
       <source>Every 24 hours</source>
-      <translation>Every 24 hours</translation>
+      <translation>每24小时</translation>
     </message>
     <message>
       <source>Timeout in days after last response before we create a new issue</source>
-      <translation>Timeout in days after last response before we create a new issue</translation>
+      <translation>最后响应后创建新问题前的超时天数</translation>
     </message>
     <message>
       <source>Un-assing operator on closed ticket re-open</source>
-      <translation>Un-assing operator on closed ticket re-open</translation>
+      <translation>重新打开已关闭工单时取消分配客服</translation>
     </message>
     <message>
       <source>Import priority. If mail is send to two mailbox and we handle both, only mail with higher mailbox priority will be processed.</source>
-      <translation>Import priority. If mail is send to two mailbox and we handle both, only mail with higher mailbox priority will be processed.</translation>
+      <translation>导入优先级。如果邮件发送到两个邮箱且我们都处理，只会处理优先级更高的邮箱邮件。</translation>
     </message>
     <message>
       <source>Close conversations older than n days. Only conversations of the active mailboxes will be closed.</source>
-      <translation>Close conversations older than n days. Only conversations of the active mailboxes will be closed.</translation>
+      <translation>关闭超过n天的对话。只有活跃邮箱的对话会被关闭。</translation>
     </message>
     <message>
       <source>What status conversations we should close?</source>
-      <translation>What status conversations we should close?</translation>
+      <translation>我们应该关闭什么状态的对话？</translation>
     </message>
     <message>
       <source>Pending</source>
@@ -6435,11 +6435,11 @@
     </message>
     <message>
       <source>Reset and import</source>
-      <translation>Reset and import</translation>
+      <translation>重置并导入</translation>
     </message>
     <message>
       <source>Reset import status</source>
-      <translation>Reset import status</translation>
+      <translation>重置导入状态</translation>
     </message>
     <message>
       <source>In progress</source>
@@ -6451,7 +6451,7 @@
     </message>
     <message>
       <source>Last sync finished</source>
-      <translation>Last sync finished</translation>
+      <translation>上次同步完成</translation>
     </message>
     <message>
       <source>ago</source>
@@ -6459,39 +6459,39 @@
     </message>
     <message>
       <source>Last sync started</source>
-      <translation>Last sync started</translation>
+      <translation>上次同步开始</translation>
     </message>
     <message>
       <source>Last processed</source>
-      <translation>Last processed</translation>
+      <translation>最后处理</translation>
     </message>
     <message>
       <source>UUID Next status</source>
-      <translation>UUID Next status</translation>
+      <translation>UUID下一状态</translation>
     </message>
     <message>
       <source>Sync log</source>
-      <translation>Sync log</translation>
+      <translation>同步日志</translation>
     </message>
     <message>
       <source>Matching rules</source>
-      <translation>Matching rules</translation>
+      <translation>匹配规则</translation>
     </message>
     <message>
       <source>Put signature directly under reply</source>
-      <translation>Put signature directly under reply</translation>
+      <translation>将签名直接放在回复下方</translation>
     </message>
     <message>
       <source>Supported replaceable variable.</source>
-      <translation>Supported replaceable variable.</translation>
+      <translation>支持的可替换变量。</translation>
     </message>
     <message>
       <source>Real operator Name and Surname</source>
-      <translation>Real operator Name and Surname</translation>
+      <translation>真实客服姓名</translation>
     </message>
     <message>
       <source>Operator chat Nick name if filled, otherwise real  Name and Surname</source>
-      <translation>Operator chat Nick name if filled, otherwise real  Name and Surname</translation>
+      <translation>客服聊天昵称（如已填写），否则为真实姓名</translation>
     </message>
     <message>
       <source>Updated</source>
@@ -6499,7 +6499,7 @@
     </message>
     <message>
       <source>Choose a user</source>
-      <translation>Choose a user</translation>
+      <translation>选择用户</translation>
     </message>
     <message>
       <source>Default department</source>
@@ -6791,151 +6791,151 @@
     </message>
     <message>
       <source>List of members</source>
-      <translation>List of members</translation>
+      <translation>成员列表</translation>
     </message>
     <message>
       <source>Mailing recipient</source>
-      <translation>Mailing recipient</translation>
+      <translation>邮寄收件人</translation>
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Attribute string 1</source>
-      <translation>Attribute string 1</translation>
+      <translation>属性字符串1</translation>
     </message>
     <message>
       <source>Attribute string 2</source>
-      <translation>Attribute string 2</translation>
+      <translation>属性字符串2</translation>
     </message>
     <message>
       <source>Attribute string 3</source>
-      <translation>Attribute string 3</translation>
+      <translation>属性字符串3</translation>
     </message>
     <message>
       <source>Attribute string 4</source>
-      <translation>Attribute string 4</translation>
+      <translation>属性字符串4</translation>
     </message>
     <message>
       <source>Attribute string 5</source>
-      <translation>Attribute string 5</translation>
+      <translation>属性字符串5</translation>
     </message>
     <message>
       <source>Attribute string 6</source>
-      <translation>Attribute string 6</translation>
+      <translation>属性字符串6</translation>
     </message>
     <message>
       <source>Recipient was created</source>
-      <translation>Recipient was created</translation>
+      <translation>收件人已创建</translation>
     </message>
     <message>
       <source>Ticket owner workflow</source>
-      <translation>Ticket owner workflow</translation>
+      <translation>工单所有者工作流</translation>
     </message>
     <message>
       <source>Campaign creator will be an owner of the ticket</source>
-      <translation>Campaign creator will be an owner of the ticket</translation>
+      <translation>活动创建者将成为工单的所有者</translation>
     </message>
     <message>
       <source>Me</source>
-      <translation>Me</translation>
+      <translation>我</translation>
     </message>
     <message>
       <source>Ticket will follow standard mailbox rules</source>
-      <translation>Ticket will follow standard mailbox rules</translation>
+      <translation>工单将遵循标准邮箱规则</translation>
     </message>
     <message>
       <source>Selected user will be assigned as ticket owner</source>
-      <translation>Selected user will be assigned as ticket owner</translation>
+      <translation>所选用户将被分配为工单所有者</translation>
     </message>
     <message>
       <source>Dedicated ticket user</source>
-      <translation>Dedicated ticket user</translation>
+      <translation>专用工单用户</translation>
     </message>
     <message>
       <source>Activate campaign</source>
-      <translation>Activate campaign</translation>
+      <translation>激活活动</translation>
     </message>
     <message>
       <source>Only once the campaign is activated we will start sending e-mails. Progress you can see in statistic tab.</source>
-      <translation>Only once the campaign is activated we will start sending e-mails. Progress you can see in statistic tab.</translation>
+      <translation>只有激活活动后，我们才会开始发送电子邮件。进度可在统计选项卡中查看。</translation>
     </message>
     <message>
       <source>As active</source>
-      <translation>As active</translation>
+      <translation>作为活跃状态</translation>
     </message>
     <message>
       <source>Created ticket will be created as active one</source>
-      <translation>Created ticket will be created as active one</translation>
+      <translation>创建的工单将作为活跃工单创建</translation>
     </message>
     <message>
       <source>Start sending at</source>
-      <translation>Start sending at</translation>
+      <translation>开始发送时间</translation>
     </message>
     <message>
       <source>Pending, campaign has not started yet.</source>
-      <translation>Pending, campaign has not started yet.</translation>
+      <translation>待处理，活动尚未开始。</translation>
     </message>
     <message>
       <source>Set campaign status to pending. E.g You can activate it again if you have added more recipients.</source>
-      <translation>Set campaign status to pending. E.g You can activate it again if you have added more recipients.</translation>
+      <translation>将活动状态设为待处理。例如，如果您添加了更多收件人，可以再次激活它。</translation>
     </message>
     <message>
       <source>you can set a mailbox to send from per recipient</source>
-      <translation>you can set a mailbox to send from per recipient</translation>
+      <translation>您可以为每个收件人设置发送邮箱</translation>
     </message>
     <message>
       <source>Use in campaign body - {args.recipient.name}</source>
-      <translation>Use in campaign body - {args.recipient.name}</translation>
+      <translation>在活动正文中使用 - {args.recipient.name}</translation>
     </message>
     <message>
       <source>String attribute 1</source>
-      <translation>String attribute 1</translation>
+      <translation>字符串属性1</translation>
     </message>
     <message>
       <source>Use in campaign body - {args.recipient.attr_str_1}</source>
-      <translation>Use in campaign body - {args.recipient.attr_str_1}</translation>
+      <translation>在活动正文中使用 - {args.recipient.attr_str_1}</translation>
     </message>
     <message>
       <source>String attribute 2</source>
-      <translation>String attribute 2</translation>
+      <translation>字符串属性2</translation>
     </message>
     <message>
       <source>Use in campaign body - {args.recipient.attr_str_2}</source>
-      <translation>Use in campaign body - {args.recipient.attr_str_2}</translation>
+      <translation>在活动正文中使用 - {args.recipient.attr_str_2}</translation>
     </message>
     <message>
       <source>String attribute 3</source>
-      <translation>String attribute 3</translation>
+      <translation>字符串属性3</translation>
     </message>
     <message>
       <source>Use in campaign body - {args.recipient.attr_str_3}</source>
-      <translation>Use in campaign body - {args.recipient.attr_str_3}</translation>
+      <translation>在活动正文中使用 - {args.recipient.attr_str_3}</translation>
     </message>
     <message>
       <source>String attribute 4</source>
-      <translation>String attribute 4</translation>
+      <translation>字符串属性4</translation>
     </message>
     <message>
       <source>Use in campaign body - {args.recipient.attr_str_4}</source>
-      <translation>Use in campaign body - {args.recipient.attr_str_4}</translation>
+      <translation>在活动正文中使用 - {args.recipient.attr_str_4}</translation>
     </message>
     <message>
       <source>String attribute 5</source>
-      <translation>String attribute 5</translation>
+      <translation>字符串属性5</translation>
     </message>
     <message>
       <source>Use in campaign body - {args.recipient.attr_str_5}</source>
-      <translation>Use in campaign body - {args.recipient.attr_str_5}</translation>
+      <translation>在活动正文中使用 - {args.recipient.attr_str_5}</translation>
     </message>
     <message>
       <source>String attribute 6</source>
-      <translation>String attribute 6</translation>
+      <translation>字符串属性6</translation>
     </message>
     <message>
       <source>Use in campaign body - {args.recipient.attr_str_6}</source>
-      <translation>Use in campaign body - {args.recipient.attr_str_6}</translation>
+      <translation>在活动正文中使用 - {args.recipient.attr_str_6}</translation>
     </message>
     <message>
       <source>Disabled</source>
@@ -6951,11 +6951,11 @@
     </message>
     <message>
       <source>This list was updated. Please</source>
-      <translation>This list was updated. Please</translation>
+      <translation>此列表已更新。请</translation>
     </message>
     <message>
       <source>refresh</source>
-      <translation>refresh</translation>
+      <translation>刷新</translation>
     </message>
     <message>
       <source>Import last N E-mails. Default 100.</source>
@@ -6970,23 +6970,23 @@
     <name>abstract/message_protection</name>
     <message>
       <source>Add an e-mail masking</source>
-      <translation>Add an e-mail masking</translation>
+      <translation>添加电子邮件掩码</translation>
     </message>
     <message>
       <source>Add a credit card masking</source>
-      <translation>Add a credit card masking</translation>
+      <translation>添加信用卡掩码</translation>
     </message>
     <message>
       <source>Replaces all numbers in the message</source>
-      <translation>Replaces all numbers in the message</translation>
+      <translation>替换消息中的所有数字</translation>
     </message>
     <message>
       <source>Add a preg match sample</source>
-      <translation>Add a preg match sample</translation>
+      <translation>添加正则表达式匹配示例</translation>
     </message>
     <message>
       <source>New rule per row.</source>
-      <translation>New rule per row.</translation>
+      <translation>每行一个新规则。</translation>
     </message>
     <message>
       <source>Rule ||| Replace symbol</source>
@@ -6994,19 +6994,19 @@
     </message>
     <message>
       <source>Sample</source>
-      <translation>Sample</translation>
+      <translation>示例</translation>
     </message>
     <message>
       <source>Test masking</source>
-      <translation>Test masking</translation>
+      <translation>测试掩码</translation>
     </message>
     <message>
       <source>Message to test against</source>
-      <translation>Message to test against</translation>
+      <translation>要测试的消息</translation>
     </message>
     <message>
       <source>Rules to test</source>
-      <translation>Rules to test</translation>
+      <translation>要测试的规则</translation>
     </message>
     <message>
       <source>Output</source>
@@ -7021,7 +7021,7 @@
     <name>user/edit</name>
     <message>
       <source>Application default Time Zone</source>
-      <translation>Application default Time Zone</translation>
+      <translation>应用程序默认时区</translation>
     </message>
     <message>
       <source>Photo</source>
@@ -7053,7 +7053,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Chat nickname</source>
@@ -7101,7 +7101,7 @@
     </message>
     <message>
       <source>Password reset requested by</source>
-      <translation>Password reset requested by</translation>
+      <translation>密码重置请求者</translation>
     </message>
     <message>
       <source>System configuration</source>
@@ -7253,7 +7253,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Enter your email address</source>
@@ -9202,7 +9202,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>Date</source>
@@ -9310,7 +9310,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Maximum number of chats operator can have.</source>
@@ -9600,7 +9600,7 @@
     </message>
     <message>
       <source>Chatbox chat</source>
-      <translation>Chatbox 交谈</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chat</source>
@@ -9660,7 +9660,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>First response time (agent)</source>
@@ -10435,7 +10435,7 @@
     </message>
     <message>
       <source>Me</source>
-      <translation>Me</translation>
+      <translation>我</translation>
     </message>
     <message>
       <source>You are working as a chat owner.</source>
@@ -10483,7 +10483,7 @@
     </message>
     <message>
       <source>Chatbox chat</source>
-      <translation>Chatbox 交谈</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chat</source>
@@ -10767,7 +10767,7 @@
     <name>chat/blockedusers</name>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>Nick/Email</source>
@@ -10823,7 +10823,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Online user</source>
@@ -11102,7 +11102,7 @@
     </message>
     <message>
       <source>Email</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Your email address</source>
@@ -12857,7 +12857,7 @@
     </message>
     <message>
       <source>Me</source>
-      <translation>Me</translation>
+      <translation>我</translation>
     </message>
     <message>
       <source>Please wait untill operator let's you join the call</source>
@@ -14055,7 +14055,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Recipient e-mail</source>
@@ -14876,7 +14876,7 @@
     </message>
     <message>
       <source>Chatbox chat</source>
-      <translation>Chatbox 交谈</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Operators chat</source>
@@ -15531,7 +15531,7 @@
     </message>
     <message>
       <source>Chatbox chats</source>
-      <translation>Chatbox 交谈</translation>
+      <translation>聊天框对话</translation>
     </message>
     <message>
       <source>Last 24h statistics</source>
@@ -16847,7 +16847,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Hidden</source>
@@ -17317,7 +17317,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Question</source>
@@ -17782,7 +17782,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>View</source>
@@ -19299,7 +19299,7 @@
     </message>
     <message>
       <source>Matching rules</source>
-      <translation>Matching rules</translation>
+      <translation>匹配规则</translation>
     </message>
     <message>
       <source>Personal Mailbox Rules</source>
@@ -19651,7 +19651,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Recipient name</source>
@@ -19699,7 +19699,7 @@
     </message>
     <message>
       <source>Mailing recipient</source>
-      <translation>Mailing recipient</translation>
+      <translation>邮寄收件人</translation>
     </message>
     <message>
       <source>Campaigns</source>
@@ -19785,7 +19785,7 @@
     </message>
     <message>
       <source>Matching rules</source>
-      <translation>Matching rules</translation>
+      <translation>匹配规则</translation>
     </message>
     <message>
       <source>ID</source>
@@ -19916,7 +19916,7 @@
     </message>
     <message>
       <source>Supported replaceable variable.</source>
-      <translation>Supported replaceable variable.</translation>
+      <translation>支持的可替换变量。</translation>
     </message>
     <message>
       <source>and</source>
@@ -20385,7 +20385,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>Country, 2 letters code</source>
@@ -20393,7 +20393,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Chat ID field location</source>
@@ -20788,7 +20788,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>Last error</source>
@@ -20869,7 +20869,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>Registration time</source>
@@ -21441,7 +21441,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>View</source>
@@ -22189,7 +22189,7 @@
     </message>
     <message>
       <source>Matching rules</source>
-      <translation>Matching rules</translation>
+      <translation>匹配规则</translation>
     </message>
     <message>
       <source>Response templates</source>
@@ -22582,7 +22582,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Password</source>
@@ -22973,7 +22973,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Restore password</source>
@@ -23011,7 +23011,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Name</source>
@@ -24030,7 +24030,7 @@
     </message>
     <message>
       <source>E-mail</source>
-      <translation>E-mail</translation>
+      <translation>电子邮件</translation>
     </message>
     <message>
       <source>Phone</source>
@@ -24058,7 +24058,7 @@
     </message>
     <message>
       <source>IP</source>
-      <translation>IP</translation>
+      <translation>IP地址</translation>
     </message>
     <message>
       <source>Operator</source>
