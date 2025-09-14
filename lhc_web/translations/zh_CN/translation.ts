@@ -39,11 +39,11 @@
     </message>
     <message>
       <source>Should mouse movement be tracked as activity measure, if not checked only basic events would be tracked</source>
-      <translation>滑鼠移动会作为活动量被追踪，如果不勾选只有基本的事件会被追踪</translation>
+      <translation>鼠标移动会作为活动量被追踪，如果不勾选只有基本的事件会被追踪</translation>
     </message>
     <message>
       <source>Track is user still on site, chat status checks also has to be enabled</source>
-      <translation>路径追踪的是仍然网站上、 聊天状态检查也已经启用的使用者</translation>
+      <translation>路径追踪的是仍然网站上、 聊天状态检查也已经启用的用户</translation>
     </message>
     <message>
       <source>Track online visitors even if there is no online operators</source>
@@ -51,27 +51,27 @@
     </message>
     <message>
       <source>Track users footprint. For this also online visitors tracking should be enabled</source>
-      <translation>追踪使用者的足迹。必须先启用在线访客追踪功能</translation>
+      <translation>追踪用户的足迹。必须先启用在线访客追踪功能</translation>
     </message>
     <message>
       <source>Set your domain to enable user tracking across different domain subdomains.</source>
-      <translation>设定您的网域，让使用者能追踪跨不同网域的子网域。</translation>
+      <translation>设定您的网域，让用户能追踪跨不同网域的子网域。</translation>
     </message>
     <message>
       <source>Track users activity on site?</source>
-      <translation>在网站上跟踪使用者活动吗？</translation>
+      <translation>在网站上跟踪用户活动吗？</translation>
     </message>
     <message>
       <source>How many days keep records of online users.</source>
-      <translation>保持多少天在线使用者记录。</translation>
+      <translation>保持多少天在线用户记录。</translation>
     </message>
     <message>
       <source>How many days keep records of users footprint.</source>
-      <translation>保持多少天使用者足迹。</translation>
+      <translation>保持多少天用户足迹。</translation>
     </message>
     <message>
       <source>Suggest user to leave a message then user chooses offline department</source>
-      <translation>建议使用者留言，然后让使用者选择离线的部门</translation>
+      <translation>建议用户留言，然后让用户选择离线的部门</translation>
     </message>
     <message>
       <source>Play sound on invitation to chat.</source>
@@ -79,11 +79,11 @@
     </message>
     <message>
       <source>Show users option to switch language at widget</source>
-      <translation>在小部件中显示切换语言的使用者选项</translation>
+      <translation>在小部件中显示切换语言的用户选项</translation>
     </message>
     <message>
       <source>Between what languages user should be able to switch</source>
-      <translation>使用者能在什么语言之间任意切换</translation>
+      <translation>用户能在什么语言之间任意切换</translation>
     </message>
     <message>
       <source>Host where NodeJs is running</source>
@@ -107,7 +107,7 @@
     </message>
     <message>
       <source>Do not ask permission for users to see their screen</source>
-      <translation>不需经过使用者许可，即能查看他们的萤幕</translation>
+      <translation>不需经过用户许可，即能查看他们的萤幕</translation>
     </message>
     <message>
       <source>Use session captcha. LHC have to be installed on the same domain or subdomain.</source>
@@ -119,7 +119,7 @@
     </message>
     <message>
       <source>Should cronjob run departments transfer workflow, even if user leaves a chat</source>
-      <translation>是否 Cronjob 应该运行部门转移工作流，即使使用者离开了交谈</translation>
+      <translation>是否 Cronjob 应该运行部门转移工作流，即使用户离开了交谈</translation>
     </message>
     <message>
       <source>Make default pending chats order from old to new</source>
@@ -223,7 +223,7 @@
     </message>
     <message>
       <source>Ignore users online statuses and use departments online hours</source>
-      <translation>使用部门在线时间，并忽略使用者在线状态</translation>
+      <translation>使用部门在线时间，并忽略用户在线状态</translation>
     </message>
     <message>
       <source>Do not store what visitor is typing</source>
@@ -391,11 +391,11 @@
     </message>
     <message>
       <source>Support application name, visible in browser title.</source>
-      <translation>支援应用程式的名称，在浏览器标题中可被看见。</translation>
+      <translation>支援应用程序的名称，在浏览器标题中可被看见。</translation>
     </message>
     <message>
       <source>Allow user to reopen closed chats?</source>
-      <translation>允许使用者重启已完成聊天？</translation>
+      <translation>允许用户重启已完成聊天？</translation>
     </message>
     <message>
       <source>Track all logged operators activity and ignore their individual settings.</source>
@@ -446,7 +446,7 @@
     </message>
     <message>
       <source>New</source>
-      <translation>新增</translation>
+      <translation>添加</translation>
     </message>
     <message>
       <source>Reload back office for operators. Requires NodeJS</source>
@@ -847,7 +847,7 @@
     </message>
     <message>
       <source>Build your own need help widget layout</source>
-      <translation>建立自己的需要幫助小部件布局</translation>
+      <translation>创建自己的需要幫助小部件布局</translation>
     </message>
     <message>
       <source>Set default HTML</source>
@@ -907,7 +907,7 @@
     </message>
     <message>
       <source>Add translation</source>
-      <translation>新增翻译</translation>
+      <translation>添加翻译</translation>
     </message>
     <message>
       <source>Requires - `Can be passed as argument` option to be checked.</source>
@@ -2166,7 +2166,7 @@
     </message>
     <message>
       <source>User</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Wait message. Visible when users starts chat and is waiting for someone to accept a chat.</source>
@@ -2880,7 +2880,7 @@
     </message>
     <message>
       <source>Add translation</source>
-      <translation>新增翻译</translation>
+      <translation>添加翻译</translation>
     </message>
     <message>
       <source>Search for language. Enter * to see all.</source>
@@ -2992,7 +2992,7 @@
     </message>
     <message>
       <source>User</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Delay</source>
@@ -3028,7 +3028,7 @@
     </message>
     <message>
       <source>New canned message</source>
-      <translation>新增罐头讯息</translation>
+      <translation>添加罐头讯息</translation>
     </message>
     <message>
       <source>Delete selected</source>
@@ -3084,7 +3084,7 @@
     </message>
     <message>
       <source>Automatically send this message to user then chat is accepted</source>
-      <translation>在交谈接受后，自动向使用者发送此讯息</translation>
+      <translation>在交谈接受后，自动向用户发送此讯息</translation>
     </message>
     <message>
       <source>Delay in seconds</source>
@@ -4145,7 +4145,7 @@
     <name>chat/startchatformsettings</name>
     <message>
       <source>Add event</source>
-      <translation>新增活动</translation>
+      <translation>添加活动</translation>
     </message>
     <message>
       <source>Event</source>
@@ -4357,11 +4357,11 @@
     </message>
     <message>
       <source>Automatically start chat then user starts typing. Only message field has to be required</source>
-      <translation>当使用者开始打字后自动开始交谈。只有讯息栏位必须要被请求。</translation>
+      <translation>当用户开始打字后自动开始交谈。只有讯息栏位必须要被请求。</translation>
     </message>
     <message>
       <source>Start chat process in the background as soon user submits form. Only message field has to be required</source>
-      <translation>当使用者开始打字后自动开始交谈。只有讯息栏位是必须。</translation>
+      <translation>当用户开始打字后自动开始交谈。只有讯息栏位是必须。</translation>
     </message>
     <message>
       <source>Phone</source>
@@ -4393,7 +4393,7 @@
     </message>
     <message>
       <source>Show messages box above input fields, usefull for UX combinations.</source>
-      <translation>显示讯息方块上面输入栏位，使用者体验组合有用。</translation>
+      <translation>显示讯息方块上面输入栏位，用户体验组合有用。</translation>
     </message>
     <message>
       <source>Hide start chat button. Usefull if in the theme you choose bot and trigger with a buttons.</source>
@@ -4409,7 +4409,7 @@
     </message>
     <message>
       <source>Initial user message height in pixels</source>
-      <translation>初始使用者消息高度 （图元）</translation>
+      <translation>初始用户消息高度 （图元）</translation>
     </message>
     <message>
       <source>Department settings</source>
@@ -4553,7 +4553,7 @@
     </message>
     <message>
       <source>New</source>
-      <translation>新增</translation>
+      <translation>添加</translation>
     </message>
     <message>
       <source>Create a copy from default settings</source>
@@ -4872,7 +4872,7 @@
     </message>
     <message>
       <source>User group</source>
-      <translation>使用者群组</translation>
+      <translation>用户群组</translation>
     </message>
     <message>
       <source>Select group</source>
@@ -4880,11 +4880,11 @@
     </message>
     <message>
       <source>User</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Select user</source>
-      <translation>选择使用者</translation>
+      <translation>选择用户</translation>
     </message>
     <message>
       <source>Chat ID</source>
@@ -5924,7 +5924,7 @@
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>Nickname</source>
@@ -6797,11 +6797,11 @@
     </message>
     <message>
       <source>Server default time zone</source>
-      <translation>伺服器预设时区</translation>
+      <translation>服务器预设时区</translation>
     </message>
     <message>
       <source>Edit user</source>
-      <translation>编辑使用者</translation>
+      <translation>编辑用户</translation>
     </message>
     <message>
       <source>Do not enter a password unless you want to change it</source>
@@ -6809,7 +6809,7 @@
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>Password</source>
@@ -6849,7 +6849,7 @@
     </message>
     <message>
       <source>User time zone</source>
-      <translation>使用者时区</translation>
+      <translation>用户时区</translation>
     </message>
     <message>
       <source>Choose</source>
@@ -6857,7 +6857,7 @@
     </message>
     <message>
       <source>Application default time zone</source>
-      <translation>伺服器预设时区</translation>
+      <translation>服务器预设时区</translation>
     </message>
     <message>
       <source>Wrong email address</source>
@@ -6877,11 +6877,11 @@
     </message>
     <message>
       <source>Users</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>User edit</source>
-      <translation>使用者编辑</translation>
+      <translation>用户编辑</translation>
     </message>
     <message>
       <source>Invalid email address</source>
@@ -7625,7 +7625,7 @@
     </message>
     <message>
       <source>Cancel voice message</source>
-      <translation>取消语音讯息</translation>
+      <translation>取消语音消息</translation>
     </message>
     <message>
       <source>Play recorded message</source>
@@ -8198,7 +8198,7 @@
     </message>
     <message>
       <source>Region name server variable</source>
-      <translation>区域名称伺服器变数</translation>
+      <translation>区域名称服务器变数</translation>
     </message>
     <message>
       <source>Latitude variable</source>
@@ -8246,7 +8246,7 @@
     </message>
     <message>
       <source>User city based detection, slower</source>
-      <translation>检测使用者城市，速度较慢</translation>
+      <translation>检测用户城市，速度较慢</translation>
     </message>
     <message>
       <source>Use PHP-GeoIP module</source>
@@ -8262,7 +8262,7 @@
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>IP, if your site remote IP is different from detected one, please provide correct remote IP address</source>
@@ -8370,7 +8370,7 @@
     </message>
     <message>
       <source>has send message to user</source>
-      <translation>已向使用者传送讯息</translation>
+      <translation>已向用户传送讯息</translation>
     </message>
     <message>
       <source>No one has send any message to user yet</source>
@@ -8426,7 +8426,7 @@
     </message>
     <message>
       <source>User tracking is disabled, enable it at</source>
-      <translation>使用者追踪停用，启用它</translation>
+      <translation>用户追踪停用，启用它</translation>
     </message>
     <message>
       <source>Chat configuration</source>
@@ -8506,7 +8506,7 @@
     </message>
     <message>
       <source>online users</source>
-      <translation>在线使用者</translation>
+      <translation>在线用户</translation>
     </message>
     <message>
       <source>Show only connected</source>
@@ -8686,7 +8686,7 @@
     </message>
     <message>
       <source>Please enter the API username!</source>
-      <translation>请输入 API 使用者名称！</translation>
+      <translation>请输入 API 用户名称！</translation>
     </message>
     <message>
       <source>Please enter IP!</source>
@@ -8698,7 +8698,7 @@
     </message>
     <message>
       <source>Setting service provider failed, please check that your service provider allows you to make requests to remote pages and your API key is correct!</source>
-      <translation>设置服务提供程式失败，请检查您的服务提供者允许您将要求传送到远端页面和您的 API 金钥正确 ！</translation>
+      <translation>设置服务提供程序失败，请检查您的服务提供者允许您将要求传送到远端页面和您的 API 金钥正确 ！</translation>
     </message>
     <message>
       <source>Setting service provider failed, please check that you have installed php-GeoIP module and GeoIPCity.dat file is available!</source>
@@ -8710,7 +8710,7 @@
     </message>
     <message>
       <source>Online users</source>
-      <translation>在线使用者</translation>
+      <translation>在线用户</translation>
     </message>
     <message>
       <source>Visitor local time</source>
@@ -8718,7 +8718,7 @@
     </message>
     <message>
       <source>By user status on site</source>
-      <translation>依网站的使用者状态</translation>
+      <translation>依网站的用户状态</translation>
     </message>
     <message>
       <source>Action</source>
@@ -8867,7 +8867,7 @@
     </message>
     <message>
       <source>New</source>
-      <translation>新增</translation>
+      <translation>添加</translation>
     </message>
     <message>
       <source>Conditions</source>
@@ -8994,7 +8994,7 @@
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>Start activity</source>
@@ -9046,7 +9046,7 @@
     </message>
     <message>
       <source>Users</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Username (Nickname)</source>
@@ -9086,11 +9086,11 @@
     </message>
     <message>
       <source>Login As</source>
-      <translation>登入为</translation>
+      <translation>登录为</translation>
     </message>
     <message>
       <source>New user</source>
-      <translation>新增使用者</translation>
+      <translation>添加用户</translation>
     </message>
     <message>
       <source>System configuration</source>
@@ -9204,7 +9204,7 @@
     </message>
     <message>
       <source>Modify chat</source>
-      <translation>修改交谈</translation>
+      <translation>编辑交谈</translation>
     </message>
     <message>
       <source>Edit chat</source>
@@ -9240,7 +9240,7 @@
     </message>
     <message>
       <source>Redirect user to survey</source>
-      <translation>重新定位使用者至调查</translation>
+      <translation>重新定位用户至调查</translation>
     </message>
     <message>
       <source>Choose recognition language</source>
@@ -9364,7 +9364,7 @@
     </message>
     <message>
       <source>Created at</source>
-      <translation>已建立于</translation>
+      <translation>已创建于</translation>
     </message>
     <message>
       <source>Started wait at</source>
@@ -9452,7 +9452,7 @@
     </message>
     <message>
       <source>User left</source>
-      <translation>使用者离开</translation>
+      <translation>用户离开</translation>
     </message>
     <message>
       <source>Time zone</source>
@@ -9492,7 +9492,7 @@
     </message>
     <message>
       <source>User browsing information</source>
-      <translation>使用者浏览资讯</translation>
+      <translation>用户浏览资讯</translation>
     </message>
     <message>
       <source>Chats</source>
@@ -9612,7 +9612,7 @@
     </message>
     <message>
       <source>Created</source>
-      <translation>已建立</translation>
+      <translation>已创建</translation>
     </message>
     <message>
       <source>Priority</source>
@@ -9664,7 +9664,7 @@
     </message>
     <message>
       <source>Redirect user to another url</source>
-      <translation>将使用者重新定位到另一个网址</translation>
+      <translation>将用户重新定位到另一个网址</translation>
     </message>
     <message>
       <source>You do not have permission to close conversation</source>
@@ -9854,7 +9854,7 @@
     </message>
     <message>
       <source>Copy the code from the text area to the page header or footer</source>
-      <translation>复制程式码到页首或页尾</translation>
+      <translation>复制程序码到页首或页尾</translation>
     </message>
     <message>
       <source>Status text</source>
@@ -9862,7 +9862,7 @@
     </message>
     <message>
       <source>Expand the widget automatically for new users</source>
-      <translation>自动为新的使用者展开小部件</translation>
+      <translation>自动为新的用户展开小部件</translation>
     </message>
     <message>
       <source>Copy the code from the text area to the footer, before the closing &amp;lt;/body&amp;gt; tag</source>
@@ -10774,11 +10774,11 @@
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>Your username</source>
-      <translation>您的使用者名称</translation>
+      <translation>您的用户名称</translation>
     </message>
     <message>
       <source>Password</source>
@@ -10826,7 +10826,7 @@
     </message>
     <message>
       <source>XMPP username</source>
-      <translation>XMPP 使用者名称</translation>
+      <translation>XMPP 用户名称</translation>
     </message>
     <message>
       <source>Photo</source>
@@ -11066,11 +11066,11 @@
     </message>
     <message>
       <source>User receives other operators permissions request</source>
-      <translation>使用者会收到其他客服人员的权限请求</translation>
+      <translation>用户会收到其他客服人员的权限请求</translation>
     </message>
     <message>
       <source>User can see all pending chats, not only assigned to him</source>
-      <translation>使用者可以看到所有等待中交谈，不限于分配给他的交谈</translation>
+      <translation>用户可以看到所有等待中交谈，不限于分配给他的交谈</translation>
     </message>
     <message>
       <source>Exclude from auto assign workflow</source>
@@ -11094,7 +11094,7 @@
     </message>
     <message>
       <source>Created</source>
-      <translation>已建立</translation>
+      <translation>已创建</translation>
     </message>
     <message>
       <source>Personal auto responder</source>
@@ -11142,7 +11142,7 @@
     </message>
     <message>
       <source>Add translation</source>
-      <translation>新增翻译</translation>
+      <translation>添加翻译</translation>
     </message>
   </context>
   <context>
@@ -11440,7 +11440,7 @@
     </message>
     <message>
       <source>Users</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Search for operator</source>
@@ -11448,11 +11448,11 @@
     </message>
     <message>
       <source>User</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>User group</source>
-      <translation>使用者群组</translation>
+      <translation>用户群组</translation>
     </message>
     <message>
       <source>Taken time to fetch information for this widget</source>
@@ -11919,7 +11919,7 @@
     </message>
     <message>
       <source>New</source>
-      <translation>新增</translation>
+      <translation>添加</translation>
     </message>
     <message>
       <source>Last message</source>
@@ -12039,7 +12039,7 @@
     </message>
     <message>
       <source>Created</source>
-      <translation>已建立</translation>
+      <translation>已创建</translation>
     </message>
     <message>
       <source>Transferred chats to you will appear here.</source>
@@ -12937,7 +12937,7 @@
     </message>
     <message>
       <source>login first.</source>
-      <translation>先登入。</translation>
+      <translation>先登录。</translation>
     </message>
     <message>
       <source>Online operators</source>
@@ -13547,7 +13547,7 @@
     </message>
     <message>
       <source>User attribute</source>
-      <translation>使用者属性</translation>
+      <translation>用户属性</translation>
     </message>
     <message>
       <source>Chat attributes</source>
@@ -13998,7 +13998,7 @@
     </message>
     <message>
       <source>Users</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>List of groups</source>
@@ -14210,14 +14210,14 @@
     </message>
     <message>
       <source>New file</source>
-      <translation>新增档案</translation>
+      <translation>添加档案</translation>
     </message>
   </context>
   <context>
     <name>chat/listchatconfig</name>
     <message>
       <source>Application name</source>
-      <translation>应用程式名称</translation>
+      <translation>应用程序名称</translation>
     </message>
     <message>
       <source>Site settings</source>
@@ -14237,11 +14237,11 @@
     </message>
     <message>
       <source>(Widget is open) or (closed and user has activity in last 5 minutes and ping respond)</source>
-      <translation>( 小部件为开启 ) 或 ( 小部件为关闭，使用者有5分钟的时间进行回应 )</translation>
+      <translation>( 小部件为开启 ) 或 ( 小部件为关闭，用户有5分钟的时间进行回应 )</translation>
     </message>
     <message>
       <source>(Widget is open or closed) and (user has activity in last 5 minutes and ping respond)</source>
-      <translation>（小部件是打开或关闭） 和 （使用者在最后 5 分钟有活动和有 ping 回应）</translation>
+      <translation>（小部件是打开或关闭） 和 （用户在最后 5 分钟有活动和有 ping 回应）</translation>
     </message>
     <message>
       <source>Update</source>
@@ -14551,7 +14551,7 @@
     </message>
     <message>
       <source>Number of messages by user</source>
-      <translation>讯息量（依使用者）</translation>
+      <translation>讯息量（依用户）</translation>
     </message>
     <message>
       <source>Number of chats per hour, average chat duration</source>
@@ -14563,7 +14563,7 @@
     </message>
     <message>
       <source>Number of chats by user</source>
-      <translation>交谈量（依使用者）</translation>
+      <translation>交谈量（依用户）</translation>
     </message>
     <message>
       <source>Number of chats by user (participant)</source>
@@ -14591,7 +14591,7 @@
     </message>
     <message>
       <source>Average chat duration by user in seconds</source>
-      <translation>依使用者平均交谈时间秒数</translation>
+      <translation>依用户平均交谈时间秒数</translation>
     </message>
     <message>
       <source>Usefull if you prefill usernames always</source>
@@ -14879,7 +14879,7 @@
     </message>
     <message>
       <source>User</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Total messages</source>
@@ -15035,7 +15035,7 @@
     </message>
     <message>
       <source>user agent&apos;s</source>
-      <translation>使用者代理的</translation>
+      <translation>用户代理的</translation>
     </message>
     <message>
       <source>device type&apos;s</source>
@@ -15135,7 +15135,7 @@
     </message>
     <message>
       <source>User agent</source>
-      <translation>使用者代理</translation>
+      <translation>用户代理</translation>
     </message>
     <message>
       <source>Time on site</source>
@@ -15476,7 +15476,7 @@
     </message>
     <message>
       <source>Sync for a new user message, interval in seconds</source>
-      <translation>对于新使用者消息，以秒为单位的时间间隔同步</translation>
+      <translation>对于新用户消息，以秒为单位的时间间隔同步</translation>
     </message>
     <message>
       <source>Show browser notification for new messages</source>
@@ -15492,11 +15492,11 @@
     </message>
     <message>
       <source>Play a sound on a new message for a back office user</source>
-      <translation>为后台使用者出现新讯息时播放音效</translation>
+      <translation>为后台用户出现新讯息时播放音效</translation>
     </message>
     <message>
       <source>Play a sound on a new message for a front end user</source>
-      <translation>为前台使用者出现新讯息时播放音效</translation>
+      <translation>为前台用户出现新讯息时播放音效</translation>
     </message>
     <message>
       <source>Show alert message on a new chat request</source>
@@ -15579,7 +15579,7 @@
     </message>
     <message>
       <source>Logged in users</source>
-      <translation>登入的客服人员</translation>
+      <translation>登录的客服人员</translation>
     </message>
     <message>
       <source>Transfer a chat to one of your departments users</source>
@@ -16117,11 +16117,11 @@
     <name>chatbox/new</name>
     <message>
       <source>New chatbox</source>
-      <translation>新增 chatbox</translation>
+      <translation>添加 chatbox</translation>
     </message>
     <message>
       <source>New</source>
-      <translation>新增功能</translation>
+      <translation>添加功能</translation>
     </message>
   </context>
   <context>
@@ -16375,7 +16375,7 @@
     </message>
     <message>
       <source>New department</source>
-      <translation>新增部门</translation>
+      <translation>添加部门</translation>
     </message>
     <message>
       <source>Departments groups</source>
@@ -16522,11 +16522,11 @@
     </message>
     <message>
       <source>Show my mouse position to visitor</source>
-      <translation>向访客显示我的滑鼠位置</translation>
+      <translation>向访客显示我的鼠标位置</translation>
     </message>
     <message>
       <source>On highlight scroll user window location to match my</source>
-      <translation>在突出卷动使用者视窗位置以符合我的</translation>
+      <translation>在突出卷动用户视窗位置以符合我的</translation>
     </message>
     <message>
       <source>Follow user scroll position</source>
@@ -16534,7 +16534,7 @@
     </message>
     <message>
       <source>On click navigate user browser</source>
-      <translation>当点选时浏览使用者浏览器</translation>
+      <translation>当点选时浏览用户浏览器</translation>
     </message>
     <message>
       <source>Screen sharing session has finished</source>
@@ -16561,7 +16561,7 @@
     </message>
     <message>
       <source>Maximum number of active chats user can have at a time, 0 - unlimited</source>
-      <translation>使用者能同时拥有的进行中交谈最大数量，0 - 无限</translation>
+      <translation>用户能同时拥有的进行中交谈最大数量，0 - 无限</translation>
     </message>
     <message>
       <source>Maximum number of department active chats, 0 - unlimited</source>
@@ -16687,7 +16687,7 @@
     <name>department/new</name>
     <message>
       <source>New department</source>
-      <translation>新增部门</translation>
+      <translation>添加部门</translation>
     </message>
     <message>
       <source>New brand</source>
@@ -16695,11 +16695,11 @@
     </message>
     <message>
       <source>New department group</source>
-      <translation>新增部门群组</translation>
+      <translation>添加部门群组</translation>
     </message>
     <message>
       <source>New department limit group</source>
-      <translation>新增部门限制群组</translation>
+      <translation>添加部门限制群组</translation>
     </message>
     <message>
       <source>New</source>
@@ -16731,7 +16731,7 @@
     </message>
     <message>
       <source>New group chat</source>
-      <translation>新增群组交谈</translation>
+      <translation>添加群组交谈</translation>
     </message>
     <message>
       <source>System configuration</source>
@@ -16848,7 +16848,7 @@
     </message>
     <message>
       <source>New question</source>
-      <translation>新增问题</translation>
+      <translation>添加问题</translation>
     </message>
   </context>
   <context>
@@ -16887,7 +16887,7 @@
     </message>
     <message>
       <source>New question</source>
-      <translation>新增问题</translation>
+      <translation>添加问题</translation>
     </message>
   </context>
   <context>
@@ -16953,7 +16953,7 @@
     </message>
     <message>
       <source>User</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Chat</source>
@@ -17143,7 +17143,7 @@
     </message>
     <message>
       <source>New file</source>
-      <translation>新增档案</translation>
+      <translation>添加档案</translation>
     </message>
   </context>
   <context>
@@ -17388,7 +17388,7 @@
     </message>
     <message>
       <source>Add request</source>
-      <translation>新增请求</translation>
+      <translation>添加请求</translation>
     </message>
     <message>
       <source>Explore</source>
@@ -17436,7 +17436,7 @@
     </message>
     <message>
       <source>User parameters</source>
-      <translation>使用者参数</translation>
+      <translation>用户参数</translation>
     </message>
     <message>
       <source>Output parsing</source>
@@ -19972,7 +19972,7 @@
     </message>
     <message>
       <source>User Agent</source>
-      <translation>使用者代理</translation>
+      <translation>用户代理</translation>
     </message>
     <message>
       <source>Chat ID</source>
@@ -19992,7 +19992,7 @@
     </message>
     <message>
       <source>Created</source>
-      <translation>已建立</translation>
+      <translation>已创建</translation>
     </message>
     <message>
       <source>Updated</source>
@@ -20186,7 +20186,7 @@
     </message>
     <message>
       <source>User can not access old chat if chat is closed</source>
-      <translation>完成交谈后，使用者将不能连接旧的交谈</translation>
+      <translation>完成交谈后，用户将不能连接旧的交谈</translation>
     </message>
     <message>
       <source>Secret hash, used for verification</source>
@@ -20229,7 +20229,7 @@
     </message>
     <message>
       <source>New policy</source>
-      <translation>新增 policy</translation>
+      <translation>添加 policy</translation>
     </message>
     <message>
       <source>Module</source>
@@ -20376,7 +20376,7 @@
     <name>permission/newpolicy</name>
     <message>
       <source>New policy</source>
-      <translation>新增 policy</translation>
+      <translation>添加 policy</translation>
     </message>
     <message>
       <source>Choose a module</source>
@@ -20415,7 +20415,7 @@
     <name>permission/newrole</name>
     <message>
       <source>New role</source>
-      <translation>新增 role</translation>
+      <translation>添加 role</translation>
     </message>
     <message>
       <source>Title</source>
@@ -20435,7 +20435,7 @@
     </message>
     <message>
       <source>New policy</source>
-      <translation>新增 policy</translation>
+      <translation>添加 policy</translation>
     </message>
     <message>
       <source>Save</source>
@@ -20474,11 +20474,11 @@
     </message>
     <message>
       <source>Please choose a user!</source>
-      <translation>请选择使用者 ！</translation>
+      <translation>请选择用户 ！</translation>
     </message>
     <message>
       <source>This user can not receive permision request!</source>
-      <translation>此使用者不能接收许可问题请求 ！</translation>
+      <translation>此用户不能接收许可问题请求 ！</translation>
     </message>
     <message>
       <source>Permissions were not provided</source>
@@ -20520,7 +20520,7 @@
     </message>
     <message>
       <source>New role</source>
-      <translation>新增 role</translation>
+      <translation>添加 role</translation>
     </message>
     <message>
       <source>Copy of</source>
@@ -20755,7 +20755,7 @@
     </message>
     <message>
       <source>New question</source>
-      <translation>新增问题</translation>
+      <translation>添加问题</translation>
     </message>
     <message>
       <source>Off</source>
@@ -20786,7 +20786,7 @@
     </message>
     <message>
       <source>New question</source>
-      <translation>新增问题</translation>
+      <translation>添加问题</translation>
     </message>
   </context>
   <context>
@@ -20905,7 +20905,7 @@
     </message>
     <message>
       <source>New dialect</source>
-      <translation>新增方言</translation>
+      <translation>添加方言</translation>
     </message>
     <message>
       <source>Edit dialect</source>
@@ -20948,11 +20948,11 @@
     <name>speech/speech</name>
     <message>
       <source>Use application default recognition language</source>
-      <translation>使用应用程式预设识别语言</translation>
+      <translation>使用应用程序预设识别语言</translation>
     </message>
     <message>
       <source>Use application default recognition dialect</source>
-      <translation>使用应用程式预设识别方言</translation>
+      <translation>使用应用程序预设识别方言</translation>
     </message>
   </context>
   <context>
@@ -21190,7 +21190,7 @@
     <name>users/autologin</name>
     <message>
       <source>Auto login settings</source>
-      <translation>自动登入设定</translation>
+      <translation>自动登录设定</translation>
     </message>
     <message>
       <source>Custom auto logins</source>
@@ -21198,7 +21198,7 @@
     </message>
     <message>
       <source>This module can be used if you are generating autologin link. See site for code examples</source>
-      <translation>如果您正在产生自动登入连结，可以使用此模组。请参考网站的代码范例</translation>
+      <translation>如果您正在产生自动登录连结，可以使用此模组。请参考网站的代码范例</translation>
     </message>
     <message>
       <source>Enabled</source>
@@ -21210,7 +21210,7 @@
     </message>
     <message>
       <source>User ID</source>
-      <translation>使用者 ID</translation>
+      <translation>用户 ID</translation>
     </message>
     <message>
       <source>SiteAccess</source>
@@ -21310,19 +21310,19 @@
     </message>
     <message>
       <source>Could not find a user</source>
-      <translation>找不到使用者</translation>
+      <translation>找不到用户</translation>
     </message>
     <message>
       <source>Could not find a provided user</source>
-      <translation>找不到提供的使用者</translation>
+      <translation>找不到提供的用户</translation>
     </message>
     <message>
       <source>Invalid autologin hash</source>
-      <translation>自动登入 Hash 无效</translation>
+      <translation>自动登录 Hash 无效</translation>
     </message>
     <message>
       <source>Auto login module is not enabled</source>
-      <translation>未启用 自动登入模组</translation>
+      <translation>未启用 自动登录模组</translation>
     </message>
     <message>
       <source>Invalid hash or user</source>
@@ -21518,7 +21518,7 @@
     </message>
     <message>
       <source>Set application specific time zone</source>
-      <translation>设定应用程式的时区</translation>
+      <translation>设定应用程序的时区</translation>
     </message>
     <message>
       <source>Date format E.g (Y-m-d)</source>
@@ -21678,11 +21678,11 @@
     </message>
     <message>
       <source>User receives other operators permissions request</source>
-      <translation>使用者会收到其他客服人员的权限请求</translation>
+      <translation>用户会收到其他客服人员的权限请求</translation>
     </message>
     <message>
       <source>User group</source>
-      <translation>使用者群组</translation>
+      <translation>用户群组</translation>
     </message>
     <message>
       <source>Required groups, choose one or more</source>
@@ -21702,11 +21702,11 @@
     </message>
     <message>
       <source>New user</source>
-      <translation>新增使用者</translation>
+      <translation>添加用户</translation>
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>E-mail</source>
@@ -21762,7 +21762,7 @@
     </message>
     <message>
       <source>Users</source>
-      <translation>使用者</translation>
+      <translation>用户</translation>
     </message>
     <message>
       <source>Please enter a group name</source>
@@ -22046,19 +22046,19 @@
     </message>
     <message>
       <source>Assigned users</source>
-      <translation>分配的使用者</translation>
+      <translation>分配的用户</translation>
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>Remove user from the group</source>
-      <translation>将使用者从群组移除</translation>
+      <translation>将用户从群组移除</translation>
     </message>
     <message>
       <source>Assign user</source>
-      <translation>分配使用者</translation>
+      <translation>分配用户</translation>
     </message>
     <message>
       <source>Assigned roles</source>
@@ -22135,7 +22135,7 @@
     <name>user/groupassignuser</name>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>E-mail</source>
@@ -22155,7 +22155,7 @@
     </message>
     <message>
       <source>User was assigned to the group!</source>
-      <translation>使用者已分配至群组！</translation>
+      <translation>用户已分配至群组！</translation>
     </message>
   </context>
   <context>
@@ -22174,7 +22174,7 @@
     </message>
     <message>
       <source>New group</source>
-      <translation>新增群组</translation>
+      <translation>添加群组</translation>
     </message>
     <message>
       <source>Groups</source>
@@ -22225,7 +22225,7 @@
     </message>
     <message>
       <source>Username</source>
-      <translation>使用者名称</translation>
+      <translation>用户名称</translation>
     </message>
     <message>
       <source>Password</source>
@@ -22296,7 +22296,7 @@
     <name>user/login</name>
     <message>
       <source>Please login</source>
-      <translation>登入系统</translation>
+      <translation>登录系统</translation>
     </message>
     <message>
       <source>Username OR E-mail</source>
@@ -22312,7 +22312,7 @@
     </message>
     <message>
       <source>Login</source>
-      <translation>登入</translation>
+      <translation>登录</translation>
     </message>
     <message>
       <source>Password reminder</source>
@@ -22324,7 +22324,7 @@
     </message>
     <message>
       <source>You were logged out because another user logged under same account</source>
-      <translation>您因为另一名使用者登录同个帐户而被登出</translation>
+      <translation>您因为另一名用户登录同个帐户而被登出</translation>
     </message>
     <message>
       <source>Your password has expired or it has to be changed.</source>
@@ -22384,7 +22384,7 @@
     </message>
     <message>
       <source>Incorrect username or password</source>
-      <translation>使用者名称或是密码不正确</translation>
+      <translation>用户名称或是密码不正确</translation>
     </message>
     <message>
       <source>Logged in successfully. WEB</source>
@@ -22392,7 +22392,7 @@
     </message>
     <message>
       <source>Logged in successfully</source>
-      <translation>登入成功</translation>
+      <translation>登录成功</translation>
     </message>
     <message>
       <source>User could not be found!</source>
@@ -22407,7 +22407,7 @@
     <name>user/newgroup</name>
     <message>
       <source>New group</source>
-      <translation>新增群组</translation>
+      <translation>添加群组</translation>
     </message>
     <message>
       <source>Title</source>
@@ -22419,7 +22419,7 @@
     </message>
     <message>
       <source>Save and assign the user</source>
-      <translation>储存并分配给使用者</translation>
+      <translation>储存并分配给用户</translation>
     </message>
     <message>
       <source>System configuration</source>
@@ -22814,7 +22814,7 @@
     </message>
     <message>
       <source>User agent</source>
-      <translation>使用者代理</translation>
+      <translation>用户代理</translation>
     </message>
     <message>
       <source>Country code</source>
@@ -22845,7 +22845,7 @@
     </message>
     <message>
       <source>Allow user to change subject</source>
-      <translation>允许使用者更改主旨</translation>
+      <translation>允许用户更改主旨</translation>
     </message>
     <message>
       <source>Set language based on visitor language. By default we set language by embed code.</source>
@@ -22873,7 +22873,7 @@
     </message>
     <message>
       <source>Use user e-mail as from address</source>
-      <translation>以使用者 E-mail 作为发信地址</translation>
+      <translation>以用户 E-mail 作为发信地址</translation>
     </message>
     <message>
       <source>Reply to</source>
@@ -22885,7 +22885,7 @@
     </message>
     <message>
       <source>Recipient email, this is used if the application could not determine who should receive an email.</source>
-      <translation>收件者的E-mail，如果应用程式无法判断谁应该收到Email时，则使用。</translation>
+      <translation>收件者的E-mail，如果应用程序无法判断谁应该收到Email时，则使用。</translation>
     </message>
     <message>
       <source>BCC recipients, can be separated by comma.</source>
@@ -23262,7 +23262,7 @@
     </message>
     <message>
       <source>User ID</source>
-      <translation>使用者 ID</translation>
+      <translation>用户 ID</translation>
     </message>
     <message>
       <source>Chat start page</source>
@@ -23673,11 +23673,11 @@
     <name>user/validator</name>
     <message>
       <source>Please enter a username</source>
-      <translation>请输入一个使用者名称</translation>
+      <translation>请输入一个用户名称</translation>
     </message>
     <message>
       <source>User exists</source>
-      <translation>使用者已存在</translation>
+      <translation>用户已存在</translation>
     </message>
     <message>
       <source>Password missing</source>
@@ -23705,7 +23705,7 @@
     </message>
     <message>
       <source>Please choose a default user group</source>
-      <translation>请选择一个预设的使用者群组</translation>
+      <translation>请选择一个预设的用户群组</translation>
     </message>
     <message>
       <source>Passwords mismatch</source>
@@ -23713,7 +23713,7 @@
     </message>
     <message>
       <source>User action type not set</source>
-      <translation>使用者操作类型未设置</translation>
+      <translation>用户操作类型未设置</translation>
     </message>
     <message>
       <source>Please choose a user Time Zone!</source>
@@ -23803,7 +23803,7 @@
     </message>
     <message>
       <source>New</source>
-      <translation>新增</translation>
+      <translation>添加</translation>
     </message>
     <message>
       <source>Commands</source>
@@ -23844,7 +23844,7 @@
     <name>chat/voteaction</name>
     <message>
       <source>User has updated their profile information</source>
-      <translation>使用者已更新个人资讯</translation>
+      <translation>用户已更新个人资讯</translation>
     </message>
     <message>
       <source>Thumbs up</source>
@@ -23927,7 +23927,7 @@
     <name>chat/updatemsguser</name>
     <message>
       <source>User has edited their last message</source>
-      <translation>使用者已编辑他的上个讯息</translation>
+      <translation>用户已编辑他的上个讯息</translation>
     </message>
   </context>
   <context>
@@ -24013,7 +24013,7 @@
     </message>
     <message>
       <source>New</source>
-      <translation>新增</translation>
+      <translation>添加</translation>
     </message>
   </context>
   <context>
@@ -24032,7 +24032,7 @@
     </message>
     <message>
       <source>New group chat</source>
-      <translation>新增群组交谈</translation>
+      <translation>添加群组交谈</translation>
     </message>
   </context>
   <context>
