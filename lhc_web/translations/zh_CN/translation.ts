@@ -99,11 +99,11 @@
     </message>
     <message>
       <source>NodeJS support enabled</source>
-      <translation>开启 NodeJS 支援</translation>
+      <translation>开启 NodeJS 支持</translation>
     </message>
     <message>
       <source>Do not ask permission for users to see their screen</source>
-      <translation>不需经过用户许可，即能查看他们的萤幕</translation>
+      <translation>不需经过用户许可，即能查看他们的屏幕</translation>
     </message>
     <message>
       <source>Use session captcha. LHC have to be installed on the same domain or subdomain.</source>
@@ -183,11 +183,11 @@
     </message>
     <message>
       <source>Messages box height for operator</source>
-      <translation>客服人员的讯息框框高度</translation>
+      <translation>客服人员的消息框框高度</translation>
     </message>
     <message>
       <source>Messages box height</source>
-      <translation>讯息框框高度</translation>
+      <translation>消息框框高度</translation>
     </message>
     <message>
       <source>Proactive message timeout in hours. After how many hours proactive chat mesasge should be shown again.</source>
@@ -195,7 +195,7 @@
     </message>
     <message>
       <source>Maximum message length in characters</source>
-      <translation>最大讯息字元长度</translation>
+      <translation>最大消息字符长度</translation>
     </message>
     <message>
       <source>List unread chats, disabled for high performance</source>
@@ -215,7 +215,7 @@
     </message>
     <message>
       <source>Inform visitor about unread messages from operator, value in minutes. 0 - disabled</source>
-      <translation>告知访客客服人员的未读取讯息，单位为分钟。0 - 禁用</translation>
+      <translation>告知访客客服人员的未读取消息，单位为分钟。0 - 禁用</translation>
     </message>
     <message>
       <source>Ignore users online statuses and use departments online hours</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
       <source>Support application name, visible in browser title.</source>
-      <translation>支援应用程序的名称，在浏览器标题中可被看见。</translation>
+      <translation>支持应用程序的名称，在浏览器标题中可被看见。</translation>
     </message>
     <message>
       <source>Allow user to reopen closed chats?</source>
@@ -582,7 +582,7 @@
     </message>
     <message>
       <source>Send test message</source>
-      <translation>发送测试讯息</translation>
+      <translation>发送测试消息</translation>
     </message>
     <message>
       <source>Voice call</source>
@@ -643,27 +643,27 @@
     </message>
     <message>
       <source>Welcome message</source>
-      <translation>欢迎信息</translation>
+      <translation>欢迎消息</translation>
     </message>
     <message>
       <source>Offline message</source>
-      <translation>离线信息</translation>
+      <translation>离线消息</translation>
     </message>
     <message>
       <source>Pending chat messaging</source>
-      <translation>等待聊天信息</translation>
+      <translation>等待聊天消息</translation>
     </message>
     <message>
       <source>Visitor not replying messaging</source>
-      <translation>访客未回复信息</translation>
+      <translation>访客未回复消息</translation>
     </message>
     <message>
       <source>Operator not replying messaging</source>
-      <translation>客服人员不回复信息</translation>
+      <translation>客服人员不回复消息</translation>
     </message>
     <message>
       <source>On-hold chat messaging</source>
-      <translation>保留聊天信息</translation>
+      <translation>保留聊天消息</translation>
     </message>
     <message>
       <source>Close messaging</source>
@@ -795,7 +795,7 @@
     </message>
     <message>
       <source>Messages style</source>
-      <translation>讯息样式</translation>
+      <translation>消息样式</translation>
     </message>
     <message>
       <source>Need help widget</source>
@@ -847,11 +847,11 @@
     </message>
     <message>
       <source>Visitor messages style</source>
-      <translation>访客讯息样式</translation>
+      <translation>访客消息样式</translation>
     </message>
     <message>
       <source>Operator messages style</source>
-      <translation>客服人员讯息样式</translation>
+      <translation>客服人员消息样式</translation>
     </message>
     <message>
       <source>New message separator style</source>
@@ -2094,7 +2094,7 @@
     </message>
     <message>
       <source>If department is offline and visitor starts a chat this message will be send instaed of default welcome message. If this message is empty - welcome message will be send.</source>
-      <translation>如果部门离线并且访客开始交谈，则会发送此信息，而不是预设的欢迎信息。 如果此信息为空-将发送欢迎信息。</translation>
+      <translation>如果部门离线并且访客开始交谈，则会发送此信息，而不是预设的欢迎消息。 如果此信息为空-将发送欢迎消息。</translation>
     </message>
     <message>
       <source>Internal conversion parameters. Internal conversion is used to track covnersion where final step is done by user executing specific action and letting website to know us it happened.</source>
@@ -2126,7 +2126,7 @@
     </message>
     <message>
       <source>What languages should be ignored. If chat language is one of the selected, message will not be send.</source>
-      <translation>什么语言应该被忽略。 如果聊天语言是所选语言之一，则不会发送信息。</translation>
+      <translation>什么语言应该被忽略。 如果聊天语言是所选语言之一，则不会发送消息。</translation>
     </message>
     <message>
       <source>If you leave empty - message we will be send only if translated message is found.</source>
@@ -2598,7 +2598,7 @@
     </message>
     <message>
       <source>Identifier, for what identifier this message should be shown, leave empty for all</source>
-      <translation>所有的识别标志留空白，讯息的识别标志应该要显示出来</translation>
+      <translation>所有的识别标志留空白，消息的识别标志应该要显示出来</translation>
     </message>
     <message>
       <source>Tag</source>
@@ -2634,11 +2634,11 @@
     </message>
     <message>
       <source>Message to user</source>
-      <translation>给用户的讯息</translation>
+      <translation>给用户的消息</translation>
     </message>
     <message>
       <source>Message to returning user</source>
-      <translation>回复访客的讯息</translation>
+      <translation>回复访客的消息</translation>
     </message>
     <message>
       <source>Nick which will be used if we cannot determine returning user name</source>
@@ -3092,7 +3092,7 @@
     </message>
     <message>
       <source>Title/Message</source>
-      <translation>标题 / 讯息</translation>
+      <translation>标题 / 消息</translation>
     </message>
     <message>
       <source>User</source>
@@ -3120,7 +3120,7 @@
     </message>
     <message>
       <source>Edit message</source>
-      <translation>编辑讯息</translation>
+      <translation>编辑消息</translation>
     </message>
     <message>
       <source>See details</source>
@@ -3128,11 +3128,11 @@
     </message>
     <message>
       <source>Delete message</source>
-      <translation>删除讯息</translation>
+      <translation>删除消息</translation>
     </message>
     <message>
       <source>New canned message</source>
-      <translation>添加罐头讯息</translation>
+      <translation>添加罐头消息</translation>
     </message>
     <message>
       <source>Delete selected</source>
@@ -3188,7 +3188,7 @@
     </message>
     <message>
       <source>Automatically send this message to user then chat is accepted</source>
-      <translation>在交谈接受后，自动向用户发送此讯息</translation>
+      <translation>在交谈接受后，自动向用户发送此消息</translation>
     </message>
     <message>
       <source>Delay in seconds</source>
@@ -3200,11 +3200,11 @@
     </message>
     <message>
       <source>Message</source>
-      <translation>讯息</translation>
+      <translation>消息</translation>
     </message>
     <message>
       <source>Fallback message</source>
-      <translation>后备讯息</translation>
+      <translation>后备消息</translation>
     </message>
     <message>
       <source>HTML Snippet</source>
@@ -3224,11 +3224,11 @@
     </message>
     <message>
       <source>Canned messages</source>
-      <translation>罐头讯息</translation>
+      <translation>罐头消息</translation>
     </message>
     <message>
       <source>Edit canned message</source>
-      <translation>编辑罐头讯息</translation>
+      <translation>编辑罐头消息</translation>
     </message>
     <message>
       <source>Default department if visitor does not have assigned one</source>
@@ -3264,11 +3264,11 @@
     </message>
     <message>
       <source>Personal canned message</source>
-      <translation>我的罐头讯息</translation>
+      <translation>我的罐头消息</translation>
     </message>
     <message>
       <source>Canned message was saved</source>
-      <translation>罐头讯息已储存</translation>
+      <translation>罐头消息已储存</translation>
     </message>
     <message>
       <source>Personal auto responder message</source>
@@ -3304,7 +3304,7 @@
     </message>
     <message>
       <source>Please enter a canned message</source>
-      <translation>请输入罐头讯息内容</translation>
+      <translation>请输入罐头消息内容</translation>
     </message>
     <message>
       <source>Canned message tags should not contain # character</source>
@@ -3703,7 +3703,7 @@
     </message>
     <message>
       <source>These messages will be send as group messages</source>
-      <translation>这些讯息将作为群组讯息发送</translation>
+      <translation>这些消息将作为群组消息发送</translation>
     </message>
     <message>
       <source>Inform about new chats using</source>
@@ -3719,7 +3719,7 @@
     </message>
     <message>
       <source>Mail messages</source>
-      <translation>Mail 讯息</translation>
+      <translation>Mail 消息</translation>
     </message>
     <message>
       <source>How many seconds chat can be pending before about chat is informed a staff</source>
@@ -3811,7 +3811,7 @@
     </message>
     <message>
       <source>This field is max 50 characters length and can be used for any purpose by extensions. This field is also indexed.</source>
-      <translation>此栏位最大为 50 字元，可扩展用于任何目的。此栏位也可以编入索引。</translation>
+      <translation>此栏位最大为 50 字符，可扩展用于任何目的。此栏位也可以编入索引。</translation>
     </message>
     <message>
       <source>Department groups</source>
@@ -4015,7 +4015,7 @@
     </message>
     <message>
       <source>Custom message</source>
-      <translation>自订讯息</translation>
+      <translation>自订消息</translation>
     </message>
     <message>
       <source>If you have configured Automatic Translations we will use it for untranslated items.</source>
@@ -4146,7 +4146,7 @@
     </message>
     <message>
       <source>Type your message to the user</source>
-      <translation>输入您给客户的讯息</translation>
+      <translation>输入您给客户的消息</translation>
     </message>
     <message>
       <source>You can paste usernames separated by a new line.</source>
@@ -4210,11 +4210,11 @@
     </message>
     <message>
       <source>Canned message</source>
-      <translation>罐头讯息</translation>
+      <translation>罐头消息</translation>
     </message>
     <message>
       <source>Send the message</source>
-      <translation>送出讯息</translation>
+      <translation>送出消息</translation>
     </message>
     <message>
       <source>Visitor have assigned chat with id</source>
@@ -4246,19 +4246,19 @@
     </message>
     <message>
       <source>Message was sent to the user</source>
-      <translation>讯息已发送给客户</translation>
+      <translation>消息已发送给客户</translation>
     </message>
     <message>
       <source>If the message was already sent, this will mark it as not delivered and the user will be shown the chat message again.</source>
-      <translation>如果讯息已送出给客户，讯息会标示为尚未送达并且该则讯息会再次显示给客户</translation>
+      <translation>如果消息已送出给客户，消息会标示为尚未送达并且该则消息会再次显示给客户</translation>
     </message>
     <message>
       <source>Send a message to the user</source>
-      <translation>发送一个讯息给客户</translation>
+      <translation>发送一个消息给客户</translation>
     </message>
     <message>
       <source>Type your message to the operator</source>
-      <translation>输入您的讯息给客服人员</translation>
+      <translation>输入您的消息给客服人员</translation>
     </message>
     <message>
       <source>Start chat with operator</source>
@@ -4477,15 +4477,15 @@
     </message>
     <message>
       <source>Message</source>
-      <translation>讯息</translation>
+      <translation>消息</translation>
     </message>
     <message>
       <source>Automatically start chat then user starts typing. Only message field has to be required</source>
-      <translation>当用户开始打字后自动开始交谈。只有讯息栏位必须要被请求。</translation>
+      <translation>当用户开始打字后自动开始交谈。只有消息栏位必须要被请求。</translation>
     </message>
     <message>
       <source>Start chat process in the background as soon user submits form. Only message field has to be required</source>
-      <translation>当用户开始打字后自动开始交谈。只有讯息栏位是必须。</translation>
+      <translation>当用户开始打字后自动开始交谈。只有消息栏位是必须。</translation>
     </message>
     <message>
       <source>Phone</source>
@@ -4513,11 +4513,11 @@
     </message>
     <message>
       <source>Hide message label</source>
-      <translation>隐藏讯息标签</translation>
+      <translation>隐藏消息标签</translation>
     </message>
     <message>
       <source>Show messages box above input fields, usefull for UX combinations.</source>
-      <translation>显示讯息方块上面输入栏位，用户体验组合有用。</translation>
+      <translation>显示消息方块上面输入栏位，用户体验组合有用。</translation>
     </message>
     <message>
       <source>Hide start chat button. Usefull if in the theme you choose bot and trigger with a buttons.</source>
@@ -4876,7 +4876,7 @@
     </message>
     <message>
       <source>Fallback message</source>
-      <translation>后备讯息</translation>
+      <translation>后备消息</translation>
     </message>
     <message>
       <source>Department</source>
@@ -5192,7 +5192,7 @@
     </message>
     <message>
       <source>Has unread messages</source>
-      <translation>有未读取讯息</translation>
+      <translation>有未读取消息</translation>
     </message>
     <message>
       <source>Unanswered chat</source>
@@ -7277,7 +7277,7 @@
     </message>
     <message>
       <source>Type your message here and hit enter to send...</source>
-      <translation>在这里输入您的讯息并按下 Enter 送出......</translation>
+      <translation>在这里输入您的消息并按下 Enter 送出......</translation>
     </message>
     <message>
       <source>Please provide a department</source>
@@ -7297,7 +7297,7 @@
     </message>
     <message>
       <source>Type your message here...</source>
-      <translation>在这儿输入您的讯息...</translation>
+      <translation>在这儿输入您的消息...</translation>
     </message>
     <message>
       <source>At this moment you can contact us via email only. Sorry for the inconveniences.</source>
@@ -7305,15 +7305,15 @@
     </message>
     <message>
       <source>Live support is not available in your country</source>
-      <translation>您所在的国家/地区不提供实时支援</translation>
+      <translation>您所在的国家/地区不提供实时支持</translation>
     </message>
     <message>
       <source>Live Support</source>
-      <translation>线上支援</translation>
+      <translation>线上支持</translation>
     </message>
     <message>
       <source>There are no online operators at the moment, please leave a message</source>
-      <translation>目前没有在线的客服人员，请留下您的讯息</translation>
+      <translation>目前没有在线的客服人员，请留下您的消息</translation>
     </message>
     <message>
       <source>File</source>
@@ -7329,7 +7329,7 @@
     </message>
     <message>
       <source>Send message</source>
-      <translation>发送讯息</translation>
+      <translation>发送消息</translation>
     </message>
     <message>
       <source>Cancel</source>
@@ -7337,7 +7337,7 @@
     </message>
     <message>
       <source>Record voice message</source>
-      <translation>录取语音讯息</translation>
+      <translation>录取语音消息</translation>
     </message>
     <message>
       <source>Stop recording</source>
@@ -7345,7 +7345,7 @@
     </message>
     <message>
       <source>Play recorded audio</source>
-      <translation>播放已录取语音讯息</translation>
+      <translation>播放已录取语音消息</translation>
     </message>
     <message>
       <source>Stop playing</source>
@@ -7353,7 +7353,7 @@
     </message>
     <message>
       <source>Send voice message</source>
-      <translation>发送语音讯息</translation>
+      <translation>发送语音消息</translation>
     </message>
     <message>
       <source>I accept my personal data will be handled according to</source>
@@ -7401,7 +7401,7 @@
     </message>
     <message>
       <source>characters</source>
-      <translation>字元</translation>
+      <translation>字符</translation>
     </message>
     <message>
       <source>Personal assistant</source>
@@ -7413,7 +7413,7 @@
     </message>
     <message>
       <source>There are no online operators at the moment, please leave your message</source>
-      <translation>目前没有在线的客服人员，请留下您的讯息</translation>
+      <translation>目前没有在线的客服人员，请留下您的消息</translation>
     </message>
     <message>
       <source>Me</source>
@@ -7477,7 +7477,7 @@
     </message>
     <message>
       <source>Maximum 50 characters</source>
-      <translation>最多50个字元</translation>
+      <translation>最多50个字符</translation>
     </message>
     <message>
       <source>Please enter your name</source>
@@ -7485,11 +7485,11 @@
     </message>
     <message>
       <source>Maximum 100 characters</source>
-      <translation>最多100个字元</translation>
+      <translation>最多100个字符</translation>
     </message>
     <message>
       <source>Please enter your message</source>
-      <translation>请输入您的讯息</translation>
+      <translation>请输入您的消息</translation>
     </message>
     <message>
       <source>Maximum</source>
@@ -7497,7 +7497,7 @@
     </message>
     <message>
       <source>characters for a message</source>
-      <translation>讯息的字元</translation>
+      <translation>消息的字符</translation>
     </message>
     <message>
       <source>You have to accept our Terms Of Service</source>
@@ -7509,7 +7509,7 @@
     </message>
     <message>
       <source>Maximum 100 characters for phone</source>
-      <translation>手机最多 100 个字元</translation>
+      <translation>手机最多 100 个字符</translation>
     </message>
     <message>
       <source>Invalid file</source>
@@ -7629,11 +7629,11 @@
     </message>
     <message>
       <source>Please enter a message, max characters</source>
-      <translation>请输入讯息，最大字元</translation>
+      <translation>请输入消息，最大字符</translation>
     </message>
     <message>
       <source>You cannot send messages to this chat. Please refresh your browser.</source>
-      <translation>您无法向此聊天发送信息。 请刷新您的浏览器。</translation>
+      <translation>您无法向此聊天发送消息。 请刷新您的浏览器。</translation>
     </message>
     <message>
       <source>Message was removed!</source>
@@ -7673,7 +7673,7 @@
     </message>
     <message>
       <source>Unread message</source>
-      <translation>未读取讯息</translation>
+      <translation>未读取消息</translation>
     </message>
     <message>
       <source>Alert notification</source>
@@ -7721,7 +7721,7 @@
     </message>
     <message>
       <source>Enter a message</source>
-      <translation>输入讯息</translation>
+      <translation>输入消息</translation>
     </message>
     <message>
       <source>Pending to join...</source>
@@ -7761,11 +7761,11 @@
     </message>
     <message>
       <source>Please enter a message</source>
-      <translation>请输入讯息</translation>
+      <translation>请输入消息</translation>
     </message>
     <message>
       <source>characters max.</source>
-      <translation>最多字元数</translation>
+      <translation>最多字符数</translation>
     </message>
     <message>
       <source>Start a chat</source>
@@ -7825,7 +7825,7 @@
     </message>
     <message>
       <source>Your message...</source>
-      <translation>您的讯息...</translation>
+      <translation>您的消息...</translation>
     </message>
     <message>
       <source>Thank you for your feedback...</source>
@@ -7916,19 +7916,19 @@
     </message>
     <message>
       <source>Bottom right corner of the screen</source>
-      <translation>在萤幕的右下角</translation>
+      <translation>在屏幕的右下角</translation>
     </message>
     <message>
       <source>Bottom left corner of the screen</source>
-      <translation>在萤幕的左下角</translation>
+      <translation>在屏幕的左下角</translation>
     </message>
     <message>
       <source>Middle right side of the screen</source>
-      <translation>萤幕中间右侧</translation>
+      <translation>屏幕中间右侧</translation>
     </message>
     <message>
       <source>Middle left side of the screen</source>
-      <translation>萤幕中间左侧</translation>
+      <translation>屏幕中间左侧</translation>
     </message>
     <message>
       <source>Full height right</source>
@@ -7988,7 +7988,7 @@
     </message>
     <message>
       <source>Chatbox messages content height</source>
-      <translation>Chatbox 讯息内容高度</translation>
+      <translation>Chatbox 消息内容高度</translation>
     </message>
     <message>
       <source>Theme</source>
@@ -8228,7 +8228,7 @@
     </message>
     <message>
       <source>Minimize to bottom of the screen</source>
-      <translation>最小化到萤幕底部</translation>
+      <translation>最小化到屏幕底部</translation>
     </message>
     <message>
       <source>Native placement - it will be shown where the html is embedded</source>
@@ -8534,7 +8534,7 @@
     </message>
     <message>
       <source>Send message</source>
-      <translation>发送讯息</translation>
+      <translation>发送消息</translation>
     </message>
     <message>
       <source>Chat list</source>
@@ -8594,7 +8594,7 @@
     </message>
     <message>
       <source>User does not have any message from operator</source>
-      <translation>访客没有收到任何来自客服人员的讯息</translation>
+      <translation>访客没有收到任何来自客服人员的消息</translation>
     </message>
     <message>
       <source>User have not seen message from operator, or message window still open.</source>
@@ -8602,7 +8602,7 @@
     </message>
     <message>
       <source>User has seen message from operator.</source>
-      <translation>访客已看过客服人员发送的讯息</translation>
+      <translation>访客已看过客服人员发送的消息</translation>
     </message>
     <message>
       <source>User is chatting</source>
@@ -8618,11 +8618,11 @@
     </message>
     <message>
       <source>has send message to user</source>
-      <translation>已向用户传送讯息</translation>
+      <translation>已向用户传送消息</translation>
     </message>
     <message>
       <source>No one has send any message to user yet</source>
-      <translation>尚未有人向访客发送讯息</translation>
+      <translation>尚未有人向访客发送消息</translation>
     </message>
     <message>
       <source>First visit</source>
@@ -8702,7 +8702,7 @@
     </message>
     <message>
       <source>has sent a message to the user</source>
-      <translation>已经发送讯息给客户</translation>
+      <translation>已经发送消息给客户</translation>
     </message>
     <message>
       <source>Seen</source>
@@ -8734,7 +8734,7 @@
     </message>
     <message>
       <source>User has message from operator</source>
-      <translation>客户收到客服人员发送的讯息</translation>
+      <translation>客户收到客服人员发送的消息</translation>
     </message>
     <message>
       <source>Marker timeout before it dissapears from map</source>
@@ -8974,11 +8974,11 @@
     </message>
     <message>
       <source>User has seen the message from the operator.</source>
-      <translation>访客已看过客服人员的讯息。</translation>
+      <translation>访客已看过客服人员的消息。</translation>
     </message>
     <message>
       <source>User does not have any messages from the operator</source>
-      <translation>访客没有收到任何来自客服人员的讯息</translation>
+      <translation>访客没有收到任何来自客服人员的消息</translation>
     </message>
     <message>
       <source>Returning visitor, visits in total</source>
@@ -9468,7 +9468,7 @@
     </message>
     <message>
       <source>Screen sharing</source>
-      <translation>萤幕分享</translation>
+      <translation>屏幕分享</translation>
     </message>
     <message>
       <source>Copy messages</source>
@@ -9656,7 +9656,7 @@
     </message>
     <message>
       <source>This is offline message</source>
-      <translation>这是离线信息</translation>
+      <translation>这是离线消息</translation>
     </message>
     <message>
       <source>E-mail</source>
@@ -9820,7 +9820,7 @@
     </message>
     <message>
       <source>Messages</source>
-      <translation>讯息</translation>
+      <translation>消息</translation>
     </message>
     <message>
       <source>Copied!</source>
@@ -9848,7 +9848,7 @@
     </message>
     <message>
       <source>Select a canned message</source>
-      <translation>选择罐头讯息</translation>
+      <translation>选择罐头消息</translation>
     </message>
     <message>
       <source>BB Code</source>
@@ -9864,7 +9864,7 @@
     </message>
     <message>
       <source>Hold/Un-Hold chat</source>
-      <translation>保留/不保留聊天信息</translation>
+      <translation>保留/不保留聊天消息</translation>
     </message>
     <message>
       <source>Wait for visitor message and stop auto responder</source>
@@ -9872,7 +9872,7 @@
     </message>
     <message>
       <source>Send delayed canned message instantly</source>
-      <translation>立即发送延迟的罐头讯息</translation>
+      <translation>立即发送延迟的罐头消息</translation>
     </message>
     <message>
       <source>Send</source>
@@ -10135,7 +10135,7 @@
     </message>
     <message>
       <source>Screen shared, click to finish</source>
-      <translation>萤幕分享，点选后完成</translation>
+      <translation>屏幕分享，点选后完成</translation>
     </message>
   </context>
   <context>
@@ -10388,7 +10388,7 @@
     </message>
     <message>
       <source>Support has closed the chat window, but You can leave messages, and the administrator will read them later.</source>
-      <translation>客服人员已关闭交谈视窗，您可以留下你的讯息，待稍后管理员将会协助处理您的问题。</translation>
+      <translation>客服人员已关闭交谈视窗，您可以留下你的消息，待稍后管理员将会协助处理您的问题。</translation>
     </message>
     <message>
       <source>You do not have permission to view this chat, or the chat was deleted</source>
@@ -10407,7 +10407,7 @@
     </message>
     <message>
       <source>User is typing now...</source>
-      <translation>访客输入讯息中...</translation>
+      <translation>访客输入消息中...</translation>
     </message>
     <message>
       <source>Write</source>
@@ -10503,7 +10503,7 @@
     </message>
     <message>
       <source>Type your message here...</source>
-      <translation>在这儿输入您的讯息...</translation>
+      <translation>在这儿输入您的消息...</translation>
     </message>
     <message>
       <source>Close</source>
@@ -11202,7 +11202,7 @@
     </message>
     <message>
       <source>Auto preload previous visitor chat messages</source>
-      <translation>自动预载访客之前的聊天讯息</translation>
+      <translation>自动预载访客之前的聊天消息</translation>
     </message>
     <message>
       <source>Default number of rows for chat text area</source>
@@ -11406,7 +11406,7 @@
     </message>
     <message>
       <source>Personal canned messages</source>
-      <translation>我的罐头讯息</translation>
+      <translation>我的罐头消息</translation>
     </message>
     <message>
       <source>Hide quick notifications</source>
@@ -11656,7 +11656,7 @@
     </message>
     <message>
       <source>Unread messages</source>
-      <translation>未读取讯息</translation>
+      <translation>未读取消息</translation>
     </message>
     <message>
       <source>Chats transferred to you directly</source>
@@ -12888,7 +12888,7 @@
     <name>chat/screenshot</name>
     <message>
       <source>Take user screenshot</source>
-      <translation>萤幕截图</translation>
+      <translation>屏幕截图</translation>
     </message>
     <message>
       <source>Refresh</source>
@@ -12904,11 +12904,11 @@
     </message>
     <message>
       <source>Perhaps screenshot is under way or screenshot is not supported on client browser, click refresh to check for a screenshot</source>
-      <translation>也许萤幕截图正在进行，或截图不支援于用户端的浏览器，可以点击重新整理以检查萤幕截图</translation>
+      <translation>也许屏幕截图正在进行，或截图不支持于用户端的浏览器，可以点击重新整理以检查屏幕截图</translation>
     </message>
     <message>
       <source>Screenshot</source>
-      <translation>萤幕截图</translation>
+      <translation>屏幕截图</translation>
     </message>
     <message>
       <source>Redirect to URL</source>
@@ -12916,7 +12916,7 @@
     </message>
     <message>
       <source>Screenshot store error</source>
-      <translation>萤幕撷取画面错误</translation>
+      <translation>屏幕撷取画面错误</translation>
     </message>
     <message>
       <source>Screenshot ready...</source>
@@ -13409,7 +13409,7 @@
     </message>
     <message>
       <source>Unread messages</source>
-      <translation>未读取讯息</translation>
+      <translation>未读取消息</translation>
     </message>
     <message>
       <source>All pending chats</source>
@@ -13574,11 +13574,11 @@
     </message>
     <message>
       <source>At this moment there are no logged in support staff members, but you can leave your messages</source>
-      <translation>目前没有在线的客服人员，但您仍然可留下您的讯息</translation>
+      <translation>目前没有在线的客服人员，但您仍然可留下您的消息</translation>
     </message>
     <message>
       <source>Pending a support staff member to join, you can write your questions, and as soon as a support staff member confirms this chat, they will get your messages</source>
-      <translation>正在等待客服人员加入，可以在下方先输入您的问题，待客服人员确认交谈后，会马上收到您的讯息。</translation>
+      <translation>正在等待客服人员加入，可以在下方先输入您的问题，待客服人员确认交谈后，会马上收到您的消息。</translation>
     </message>
     <message>
       <source>You have been transferred. Please wait for operator to join a chat...</source>
@@ -13618,7 +13618,7 @@
     </message>
     <message>
       <source>Type your message here and hit enter to send...</source>
-      <translation>在这里输入您的讯息并按下 Enter 送出......</translation>
+      <translation>在这里输入您的消息并按下 Enter 送出......</translation>
     </message>
     <message>
       <source>{nick}</source>
@@ -13676,7 +13676,7 @@
     </message>
     <message>
       <source>Enable/Disable sound about new messages from the operator</source>
-      <translation>收到客服人员讯息时 开启 / 关闭 音效通知</translation>
+      <translation>收到客服人员消息时 开启 / 关闭 音效通知</translation>
     </message>
     <message>
       <source>Print</source>
@@ -13696,7 +13696,7 @@
     </message>
     <message>
       <source>Enable/Disable sound about new messages from users</source>
-      <translation>收到访客讯息时 开启 / 关闭 音效通知</translation>
+      <translation>收到访客消息时 开启 / 关闭 音效通知</translation>
     </message>
     <message>
       <source>Enable/Disable sound about new pending chats</source>
@@ -13849,11 +13849,11 @@
     </message>
     <message>
       <source>XMPP Message content</source>
-      <translation>XMPP 讯息内容</translation>
+      <translation>XMPP 消息内容</translation>
     </message>
     <message>
       <source>XMPP Message about accepted chat</source>
-      <translation>XMPP 讯息关于接受交谈</translation>
+      <translation>XMPP 消息关于接受交谈</translation>
     </message>
     <message>
       <source>XMPP</source>
@@ -13913,7 +13913,7 @@
     </message>
     <message>
       <source>Test message will be send to your account e-mail</source>
-      <translation>测试讯息，将发送到您帐户的 E-mail</translation>
+      <translation>测试消息，将发送到您帐户的 E-mail</translation>
     </message>
     <message>
       <source>Use GTalk for messaging</source>
@@ -13945,15 +13945,15 @@
     </message>
     <message>
       <source>Please enter to what gmail address test message should be send?</source>
-      <translation>请输入应该发送什么样的 gmail 位址测试讯息？</translation>
+      <translation>请输入应该发送什么样的 gmail 位址测试消息？</translation>
     </message>
     <message>
       <source>This message will be send to test e-mail</source>
-      <translation>此讯息将会发送测试 E-mail</translation>
+      <translation>此消息将会发送测试 E-mail</translation>
     </message>
     <message>
       <source>Send test message</source>
-      <translation>发送测试讯息</translation>
+      <translation>发送测试消息</translation>
     </message>
     <message>
       <source>Revoke access token</source>
@@ -13961,19 +13961,19 @@
     </message>
     <message>
       <source>Revoke permission to send a message</source>
-      <translation>撤销发送讯息的权限</translation>
+      <translation>撤销发送消息的权限</translation>
     </message>
     <message>
       <source>Authentificate and grant permission to send a message</source>
-      <translation>认证和授予发送讯息的权限</translation>
+      <translation>认证和授予发送消息的权限</translation>
     </message>
     <message>
       <source>Grant permission to send a message</source>
-      <translation>给予发送讯息的权限</translation>
+      <translation>给予发送消息的权限</translation>
     </message>
     <message>
       <source>Succesfully authorised, now you can try to send a message</source>
-      <translation>授权成功，现在您可以试着发送讯息</translation>
+      <translation>授权成功，现在您可以试着发送消息</translation>
     </message>
     <message>
       <source>Token was revoked</source>
@@ -13981,7 +13981,7 @@
     </message>
     <message>
       <source>XMPP message was sent succesfuly</source>
-      <translation>XMPP 讯息已成功送出</translation>
+      <translation>XMPP 消息已成功送出</translation>
     </message>
     <message>
       <source>Invalid test e-mail address</source>
@@ -14274,7 +14274,7 @@
     </message>
     <message>
       <source>Canned messages</source>
-      <translation>罐头讯息</translation>
+      <translation>罐头消息</translation>
     </message>
     <message>
       <source>Canned messages suggester configuration</source>
@@ -14781,7 +14781,7 @@
     </message>
     <message>
       <source>Screen sharing</source>
-      <translation>萤幕分享</translation>
+      <translation>屏幕分享</translation>
     </message>
     <message>
       <source>Notifications about new chats</source>
@@ -15047,7 +15047,7 @@
     </message>
     <message>
       <source>Message types</source>
-      <translation>讯息种类</translation>
+      <translation>消息种类</translation>
     </message>
     <message>
       <source>Proactive chats number vs visitors initiated</source>
@@ -15075,7 +15075,7 @@
     </message>
     <message>
       <source>Number of messages by user</source>
-      <translation>讯息量（依用户）</translation>
+      <translation>消息量（依用户）</translation>
     </message>
     <message>
       <source>Number of chats per hour, average chat duration</source>
@@ -15407,7 +15407,7 @@
     </message>
     <message>
       <source>Total messages</source>
-      <translation>总讯息量</translation>
+      <translation>总消息量</translation>
     </message>
     <message>
       <source>Votes</source>
@@ -15619,15 +15619,15 @@
     </message>
     <message>
       <source>Total messages (only operators)</source>
-      <translation>讯息总数 ( 只有客服人员 )</translation>
+      <translation>消息总数 ( 只有客服人员 )</translation>
     </message>
     <message>
       <source>Total messages (only system messages)</source>
-      <translation>讯息总数 ( 只有系统讯息 )</translation>
+      <translation>消息总数 ( 只有系统消息 )</translation>
     </message>
     <message>
       <source>Total messages (only visitors)</source>
-      <translation>讯息总数 ( 只有访客 )</translation>
+      <translation>消息总数 ( 只有访客 )</translation>
     </message>
     <message>
       <source>Total pending chats</source>
@@ -15917,7 +15917,7 @@
     </message>
     <message>
       <source>Type your message to the user</source>
-      <translation>输入您给客户的讯息</translation>
+      <translation>输入您给客户的消息</translation>
     </message>
     <message>
       <source>Send the mail</source>
@@ -15992,11 +15992,11 @@
     </message>
     <message>
       <source>Preload previous chat messages on chat open</source>
-      <translation>在开启即时通讯时预先载入先前的即时通讯讯息</translation>
+      <translation>在开启即时通讯时预先载入先前的即时通讯消息</translation>
     </message>
     <message>
       <source>Messages settings</source>
-      <translation>讯息设定</translation>
+      <translation>消息设定</translation>
     </message>
     <message>
       <source>Sync for a new user message, interval in seconds</source>
@@ -16004,7 +16004,7 @@
     </message>
     <message>
       <source>Show browser notification for new messages</source>
-      <translation>显示新讯息的浏览器通知</translation>
+      <translation>显示新消息的浏览器通知</translation>
     </message>
     <message>
       <source>New chat request notification settings</source>
@@ -16016,15 +16016,15 @@
     </message>
     <message>
       <source>Play a sound on a new message for a back office user</source>
-      <translation>为后台用户出现新讯息时播放音效</translation>
+      <translation>为后台用户出现新消息时播放音效</translation>
     </message>
     <message>
       <source>Play a sound on a new message for a front end user</source>
-      <translation>为前台用户出现新讯息时播放音效</translation>
+      <translation>为前台用户出现新消息时播放音效</translation>
     </message>
     <message>
       <source>Show alert message on a new chat request</source>
-      <translation>在一个新的交谈请求中，显示警报讯息</translation>
+      <translation>在一个新的交谈请求中，显示警报消息</translation>
     </message>
     <message>
       <source>How many times play sound notification</source>
@@ -16446,7 +16446,7 @@
     <name>chat/previewchat</name>
     <message>
       <source>Last 100 messages rows</source>
-      <translation>最近 100 则讯息</translation>
+      <translation>最近 100 则消息</translation>
     </message>
   </context>
   <context>
@@ -16592,7 +16592,7 @@
     </message>
     <message>
       <source>Messages limit in the chatbox</source>
-      <translation>在 chatbox 中限制讯息</translation>
+      <translation>在 chatbox 中限制消息</translation>
     </message>
     <message>
       <source>Auto creation by chatbox identifier is enabled</source>
@@ -17038,11 +17038,11 @@
     <name>cobrowse/browse</name>
     <message>
       <source>Click blue eye at the top to request screen share</source>
-      <translation>点选画面上方的蓝眼睛请求以萤幕分享</translation>
+      <translation>点选画面上方的蓝眼睛请求以屏幕分享</translation>
     </message>
     <message>
       <source>Request screen share</source>
-      <translation>请求萤幕分享</translation>
+      <translation>请求屏幕分享</translation>
     </message>
     <message>
       <source>Show my mouse position to visitor</source>
@@ -17062,11 +17062,11 @@
     </message>
     <message>
       <source>Screen sharing session has finished</source>
-      <translation>萤幕分享会议已完成</translation>
+      <translation>屏幕分享会议已完成</translation>
     </message>
     <message>
       <source>Screen is shared</source>
-      <translation>萤幕已分享</translation>
+      <translation>屏幕已分享</translation>
     </message>
     <message>
       <source>Co-browse is stopped by error</source>
@@ -17438,7 +17438,7 @@
     </message>
     <message>
       <source>Identifier has to be shorter than 10 characters!</source>
-      <translation>识别码必须是少于 10 个字元 ！</translation>
+      <translation>识别码必须是少于 10 个字符 ！</translation>
     </message>
     <message>
       <source>Please enter question!</source>
@@ -22042,7 +22042,7 @@
     </message>
     <message>
       <source>Secret hash used for authentification token generation, min 10 characters</source>
-      <translation>用于认证产生的 Secret Hash，最少 10 个字元</translation>
+      <translation>用于认证产生的 Secret Hash，最少 10 个字符</translation>
     </message>
     <message>
       <source>User ID</source>
@@ -23706,7 +23706,7 @@
     </message>
     <message>
       <source>Message seen</source>
-      <translation>看过的讯息</translation>
+      <translation>看过的消息</translation>
     </message>
   </context>
   <context>
@@ -23868,7 +23868,7 @@
     </message>
     <message>
       <source>Identifier, for what identifier this message should be shown, leave empty for all</source>
-      <translation>识别码，什么识别码应该显示此讯息，可空白</translation>
+      <translation>识别码，什么识别码应该显示此消息，可空白</translation>
     </message>
     <message>
       <source>Matched times</source>
@@ -24823,7 +24823,7 @@
     <name>chat/updatemsguser</name>
     <message>
       <source>User has edited their last message</source>
-      <translation>用户已编辑他的上个讯息</translation>
+      <translation>用户已编辑他的上个消息</translation>
     </message>
   </context>
   <context>
