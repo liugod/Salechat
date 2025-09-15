@@ -11,7 +11,7 @@
     </message>
     <message>
       <source>Domains where script can be embedded. E.g example.com, google.com</source>
-      <translation>可以嵌入脚本的网域。 例如example.com，google.com</translation>
+      <translation>可以嵌入脚本的域名。 例如example.com，google.com</translation>
     </message>
     <message>
       <source>Use secure cookie, check this if you want to force SSL all the time</source>
@@ -23,7 +23,7 @@
     </message>
     <message>
       <source>How long keep operators online sessions data? (days)</source>
-      <translation>客服人员在线工作阶段数据保留多长时间？ （天）</translation>
+      <translation>客服人员在线会话数据保留多长时间？ （天）</translation>
     </message>
     <message>
       <source>Which ip should not be allowed to be blocked</source>
@@ -51,7 +51,7 @@
     </message>
     <message>
       <source>Set your domain to enable user tracking across different domain subdomains.</source>
-      <translation>设定您的网域，让用户能追踪跨不同网域的子网域。</translation>
+      <translation>设定您的域名，让用户能追踪跨不同域名的子域名。</translation>
     </message>
     <message>
       <source>Track users activity on site?</source>
@@ -107,7 +107,7 @@
     </message>
     <message>
       <source>Use session captcha. LHC have to be installed on the same domain or subdomain.</source>
-      <translation>使用工作阶段验证码。 LHC必须安装在同一网域或子网域上。</translation>
+      <translation>使用会话验证码。 LHC必须安装在同一域名或子域名上。</translation>
     </message>
     <message>
       <source>Should cronjob run unanswered chats workflow and execute unaswered chats callback, 0 - no, any other number bigger than 0 is a minits how long chat have to be not accepted before executing callback.</source>
@@ -167,7 +167,7 @@
     </message>
     <message>
       <source>Cookie should be valid only for domain where Javascript is embedded</source>
-      <translation>Cookie仅对嵌入了Javascript的网域有效</translation>
+      <translation>Cookie仅对嵌入了Javascript的域名有效</translation>
     </message>
     <message>
       <source>Need help tooltip timeout, after how many hours show again tooltip?</source>
@@ -291,7 +291,7 @@
     </message>
     <message>
       <source>Hide 'New Window' option in Connector Widget</source>
-      <translation>在 Connector 小部件中隐藏 "开新视窗" 选项</translation>
+      <translation>在 Connector 小部件中隐藏 "新窗口" 选项</translation>
     </message>
     <message>
       <source>Disable live auto assign</source>
@@ -418,7 +418,7 @@
     <name>system/buttons</name>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Update</source>
@@ -502,7 +502,7 @@
     </message>
     <message>
       <source>Save and continue</source>
-      <translation>储存并继续</translation>
+      <translation>保存并继续</translation>
     </message>
     <message>
       <source>Continue</source>
@@ -518,7 +518,7 @@
     </message>
     <message>
       <source>Save &amp; Exit</source>
-      <translation>储存并离开</translation>
+      <translation>保存并退出</translation>
     </message>
     <message>
       <source>Delete department</source>
@@ -871,7 +871,7 @@
     </message>
     <message>
       <source>Build your own need help widget layout</source>
-      <translation>创建自己的需要幫助小部件布局</translation>
+      <translation>创建自己的需要帮助小部件布局</translation>
     </message>
     <message>
       <source>Set default HTML</source>
@@ -879,7 +879,7 @@
     </message>
     <message>
       <source>If you want to get nerdy you can build your own eye catcher using default template as starting point. You can adjust need help widget dimensions above. Also see what placeholders we support.</source>
-      <translation>如果您想书呆子，可以使用默认模板作为起点来构建自己的惹眼小部件。 您可以在上方调整需要帮助窗口小部件的尺寸。 另请参阅我们支持的占位符。</translation>
+      <translation>如果您想自定义，可以使用默认模板作为起点来构建自己的吸引眼球的小部件。您可以在上方调整需要帮助小部件的尺寸。另请参阅我们支持的占位符。</translation>
     </message>
     <message>
       <source>General settings</source>
@@ -1451,11 +1451,11 @@
     </message>
     <message>
       <source>Logo image, visible in popup</source>
-      <translation>商标 图片，显示于快显视窗</translation>
+      <translation>商标图片，显示于弹出窗口</translation>
     </message>
     <message>
       <source>Logo image, visible in widget left corner, 16x16</source>
-      <translation>商标 图片，显示于小部件的左上角，16 x 16</translation>
+      <translation>商标图片，显示于小部件的左上角，16 x 16</translation>
     </message>
     <message>
       <source>Show copyright widget logo in left corner</source>
@@ -1503,7 +1503,7 @@
     </message>
     <message>
       <source>Text above start chat form fields</source>
-      <translation>开始聊天表单栏位上方的文字</translation>
+      <translation>开始聊天表单字段上方的文字</translation>
     </message>
     <message>
       <source>Custom html before start chat form fields, popup</source>
@@ -1719,7 +1719,7 @@
     </message>
     <message>
       <source>Popup image</source>
-      <translation>快显视窗 图片</translation>
+      <translation>弹出窗口图片</translation>
     </message>
     <message>
       <source>Visitor bubble background color</source>
@@ -2534,7 +2534,7 @@
     </message>
     <message>
       <source>Referrer domain without www, E.g google keyword will match any of google domain</source>
-      <translation>不带 www 的referrer 网域，例如："Google" 这个关键字将配对任何Google网域</translation>
+      <translation>不带 www 的referrer 域名，例如："Google" 这个关键字将匹配任何Google域名</translation>
     </message>
     <message>
       <source>How many times user show invitation, 0 - untill users closes it, &gt; 0 limits.</source>
@@ -2630,7 +2630,7 @@
     </message>
     <message>
       <source>Matched times</source>
-      <translation>已配对时间</translation>
+      <translation>已匹配次数</translation>
     </message>
     <message>
       <source>Message to user</source>
@@ -3811,7 +3811,7 @@
     </message>
     <message>
       <source>This field is max 50 characters length and can be used for any purpose by extensions. This field is also indexed.</source>
-      <translation>此栏位最大为 50 字符，可扩展用于任何目的。此栏位也可以编入索引。</translation>
+      <translation>此字段最大为 50 字符，可扩展用于任何目的。此字段也可以编入索引。</translation>
     </message>
     <message>
       <source>Department groups</source>
@@ -4285,7 +4285,7 @@
     </message>
     <message>
       <source>At least one field has to be visible and required in the popup and page widget</source>
-      <translation>至少一个栏位必须是可见的，并需要快显视窗和页面小部件</translation>
+      <translation>至少一个字段必须是可见的，并需要弹出窗口和页面小部件</translation>
     </message>
     <message>
       <source>Custom fields generator, these fields will be visible in start chat forms</source>
@@ -4293,7 +4293,7 @@
     </message>
     <message>
       <source>Field label</source>
-      <translation>栏位标签</translation>
+      <translation>字段标签</translation>
     </message>
     <message>
       <source>Default value</source>
@@ -4353,11 +4353,11 @@
     </message>
     <message>
       <source>Field identifier</source>
-      <translation>栏位识别码</translation>
+      <translation>字段识别码</translation>
     </message>
     <message>
       <source>Is required</source>
-      <translation>为必填栏位</translation>
+      <translation>为必填字段</translation>
     </message>
     <message>
       <source>Hide if prefilled</source>
@@ -4373,7 +4373,7 @@
     </message>
     <message>
       <source>Add a field</source>
-      <translation>添加栏位</translation>
+      <translation>添加字段</translation>
     </message>
     <message>
       <source>left</source>
@@ -4421,7 +4421,7 @@
     </message>
     <message>
       <source>Custom fields</source>
-      <translation>自订栏位</translation>
+      <translation>自订字段</translation>
     </message>
     <message>
       <source>URL Arguments</source>
@@ -4441,11 +4441,11 @@
     </message>
     <message>
       <source>This field is visible in the popup</source>
-      <translation>此栏位会显示于快显视窗中</translation>
+      <translation>此字段会显示于弹出窗口中</translation>
     </message>
     <message>
       <source>This field is visible in the page widget</source>
-      <translation>此栏位会显示于页面的小部件里</translation>
+      <translation>此字段会显示于页面的小部件里</translation>
     </message>
     <message>
       <source>This field is invisible but prefilled data is collected</source>
@@ -4457,7 +4457,7 @@
     </message>
     <message>
       <source>This field is</source>
-      <translation>此栏位为</translation>
+      <translation>此字段为</translation>
     </message>
     <message>
       <source>Required</source>
@@ -4481,11 +4481,11 @@
     </message>
     <message>
       <source>Automatically start chat then user starts typing. Only message field has to be required</source>
-      <translation>当用户开始打字后自动开始聊天。只有消息栏位必须要被请求。</translation>
+      <translation>当用户开始打字后自动开始聊天。只有消息字段必须要被请求。</translation>
     </message>
     <message>
       <source>Start chat process in the background as soon user submits form. Only message field has to be required</source>
-      <translation>当用户开始打字后自动开始聊天。只有消息栏位是必须。</translation>
+      <translation>当用户开始打字后自动开始聊天。只有消息字段是必须。</translation>
     </message>
     <message>
       <source>Phone</source>
@@ -4505,7 +4505,7 @@
     </message>
     <message>
       <source>Show operator profile above input fields</source>
-      <translation>输入栏位上方显示客服人员的个人资料</translation>
+      <translation>输入字段上方显示客服人员的个人资料</translation>
     </message>
     <message>
       <source>Remove space after operator profile</source>
@@ -4517,7 +4517,7 @@
     </message>
     <message>
       <source>Show messages box above input fields, usefull for UX combinations.</source>
-      <translation>显示消息方块上面输入栏位，用户体验组合有用。</translation>
+      <translation>显示消息方块上面输入字段，用户体验组合有用。</translation>
     </message>
     <message>
       <source>Hide start chat button. Usefull if in the theme you choose bot and trigger with a buttons.</source>
@@ -5824,7 +5824,7 @@
     </message>
     <message>
       <source>Group field</source>
-      <translation>群组栏位</translation>
+      <translation>群组字段</translation>
     </message>
     <message>
       <source>Group limit</source>
@@ -7037,7 +7037,7 @@
     </message>
     <message>
       <source>Do not enter a password unless you want to change it</source>
-      <translation>如果您不想要更改密码，请勿变更密码栏位</translation>
+      <translation>如果您不想要更改密码，请勿变更密码字段</translation>
     </message>
     <message>
       <source>Username</source>
@@ -7069,7 +7069,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Update</source>
@@ -7441,7 +7441,7 @@
     </message>
     <message>
       <source>Popup</source>
-      <translation>快显视窗</translation>
+      <translation>弹出窗口</translation>
     </message>
     <message>
       <source>End chat</source>
@@ -7537,7 +7537,7 @@
     </message>
     <message>
       <source>is required</source>
-      <translation>为必填栏位</translation>
+      <translation>为必填字段</translation>
     </message>
     <message>
       <source>Could not decrypt data!</source>
@@ -7948,11 +7948,11 @@
     </message>
     <message>
       <source>Popup width</source>
-      <translation>快显视窗宽度</translation>
+      <translation>弹出窗口宽度</translation>
     </message>
     <message>
       <source>Popup height, used only if iframe is used</source>
-      <translation>只有在使用 iframe 时所用的快显视窗高度</translation>
+      <translation>只有在使用 iframe 时所用的弹出窗口高度</translation>
     </message>
     <message>
       <source>Identifier, this can be used as filter for pro active chat invitations and is use full having different messages for different domains. Only string without spaces or special characters.</source>
@@ -7960,15 +7960,15 @@
     </message>
     <message>
       <source>Leave empty if it is not important to you</source>
-      <translation>如果此栏位对你并不重要，请空白</translation>
+      <translation>如果此字段对你并不重要，请空白</translation>
     </message>
     <message>
       <source>Offer timeout in days, after how many days show offers for the same visitor again, leave empty for session</source>
-      <translation>提供超时（以天为单位），在多少天后再次显示同一位访客的提供后，留空工作阶段</translation>
+      <translation>提供超时（以天为单位），在多少天后再次显示同一位访客的提供后，留空会话</translation>
     </message>
     <message>
       <source>For what domain you are generating embed code?</source>
-      <translation>您正在为哪个网域生成嵌入代码？</translation>
+      <translation>您正在为哪个域名生成嵌入代码？</translation>
     </message>
     <message>
       <source>example.com</source>
@@ -8240,15 +8240,15 @@
     </message>
     <message>
       <source>Popup window width</source>
-      <translation>快显视窗宽度</translation>
+      <translation>弹出窗口宽度</translation>
     </message>
     <message>
       <source>Popup window width in pixels</source>
-      <translation>快显视窗宽度，以 px 为单位</translation>
+      <translation>弹出窗口宽度，以 px 为单位</translation>
     </message>
     <message>
       <source>Popup window height in pixels</source>
-      <translation>快显视窗高度，以 px 为单位</translation>
+      <translation>弹出窗口高度，以 px 为单位</translation>
     </message>
     <message>
       <source>Widget width</source>
@@ -8292,7 +8292,7 @@
     </message>
     <message>
       <source>On each refresh start a new chat. Users will loose chat session browsing through pages! Usefull in embed mode.</source>
-      <translation>每次刷新时，开始新的聊天。 用户将失去聊天工作阶段浏览页面！ 在嵌入模式下很有用。</translation>
+      <translation>每次刷新时，开始新的聊天。 用户将失去聊天会话浏览页面！ 在嵌入模式下很有用。</translation>
     </message>
     <message>
       <source>Check for operator invitation messages. If you are planning to send messages to online visitors manually you can check this.</source>
@@ -8518,7 +8518,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Drag a marker where you want to have map centered by default. Zoom is also saved.</source>
@@ -9540,7 +9540,7 @@
     </message>
     <message>
       <source>Hidden field</source>
-      <translation>隐藏的栏位</translation>
+      <translation>隐藏的字段</translation>
     </message>
     <message>
       <source>Passed as encrypted variable</source>
@@ -9832,7 +9832,7 @@
     </message>
     <message>
       <source>Close dialog</source>
-      <translation>关闭视窗</translation>
+      <translation>关闭窗口</translation>
     </message>
     <message>
       <source>Notes</source>
@@ -10103,7 +10103,7 @@
     </message>
     <message>
       <source>Open in a new window</source>
-      <translation>在新视窗中开启</translation>
+      <translation>在新窗口中开启</translation>
     </message>
     <message>
       <source>Minimize/Restore</source>
@@ -10388,7 +10388,7 @@
     </message>
     <message>
       <source>Support has closed the chat window, but You can leave messages, and the administrator will read them later.</source>
-      <translation>客服人员已关闭聊天视窗，您可以留下你的消息，待稍后管理员将会协助处理您的问题。</translation>
+      <translation>客服人员已关闭聊天窗口，您可以留下你的消息，待稍后管理员将会协助处理您的问题。</translation>
     </message>
     <message>
       <source>You do not have permission to view this chat, or the chat was deleted</source>
@@ -11074,7 +11074,7 @@
     </message>
     <message>
       <source>Do not enter a password unless you want to change it</source>
-      <translation>如果您不想要更改密码，请勿变更密码栏位</translation>
+      <translation>如果您不想要更改密码，请勿变更密码字段</translation>
     </message>
     <message>
       <source>Username</source>
@@ -12123,7 +12123,7 @@
     </message>
     <message>
       <source>Open in a new window</source>
-      <translation>在新视窗中开启</translation>
+      <translation>在新窗口中开启</translation>
     </message>
     <message>
       <source>No previous chats</source>
@@ -14852,7 +14852,7 @@
     </message>
     <message>
       <source>Open in a new window</source>
-      <translation>在新视窗中开启</translation>
+      <translation>在新窗口中开启</translation>
     </message>
     <message>
       <source>Reject chat</source>
@@ -14943,7 +14943,7 @@
     </message>
     <message>
       <source>Open in a new window</source>
-      <translation>同一个画面开启新的视窗</translation>
+      <translation>同一个画面开启新的窗口</translation>
     </message>
     <message>
       <source>Empty...</source>
@@ -15956,7 +15956,7 @@
     <name>chat/syncandsoundesetting</name>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Update</source>
@@ -16150,7 +16150,7 @@
     </message>
     <message>
       <source>Visitor has joined the chat from popup chat window!</source>
-      <translation>访客已从快显聊天视窗加入聊天 ！</translation>
+      <translation>访客已从快显聊天窗口加入聊天 ！</translation>
     </message>
   </context>
   <context>
@@ -17050,7 +17050,7 @@
     </message>
     <message>
       <source>On highlight scroll user window location to match my</source>
-      <translation>在突出卷动用户视窗位置以符合我的</translation>
+      <translation>在突出卷动用户窗口位置以符合我的</translation>
     </message>
     <message>
       <source>Follow user scroll position</source>
@@ -17813,7 +17813,7 @@
     </message>
     <message>
       <source>is required</source>
-      <translation>为必填栏位</translation>
+      <translation>为必填字段</translation>
     </message>
     <message>
       <source>invalid date format</source>
@@ -21232,7 +21232,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Cancel</source>
@@ -21271,7 +21271,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Cancel</source>
@@ -21484,7 +21484,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Update</source>
@@ -21610,7 +21610,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Cancel</source>
@@ -21890,7 +21890,7 @@
     </message>
     <message>
       <source>Visitor was redirected to survey, you can now close this window.</source>
-      <translation>访客被重定向到调查,您现在可以关闭此视窗。</translation>
+      <translation>访客被重定向到调查,您现在可以关闭此窗口。</translation>
     </message>
   </context>
   <context>
@@ -22610,7 +22610,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Save and edit</source>
@@ -23192,7 +23192,7 @@
     </message>
     <message>
       <source>Your session has ended. Please login!</source>
-      <translation>您的工作阶段已结束。 请登录！</translation>
+      <translation>您的会话已结束。 请登录！</translation>
     </message>
     <message>
       <source>You were logged out because another user logged under same account</source>
@@ -23295,7 +23295,7 @@
     </message>
     <message>
       <source>Save</source>
-      <translation>储存</translation>
+      <translation>保存</translation>
     </message>
     <message>
       <source>Save and assign the user</source>
@@ -23832,11 +23832,11 @@
     </message>
     <message>
       <source>Popup width</source>
-      <translation>快显视窗宽度</translation>
+      <translation>弹出窗口宽度</translation>
     </message>
     <message>
       <source>Popup height</source>
-      <translation>快显视窗高度</translation>
+      <translation>弹出窗口高度</translation>
     </message>
     <message>
       <source>Measure units, px or percents</source>
@@ -23856,7 +23856,7 @@
     </message>
     <message>
       <source>Default popup content</source>
-      <translation>预设的快显视窗内容</translation>
+      <translation>预设的弹出窗口内容</translation>
     </message>
     <message>
       <source>Callback content, must be valid json</source>
@@ -23872,7 +23872,7 @@
     </message>
     <message>
       <source>Matched times</source>
-      <translation>已配对时间</translation>
+      <translation>已匹配次数</translation>
     </message>
     <message>
       <source>Browser offer invitations</source>
