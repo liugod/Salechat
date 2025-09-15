@@ -143,11 +143,11 @@
     </message>
     <message>
       <source>Pro active chats invitations limitation based on pending chats, (-1) do not limit, (0,1,n+1) number of pending chats can be for invitation to be shown.</source>
-      <translation>不限制主动聊天邀请限制基于待定的聊天记录，(-1)，（0，1，n + 1） 挂起聊天的数目可以为要显示的邀请。</translation>
+      <translation>不限制主动聊天邀请限制基于等待中的聊天，(-1)，（0，1，n + 1） 等待聊天的数目可以为要显示的邀请。</translation>
     </message>
     <message>
       <source>Is pro active chat invitation active. Online users tracking also has to be enabled</source>
-      <translation>是否启用主动聊天邀请。在线访客追踪必须被启用</translation>
+      <translation>是否启用主动聊天邀请。必须启用在线访客追踪</translation>
     </message>
     <message>
       <source>Preload iframes. It will avoid loading delay after clicking widget</source>
@@ -183,11 +183,11 @@
     </message>
     <message>
       <source>Messages box height for operator</source>
-      <translation>客服人员的消息框框高度</translation>
+      <translation>客服人员的消息框高度</translation>
     </message>
     <message>
       <source>Messages box height</source>
-      <translation>消息框框高度</translation>
+      <translation>消息框高度</translation>
     </message>
     <message>
       <source>Proactive message timeout in hours. After how many hours proactive chat mesasge should be shown again.</source>
@@ -335,11 +335,11 @@
     </message>
     <message>
       <source>How long operator can wait for message from visitor before time between messages are ignored. Values in minutes.</source>
-      <translation>客服人员可以等待来自访客的信息多久之前会忽略信息时间。 以分钟为单位的值。</translation>
+      <translation>客服人员可以等待访客消息多长时间，超过此时间将忽略消息间隔计算。以分钟为单位。</translation>
     </message>
     <message>
       <source>How long visitor can wait for message from operator before time between messages are ignored. Values in minutes.</source>
-      <translation>访客可以等待来自客服人员的信息多久之前会忽略信息时间。 以分钟为单位的值。</translation>
+      <translation>访客可以等待客服人员消息多长时间，超过此时间将忽略消息间隔计算。以分钟为单位。</translation>
     </message>
     <message>
       <source>Show BB Code button</source>
@@ -2134,7 +2134,7 @@
     </message>
     <message>
       <source>If you want pro active chat invitation to work it has to be enabled in</source>
-      <translation>如果你想要使用主动聊天邀请，此功能必须被启用</translation>
+      <translation>如果你想要使用主动聊天邀请，必须启用此功能</translation>
     </message>
     <message>
       <source>chat configuration</source>
@@ -8986,7 +8986,7 @@
     </message>
     <message>
       <source>Show file preview before uploading file</source>
-      <translation>加载中...</translation>
+      <translation>上传文件前显示文件预览</translation>
     </message>
   </context>
   <context>
@@ -9389,7 +9389,7 @@
     </message>
     <message>
       <source>Downloading image...</source>
-      <translation>加载中...</translation>
+      <translation>下载图片中...</translation>
     </message>
     <message>
       <source>Unable to display image. Click below to download the file.</source>
@@ -19747,7 +19747,7 @@
     </message>
     <message>
       <source>Downloading...</source>
-      <translation>加载中...</translation>
+      <translation>下载中...</translation>
     </message>
     <message>
       <source>Error: File not found/attached</source>
