@@ -51,7 +51,7 @@
     </message>
     <message>
       <source>Set your domain to enable user tracking across different domain subdomains.</source>
-      <translation>设定您的域名，让用户能追踪跨不同域名的子域名。</translation>
+      <translation>设置您的域名，让用户能追踪跨不同域名的子域名。</translation>
     </message>
     <message>
       <source>Track users activity on site?</source>
@@ -883,7 +883,7 @@
     </message>
     <message>
       <source>General settings</source>
-      <translation>一般设定</translation>
+      <translation>一般设置</translation>
     </message>
     <message>
       <source>Text changes</source>
@@ -1643,7 +1643,7 @@
     </message>
     <message>
       <source>Text when user starts chat based on proactive invitation</source>
-      <translation>设定使用主动邀请时，开始聊天的文字</translation>
+      <translation>设置使用主动邀请时，开始聊天的文字</translation>
     </message>
     <message>
       <source>Text when operator closes a chat</source>
@@ -3539,7 +3539,7 @@
     </message>
     <message>
       <source>Chat transfer worklow</source>
-      <translation>聊天转接设定</translation>
+      <translation>聊天转接设置</translation>
     </message>
     <message>
       <source>Auto assignment</source>
@@ -4281,7 +4281,7 @@
     </message>
     <message>
       <source>Start a chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始聊天表单设置</translation>
     </message>
     <message>
       <source>At least one field has to be visible and required in the popup and page widget</source>
@@ -4409,15 +4409,15 @@
     </message>
     <message>
       <source>Online form settings</source>
-      <translation>在线表单设定</translation>
+      <translation>在线表单设置</translation>
     </message>
     <message>
       <source>Offline form settings</source>
-      <translation>离线表单设定</translation>
+      <translation>离线表单设置</translation>
     </message>
     <message>
       <source>Additional form settings</source>
-      <translation>其他表单设定</translation>
+      <translation>其他表单设置</translation>
     </message>
     <message>
       <source>Custom fields</source>
@@ -4705,7 +4705,7 @@
     </message>
     <message>
       <source>Start chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始聊天表单设置</translation>
     </message>
     <message>
       <source>Default settings</source>
@@ -7148,7 +7148,7 @@
     </message>
     <message>
       <source>Set a subject</source>
-      <translation>设定主旨</translation>
+      <translation>设置主旨</translation>
     </message>
     <message>
       <source>Subject</source>
@@ -8132,11 +8132,11 @@
     </message>
     <message>
       <source>Set default speech recognition language</source>
-      <translation>设定预设的语音辨识语言</translation>
+      <translation>设置预设的语音辨识语言</translation>
     </message>
     <message>
       <source>Speech language</source>
-      <translation>设定辨识语言</translation>
+      <translation>设置辨识语言</translation>
     </message>
     <message>
       <source>Languages</source>
@@ -8402,7 +8402,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>GEO detection configuration</source>
@@ -8993,7 +8993,7 @@
     <name>audit/options</name>
     <message>
       <source>Audit Configuration</source>
-      <translation>审核设定</translation>
+      <translation>审核设置</translation>
     </message>
     <message>
       <source>How many days keep log?</source>
@@ -9021,7 +9021,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Options</source>
@@ -11501,7 +11501,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Send mass invitation message</source>
@@ -11944,7 +11944,7 @@
     </message>
     <message>
       <source>Settings</source>
-      <translation>设定</translation>
+      <translation>设置</translation>
     </message>
     <message>
       <source>Hide/Show chats toolbar</source>
@@ -12570,7 +12570,7 @@
     </message>
     <message>
       <source>Translation settings</source>
-      <translation>翻译设定</translation>
+      <translation>翻译设置</translation>
     </message>
     <message>
       <source>Enter text for testing purposes</source>
@@ -12682,7 +12682,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Missing text to translate</source>
@@ -13529,7 +13529,7 @@
     </message>
     <message>
       <source>Mail settings</source>
-      <translation>Mail 设定</translation>
+      <translation>Mail 设置</translation>
     </message>
     <message>
       <source>SMTP</source>
@@ -13837,11 +13837,11 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>XMPP settings</source>
-      <translation>XMPP 设定</translation>
+      <translation>XMPP 设置</translation>
     </message>
     <message>
       <source>XMPP active</source>
@@ -14158,7 +14158,7 @@
     </message>
     <message>
       <source>New chat notification settings</source>
-      <translation>新的聊天通知设定</translation>
+      <translation>新的聊天通知设置</translation>
     </message>
     <message>
       <source>Supported: group_chats, online_operators, departments_stats, online_visitors, pending_chats, unread_chats, transfered_chats, active_chats, bot_chats, my_chats</source>
@@ -14190,7 +14190,7 @@
     </message>
     <message>
       <source>Time zone settings</source>
-      <translation>时区设定</translation>
+      <translation>时区设置</translation>
     </message>
     <message>
       <source>E-mail templates</source>
@@ -14214,7 +14214,7 @@
     </message>
     <message>
       <source>Configuration</source>
-      <translation>设定</translation>
+      <translation>设置</translation>
     </message>
     <message>
       <source>Login history</source>
@@ -14318,7 +14318,7 @@
     </message>
     <message>
       <source>Mail settings</source>
-      <translation>Mail 设定</translation>
+      <translation>Mail 设置</translation>
     </message>
     <message>
       <source>FAQ embed code</source>
@@ -14406,7 +14406,7 @@
     </message>
     <message>
       <source>Settings</source>
-      <translation>设定</translation>
+      <translation>设置</translation>
     </message>
     <message>
       <source>Sessions</source>
@@ -14426,7 +14426,7 @@
     </message>
     <message>
       <source>Offline settings</source>
-      <translation>离线设定</translation>
+      <translation>离线设置</translation>
     </message>
     <message>
       <source>Paid chat configuration</source>
@@ -14470,7 +14470,7 @@
     </message>
     <message>
       <source>Start chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始聊天表单设置</translation>
     </message>
     <message>
       <source>Statistic</source>
@@ -14486,7 +14486,7 @@
     </message>
     <message>
       <source>Synchronization and sound settings</source>
-      <translation>同步化与音效设定</translation>
+      <translation>同步化与音效设置</translation>
     </message>
     <message>
       <source>Chat transfer configuration</source>
@@ -14550,7 +14550,7 @@
     </message>
     <message>
       <source>XMPP settings</source>
-      <translation>XMPP 设定</translation>
+      <translation>XMPP 设置</translation>
     </message>
     <message>
       <source>Mail conversation</source>
@@ -14570,7 +14570,7 @@
     </message>
     <message>
       <source>Live help configuration</source>
-      <translation>线上客服设定</translation>
+      <translation>线上客服设置</translation>
     </message>
     <message>
       <source>System</source>
@@ -14745,7 +14745,7 @@
     </message>
     <message>
       <source>Site settings</source>
-      <translation>网站设定</translation>
+      <translation>网站设置</translation>
     </message>
     <message>
       <source>New and old widget supported attribute</source>
@@ -14773,7 +14773,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Data protection</source>
@@ -14789,7 +14789,7 @@
     </message>
     <message>
       <source>Copyright settings</source>
-      <translation>版权设定</translation>
+      <translation>版权设置</translation>
     </message>
     <message>
       <source>Online tracking</source>
@@ -15968,11 +15968,11 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Synchronisation and sound settings</source>
-      <translation>同步化和音效设定</translation>
+      <translation>同步化和音效设置</translation>
     </message>
     <message>
       <source>How many seconds for a user to be considered as being online</source>
@@ -15996,7 +15996,7 @@
     </message>
     <message>
       <source>Messages settings</source>
-      <translation>消息设定</translation>
+      <translation>消息设置</translation>
     </message>
     <message>
       <source>Sync for a new user message, interval in seconds</source>
@@ -16008,7 +16008,7 @@
     </message>
     <message>
       <source>New chat request notification settings</source>
-      <translation>设定新聊天的请求通知</translation>
+      <translation>设置新聊天的请求通知</translation>
     </message>
     <message>
       <source>Play a new pending chat sound on a new chat request</source>
@@ -16064,7 +16064,7 @@
     </message>
     <message>
       <source>Synchronization and sound settings</source>
-      <translation>同步化和声音设定</translation>
+      <translation>同步化和声音设置</translation>
     </message>
   </context>
   <context>
@@ -16200,7 +16200,7 @@
     </message>
     <message>
       <source>Configuration</source>
-      <translation>设定</translation>
+      <translation>设置</translation>
     </message>
     <message>
       <source>Mail archive</source>
@@ -16543,7 +16543,7 @@
     </message>
     <message>
       <source>General settings</source>
-      <translation>一般设定</translation>
+      <translation>一般设置</translation>
     </message>
     <message>
       <source>Chatbox list</source>
@@ -16608,7 +16608,7 @@
     </message>
     <message>
       <source>Paid chat settings</source>
-      <translation>Paid chat 设定</translation>
+      <translation>Paid chat 设置</translation>
     </message>
   </context>
   <context>
@@ -17644,7 +17644,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>File configuration</source>
@@ -20819,7 +20819,7 @@
     </message>
     <message>
       <source>Settings</source>
-      <translation>设定</translation>
+      <translation>设置</translation>
     </message>
     <message>
       <source>Subscribers list</source>
@@ -20884,7 +20884,7 @@
     <name>notifications/notifications</name>
     <message>
       <source>Notifications settings</source>
-      <translation>通知设定</translation>
+      <translation>通知设置</translation>
     </message>
     <message>
       <source>For more information see</source>
@@ -20998,7 +20998,7 @@
     <name>paidchat/settings</name>
     <message>
       <source>Paid chat settings</source>
-      <translation>Paid chat 设定</translation>
+      <translation>Paid chat 设置</translation>
     </message>
     <message>
       <source>Enabled</source>
@@ -22026,7 +22026,7 @@
     <name>users/autologin</name>
     <message>
       <source>Auto login settings</source>
-      <translation>自动登录设定</translation>
+      <translation>自动登录设置</translation>
     </message>
     <message>
       <source>Custom auto logins</source>
@@ -22074,7 +22074,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Password requirements</source>
@@ -22260,7 +22260,7 @@
     </message>
     <message>
       <source>General language settings</source>
-      <translation>一般语言设定</translation>
+      <translation>一般语言设置</translation>
     </message>
     <message>
       <source>Language</source>
@@ -22292,7 +22292,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Notice message</source>
@@ -22347,7 +22347,7 @@
     <name>system/offlinesettings</name>
     <message>
       <source>Offline settings</source>
-      <translation>离线设定</translation>
+      <translation>离线设置</translation>
     </message>
     <message>
       <source>Offline chat request won't be saved.</source>
@@ -22378,11 +22378,11 @@
     </message>
     <message>
       <source>Time zone settings</source>
-      <translation>时区设定</translation>
+      <translation>时区设置</translation>
     </message>
     <message>
       <source>Set application specific time zone</source>
-      <translation>设定应用程序的时区</translation>
+      <translation>设置应用程序的时区</translation>
     </message>
     <message>
       <source>Date format E.g (Y-m-d)</source>
@@ -22421,11 +22421,11 @@
     <name>system/smtp</name>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
     <message>
       <source>Mail settings</source>
-      <translation>Mail 设定</translation>
+      <translation>Mail 设置</translation>
     </message>
     <message>
       <source>Sender address</source>
@@ -22511,7 +22511,7 @@
     </message>
     <message>
       <source>Settings updated</source>
-      <translation>设定已更新</translation>
+      <translation>设置已更新</translation>
     </message>
   </context>
   <context>
@@ -22731,7 +22731,7 @@
     <name>icclicktocallform/form</name>
     <message>
       <source>Settings</source>
-      <translation>设定</translation>
+      <translation>设置</translation>
     </message>
     <message>
       <source>Chat attributes</source>
@@ -22743,7 +22743,7 @@
     </message>
     <message>
       <source>Header settings</source>
-      <translation>标题设定</translation>
+      <translation>标题设置</translation>
     </message>
     <message>
       <source>Header css</source>
@@ -22844,18 +22844,18 @@
     <name>theme/default</name>
     <message>
       <source>Set as default theme</source>
-      <translation>设定成预设主题</translation>
+      <translation>设置成预设主题</translation>
     </message>
   </context>
   <context>
     <name>theme/import</name>
     <message>
       <source>Default theme was set</source>
-      <translation>预设主题已设定</translation>
+      <translation>预设主题已设置</translation>
     </message>
     <message>
       <source>Default admin theme was set</source>
-      <translation>预设管理者主题已设定</translation>
+      <translation>预设管理者主题已设置</translation>
     </message>
     <message>
       <source>Import theme</source>
@@ -24851,7 +24851,7 @@
     <name>lhchatsettings/startchat</name>
     <message>
       <source>Start chat form settings</source>
-      <translation>开始聊天表单设定</translation>
+      <translation>开始聊天表单设置</translation>
     </message>
     <message>
       <source>Start chat settings list</source>
@@ -24987,7 +24987,7 @@
     </message>
     <message>
       <source>Settings</source>
-      <translation>设定</translation>
+      <translation>设置</translation>
     </message>
     <message>
       <source>Operators settings</source>
