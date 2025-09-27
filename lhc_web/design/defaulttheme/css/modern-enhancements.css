@@ -1,43 +1,45 @@
 /* 
- * Modern Backend Interface Enhancements
- * Additional CSS improvements for a more contemporary look
+ * Shopify-Inspired Backend Interface Enhancements
+ * Modern, clean design with green accent colors
  */
 
 /* Smooth transitions for better UX */
 * {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.15s ease-out;
 }
 
 /* Enhanced form controls */
 .form-control,
 .form-select {
-    border: 2px solid #e2e8f0;
-    border-radius: var(--lhc-radius);
-    padding: 0.75rem 1rem;
-    font-size: 0.875rem;
-    transition: all 0.2s ease;
+    border: 1px solid #d9dee3;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 14px;
+    transition: all 0.15s ease;
+    background-color: #ffffff;
 }
 
 .form-control:focus,
 .form-select:focus {
     border-color: var(--lhc-primary);
-    box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.1);
-    transform: scale(1.02);
+    box-shadow: 0 0 0 3px rgba(0, 169, 110, 0.1);
+    outline: none;
 }
 
 /* Modern input groups */
 .input-group {
-    box-shadow: var(--lhc-shadow-sm);
-    border-radius: var(--lhc-radius);
+    box-shadow: none;
+    border-radius: 8px;
     overflow: hidden;
 }
 
 /* Enhanced alerts */
 .alert {
     border: none;
-    border-radius: var(--lhc-radius-md);
-    box-shadow: var(--lhc-shadow);
+    border-radius: 8px;
+    box-shadow: none;
     border-left: 4px solid;
+    background: #ffffff;
 }
 
 .alert-primary {
@@ -68,6 +70,70 @@
     background: var(--lhc-info-light);
     color: var(--lhc-info);
     border-left-color: var(--lhc-info);
+}
+
+/* Enhanced badges - Shopify style */
+.badge {
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
+.badge-primary {
+    background: var(--lhc-primary);
+    color: white;
+}
+
+.badge-success {
+    background: var(--lhc-success);
+    color: white;
+}
+
+.badge-warning {
+    background: var(--lhc-warning);
+    color: white;
+}
+
+.badge-danger {
+    background: var(--lhc-danger);
+    color: white;
+}
+
+.badge-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+/* Dashboard stat cards improvements */
+.dashboard-stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #d9dee3;
+    transition: all 0.2s ease;
+}
+
+.dashboard-stat-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.dashboard-stat-number {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.dashboard-stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--lhc-text-secondary);
 }
 
 /* Modern breadcrumbs */
