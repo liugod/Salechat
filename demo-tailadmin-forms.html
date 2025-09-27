@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-50">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Helper Chat - TailAdmin Forms Demo</title>
+    <link href="lhc_web/design/defaulttheme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lhc_web/design/defaulttheme/css/app.css" rel="stylesheet">
+    <link href="lhc_web/design/defaulttheme/css/tailadmin-compiled.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+    <!-- TailAdmin-style layout -->
+    <div class="flex h-screen overflow-hidden">
+        <!-- Sidebar -->
+        <div id="sidebar" class="flex flex-col w-64 bg-sidebar-900 border-r border-sidebar-800 transition-transform duration-300 ease-in-out lg:translate-x-0 -translate-x-full fixed lg:relative z-30">
+            <!-- Sidebar header -->
+            <div class="flex items-center justify-between h-16 px-6 bg-sidebar-900 border-b border-sidebar-800">
+                <div class="flex items-center">
+                    <h2 class="text-white font-semibold text-lg">LiveHelper Chat</h2>
+                </div>
+                <button id="sidebar-close" class="lg:hidden text-gray-300 hover:text-white">
+                    <i class="material-icons">close</i>
+                </button>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="flex-1 px-2 py-4 space-y-1 overflow-y-auto">
+                <!-- Dashboard -->
+                <a href="#" class="sidebar-nav-item">
+                    <i class="material-icons mr-3 text-lg">home</i>
+                    <span>Dashboard</span>
+                </a>
+
+                <!-- Forms Section -->
+                <div class="py-2">
+                    <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-3">
+                        Configuration
+                    </p>
+                    
+                    <a href="#" class="sidebar-nav-item active">
+                        <i class="material-icons mr-3 text-lg">settings</i>
+                        <span>Settings Form</span>
+                    </a>
+                    <a href="#" class="sidebar-nav-item">
+                        <i class="material-icons mr-3 text-lg">people</i>
+                        <span>User Management</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Overlay for mobile -->
+        <div id="sidebar-overlay" class="fixed inset-0 z-20 bg-black bg-opacity-50 lg:hidden hidden"></div>
+
+        <!-- Main content area -->
+        <div class="flex flex-col flex-1 overflow-hidden">
+            <!-- Top navigation bar -->
+            <header class="top-nav-modern">
+                <div class="flex items-center">
+                    <button id="mobile-menu-button" class="lg:hidden mr-4 text-gray-500 hover:text-gray-700">
+                        <i class="material-icons">menu</i>
+                    </button>
+                    
+                    <nav class="flex text-sm text-gray-600" aria-label="Breadcrumb">
+                        <span>Settings</span> <span class="mx-2">/</span> <span>Configuration</span>
+                    </nav>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <button class="btn-secondary-modern">
+                            <i class="material-icons text-lg">account_circle</i>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page content -->
+            <main class="flex-1 overflow-y-auto bg-gray-50">
+                <div class="p-6">
+                    <!-- Page header -->
+                    <div class="mb-6">
+                        <h1 class="text-2xl font-bold text-gray-900">System Configuration</h1>
+                        <p class="text-gray-600">Configure your Live Helper Chat settings</p>
+                    </div>
+
+                    <!-- Alert example -->
+                    <div class="alert-modern alert-success mb-6">
+                        <div class="flex items-center">
+                            <i class="material-icons mr-2">check_circle</i>
+                            <span>Configuration saved successfully!</span>
+                        </div>
+                    </div>
+
+                    <!-- Main form -->
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                        <!-- Main settings form -->
+                        <div class="lg:col-span-2">
+                            <div class="card-modern">
+                                <div class="px-6 py-4 border-b border-gray-200">
+                                    <h3 class="text-lg font-semibold text-gray-900">General Settings</h3>
+                                </div>
+                                <div class="p-6">
+                                    <form class="form-modern">
+                                        <div class="form-group-modern">
+                                            <label class="form-label-modern">Site Name</label>
+                                            <input type="text" class="form-input-modern" value="Live Helper Chat" placeholder="Enter site name">
+                                        </div>
+
+                                        <div class="form-group-modern">
+                                            <label class="form-label-modern">Site URL</label>
+                                            <input type="url" class="form-input-modern" value="https://example.com" placeholder="Enter site URL">
+                                        </div>
+
+                                        <div class="form-group-modern">
+                                            <label class="form-label-modern">Description</label>
+                                            <textarea class="form-textarea-modern" rows="4" placeholder="Enter site description">A powerful live chat application for customer support and engagement.</textarea>
+                                        </div>
+
+                                        <div class="form-group-modern">
+                                            <label class="form-label-modern">Default Language</label>
+                                            <select class="form-select-modern">
+                                                <option value="en">English</option>
+                                                <option value="es">Spanish</option>
+                                                <option value="fr">French</option>
+                                                <option value="de">German</option>
+                                                <option value="zh">Chinese</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group-modern">
+                                            <div class="flex items-center space-x-2">
+                                                <input type="checkbox" class="form-checkbox-modern" id="enable-notifications">
+                                                <label for="enable-notifications" class="text-sm text-gray-700">Enable push notifications</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group-modern">
+                                            <label class="form-label-modern">Chat Window Theme</label>
+                                            <div class="space-y-2">
+                                                <div class="flex items-center space-x-2">
+                                                    <input type="radio" class="form-radio-modern" id="theme-light" name="theme" value="light" checked>
+                                                    <label for="theme-light" class="text-sm text-gray-700">Light Theme</label>
+                                                </div>
+                                                <div class="flex items-center space-x-2">
+                                                    <input type="radio" class="form-radio-modern" id="theme-dark" name="theme" value="dark">
+                                                    <label for="theme-dark" class="text-sm text-gray-700">Dark Theme</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex space-x-3">
+                                            <button type="submit" class="btn-primary-modern">
+                                                <i class="material-icons mr-2 text-lg">save</i>
+                                                Save Changes
+                                            </button>
+                                            <button type="reset" class="btn-secondary-modern">
+                                                <i class="material-icons mr-2 text-lg">refresh</i>
+                                                Reset
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar with additional options -->
+                        <div class="space-y-6">
+                            <!-- Quick Stats -->
+                            <div class="card-modern">
+                                <div class="px-6 py-4 border-b border-gray-200">
+                                    <h3 class="text-lg font-semibold text-gray-900">Quick Stats</h3>
+                                </div>
+                                <div class="p-6 space-y-4">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-600">Online Operators</span>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="status-online"></div>
+                                            <span class="font-semibold">5</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-600">Active Chats</span>
+                                        <span class="badge-modern badge-success">12</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-600">Pending Chats</span>
+                                        <span class="badge-modern badge-warning">3</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- System Status -->
+                            <div class="card-modern">
+                                <div class="px-6 py-4 border-b border-gray-200">
+                                    <h3 class="text-lg font-semibold text-gray-900">System Status</h3>
+                                </div>
+                                <div class="p-6 space-y-4">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-600">Database</span>
+                                        <span class="badge-modern badge-success">Connected</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-600">Mail Service</span>
+                                        <span class="badge-modern badge-success">Active</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-600">Storage</span>
+                                        <span class="badge-modern badge-info">78% Used</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-600">Cache</span>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="spinner"></div>
+                                            <span class="text-xs text-gray-500">Clearing...</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Recent Actions -->
+                            <div class="card-modern">
+                                <div class="px-6 py-4 border-b border-gray-200">
+                                    <h3 class="text-lg font-semibold text-gray-900">Recent Actions</h3>
+                                </div>
+                                <div class="p-6">
+                                    <div class="space-y-3">
+                                        <div class="text-sm">
+                                            <span class="font-medium">John Smith</span>
+                                            <span class="text-gray-600">updated user settings</span>
+                                            <div class="text-xs text-gray-500 mt-1">2 minutes ago</div>
+                                        </div>
+                                        <div class="text-sm">
+                                            <span class="font-medium">Admin</span>
+                                            <span class="text-gray-600">cleared cache</span>
+                                            <div class="text-xs text-gray-500 mt-1">1 hour ago</div>
+                                        </div>
+                                        <div class="text-sm">
+                                            <span class="font-medium">System</span>
+                                            <span class="text-gray-600">backup completed</span>
+                                            <div class="text-xs text-gray-500 mt-1">3 hours ago</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const sidebarClose = document.getElementById('sidebar-close');
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebar-overlay');
+            
+            function toggleSidebar() {
+                sidebar.classList.toggle('-translate-x-full');
+                overlay.classList.toggle('hidden');
+            }
+            
+            if (mobileMenuButton) {
+                mobileMenuButton.addEventListener('click', toggleSidebar);
+            }
+            
+            if (sidebarClose) {
+                sidebarClose.addEventListener('click', toggleSidebar);
+            }
+            
+            if (overlay) {
+                overlay.addEventListener('click', toggleSidebar);
+            }
+        });
+    </script>
+</body>
+</html>
