@@ -1,194 +1,279 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="bright">
+<html lang="en" class="font-outfit" x-data="{ darkMode: false, sidebarToggle: false }" x-init="darkMode && document.documentElement.classList.add('dark')">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Helper Chat Demo - Current Backend Interface</title>
-    <link href="lhc_web/design/defaulttheme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="lhc_web/design/defaulttheme/css/app.css" rel="stylesheet">
+    <title>Live Helper Chat Demo - TailAdmin Modern Interface</title>
+    
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4f46e5',
+                        secondary: '#6b7280',
+                        success: '#059669',
+                        warning: '#d97706',
+                        danger: '#dc2626',
+                        info: '#0891b2',
+                        dark: '#1e293b',
+                        'body-color': '#64748b',
+                        'title-color': '#0f172a',
+                        stroke: '#e2e8f0',
+                        'gray-light': '#f8fafc',
+                        'gray-dark': '#1e293b',
+                        'gray-darker': '#0f172a',
+                    },
+                    fontFamily: {
+                        'outfit': ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts & Alpine.js -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
-<body id="admin-body" class="pe-0 h-100 dashboard-height">
-    <!-- Top Menu Bar -->
-    <nav class="navbar navbar-expand-lg border-bottom p-0 ps-1 top-menu-bar-lhc">
-        <div class="navbar-brand p-2">
-            <strong>Live Helper Chat</strong>
-        </div>
-        
-        <button class="navbar-toggler btn border-0 btn-outline-secondary pb-2" type="button">
-            <span class="material-icons me-0">menu</span>
-        </button>
-
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="material-icons">home</i> Dashboard</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="material-icons">settings</i> Settings</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="material-icons">account_circle</i> Profile</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="wrapper">
+<body class="font-outfit text-body-color bg-gray-light dark:bg-gray-darker" :class="{'dark': darkMode}">
+    <!-- TailAdmin Layout Wrapper -->
+    <div class="flex h-screen overflow-hidden">
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <div class="navbar-light sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav position-relative" id="side-menu">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-icons md-18">home</i>Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-icons md-18">chat</i>Chats</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-icons md-18">people</i>Users</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-icons md-18">settings</i>Settings</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-icons md-18">analytics</i>Statistics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-icons md-18">smart_toy</i>Bot</a>
-                        </li>
-                    </ul>
-                </div>
+        <aside 
+            :class="sidebarToggle ? 'translate-x-0 lg:w-20' : '-translate-x-full'"
+            class="fixed left-0 top-0 z-50 flex h-screen w-72 flex-col overflow-y-hidden border-r border-stroke bg-white px-5 shadow-xl transition-all duration-300 ease-in-out lg:static lg:translate-x-0 dark:border-gray-800 dark:bg-gray-dark">
+            
+            <!-- Sidebar Header -->
+            <div 
+                :class="sidebarToggle ? 'justify-center' : 'justify-between'"
+                class="flex items-center gap-2 pt-8 pb-7">
+                
+                <a href="#" class="flex items-center">
+                    <span class="logo" :class="sidebarToggle ? 'hidden' : ''">
+                        <h2 class="text-xl font-bold text-title-color dark:text-white">Live Helper Chat</h2>
+                    </span>
+                    <div 
+                        class="logo-icon flex items-center justify-center w-10 h-10 bg-primary rounded-lg"
+                        :class="sidebarToggle ? 'lg:block' : 'hidden'">
+                        <span class="text-white font-bold text-lg">L</span>
+                    </div>
+                </a>
             </div>
-        </div>
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="row">
-                <div id="middle-column-page" class="col-xl-12 pb-1">
-                    <!-- Sample Dashboard Content -->
-                    <div class="container-fluid">
-                        <h1 class="h3 mb-4">Dashboard</h1>
+            
+            <!-- Sidebar Navigation -->
+            <div class="flex flex-col overflow-y-auto duration-300 ease-linear no-scrollbar">
+                <nav class="mt-5 py-4 space-y-1">
+                    <div>
+                        <h3 class="mb-4 text-xs uppercase tracking-wider text-gray-500 font-medium" :class="sidebarToggle ? 'lg:hidden' : ''">
+                            Menu
+                        </h3>
                         
-                        <div class="row">
-                            <div class="col-xl-3 col-md-6 mb-4">
-                                <div class="card border-left-primary shadow h-100 py-2">
-                                    <div class="card-body">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Active Chats</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">15</div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="material-icons text-primary">chat</i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <a class="group relative flex items-center gap-3 rounded-lg px-4 py-2.5 text-sm font-medium bg-primary bg-opacity-10 text-primary" href="#">
+                            <i class="material-icons text-lg">home</i>
+                            <span :class="sidebarToggle ? 'lg:hidden' : ''">Dashboard</span>
+                        </a>
 
-                            <div class="col-xl-3 col-md-6 mb-4">
-                                <div class="card border-left-success shadow h-100 py-2">
-                                    <div class="card-body">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                    Pending Chats</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">3</div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="material-icons text-success">pending</i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <a class="group relative flex items-center gap-3 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-600 transition-all hover:bg-primary hover:bg-opacity-10 hover:text-primary dark:text-gray-300" href="#">
+                            <i class="material-icons text-lg">chat</i>
+                            <span :class="sidebarToggle ? 'lg:hidden' : ''">Chats</span>
+                        </a>
 
-                            <div class="col-xl-3 col-md-6 mb-4">
-                                <div class="card border-left-info shadow h-100 py-2">
-                                    <div class="card-body">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Online Operators</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">5</div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="material-icons text-info">people</i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <a class="group relative flex items-center gap-3 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-600 transition-all hover:bg-primary hover:bg-opacity-10 hover:text-primary dark:text-gray-300" href="#">
+                            <i class="material-icons text-lg">people</i>
+                            <span :class="sidebarToggle ? 'lg:hidden' : ''">Users</span>
+                        </a>
 
-                            <div class="col-xl-3 col-md-6 mb-4">
-                                <div class="card border-left-warning shadow h-100 py-2">
-                                    <div class="card-body">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                    Today's Chats</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">142</div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="material-icons text-warning">trending_up</i>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <a class="group relative flex items-center gap-3 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-600 transition-all hover:bg-primary hover:bg-opacity-10 hover:text-primary dark:text-gray-300" href="#">
+                            <i class="material-icons text-lg">settings</i>
+                            <span :class="sidebarToggle ? 'lg:hidden' : ''">Settings</span>
+                        </a>
+
+                        <a class="group relative flex items-center gap-3 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-600 transition-all hover:bg-primary hover:bg-opacity-10 hover:text-primary dark:text-gray-300" href="#">
+                            <i class="material-icons text-lg">analytics</i>
+                            <span :class="sidebarToggle ? 'lg:hidden' : ''">Statistics</span>
+                        </a>
+
+                        <a class="group relative flex items-center gap-3 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-600 transition-all hover:bg-primary hover:bg-opacity-10 hover:text-primary dark:text-gray-300" href="#">
+                            <i class="material-icons text-lg">smart_toy</i>
+                            <span :class="sidebarToggle ? 'lg:hidden' : ''">Bot</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <div class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
+            <!-- Header -->
+            <header class="sticky top-0 z-30 flex w-full bg-white border-b border-stroke shadow-sm dark:border-gray-800 dark:bg-gray-dark">
+                <div class="flex grow items-center justify-between px-4 py-4 lg:px-6">
+                    <!-- Hamburger Toggle -->
+                    <button 
+                        :class="sidebarToggle ? 'bg-gray-100 dark:bg-gray-800' : ''"
+                        class="flex h-11 w-11 items-center justify-center rounded-lg border border-stroke text-gray-500 hover:bg-gray-100 dark:border-gray-800 dark:text-gray-400 dark:hover:bg-gray-800"
+                        @click.stop="sidebarToggle = !sidebarToggle">
+                        <i class="material-icons">menu</i>
+                    </button>
+
+                    <!-- Header Actions -->
+                    <div class="flex items-center gap-3">
+                        <!-- Dark Mode Toggle -->
+                        <button 
+                            @click="darkMode = !darkMode; darkMode ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')"
+                            class="relative flex h-9 w-9 items-center justify-center rounded-full border border-stroke bg-gray-100 text-gray-600 hover:text-primary dark:border-gray-800 dark:bg-gray-800 dark:text-gray-300">
+                            <svg x-show="!darkMode" class="fill-current" width="16" height="16" viewBox="0 0 16 16">
+                                <path d="M7 0H9V2H7V0Z"/>
+                                <path d="M2.34314 1.22876L0.928932 2.64297L2.34314 4.05718L3.75736 2.64297L2.34314 1.22876Z"/>
+                                <path d="M16 7V9H14V7H16Z"/>
+                                <path d="M13.6568 1.22876L12.2426 2.64297L13.6568 4.05718L15.0711 2.64297L13.6568 1.22876Z"/>
+                                <path d="M5.5 8C5.5 6.61929 6.61929 5.5 8 5.5C9.38071 5.5 10.5 6.61929 10.5 8C10.5 9.38071 9.38071 10.5 8 10.5C6.61929 10.5 5.5 9.38071 5.5 8Z"/>
+                                <path d="M2.34314 12.2426L3.75736 10.8284L2.34314 9.41419L0.928932 10.8284L2.34314 12.2426Z"/>
+                                <path d="M0 7H2V9H0V7Z"/>
+                                <path d="M7 14H9V16H7V14Z"/>
+                                <path d="M15.0711 12.2426L13.6568 10.8284L12.2426 12.2426L13.6568 13.6568L15.0711 12.2426Z"/>
+                            </svg>
+                            <svg x-show="darkMode" class="fill-current" width="16" height="16" viewBox="0 0 16 16">
+                                <path d="M6.99993 11.9999C4.23858 11.9999 2.00024 9.76158 2.00024 6.99993C2.00024 4.23828 4.23858 1.99994 6.99993 1.99994C7.52552 1.99994 8.00024 1.52522 8.00024 0.999939C8.00024 0.474654 7.52552 -7.62939e-06 6.99993 -7.62939e-06C3.13393 -7.62939e-06 0.00024414 3.13369 0.00024414 6.99993C0.00024414 10.8662 3.13393 13.9999 6.99993 13.9999C7.52552 13.9999 8.00024 13.5252 8.00024 12.9999C8.00024 12.4746 7.52552 11.9999 6.99993 11.9999Z"/>
+                            </svg>
+                        </button>
+
+                        <!-- User Avatar -->
+                        <div class="relative">
+                            <button class="flex h-9 w-9 items-center justify-center rounded-full">
+                                <img class="h-9 w-9 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="User">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="flex-1">
+                <div class="mx-auto max-w-screen-2xl p-4 md:p-6">
+                    <!-- Page Header -->
+                    <div class="mb-6">
+                        <h1 class="text-2xl font-bold text-title-color dark:text-white">Dashboard</h1>
+                        <p class="text-sm text-body-color">Welcome to your Live Helper Chat dashboard</p>
+                    </div>
+                    
+                    <!-- Stats Grid -->
+                    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 mb-6">
+                        <!-- Active Chats -->
+                        <div class="rounded-lg border border-stroke bg-white px-6 py-6 shadow-sm dark:border-gray-800 dark:bg-gray-dark">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-xs font-medium uppercase tracking-wide text-gray-500 mb-1">Active Chats</p>
+                                    <p class="text-2xl font-bold text-title-color dark:text-white">15</p>
+                                </div>
+                                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary bg-opacity-10">
+                                    <i class="material-icons text-primary">chat</i>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Data Table -->
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Recent Chats</h6>
+                        <!-- Pending Chats -->
+                        <div class="rounded-lg border border-stroke bg-white px-6 py-6 shadow-sm dark:border-gray-800 dark:bg-gray-dark">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-xs font-medium uppercase tracking-wide text-gray-500 mb-1">Pending Chats</p>
+                                    <p class="text-2xl font-bold text-title-color dark:text-white">3</p>
+                                </div>
+                                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-success bg-opacity-10">
+                                    <i class="material-icons text-success">pending</i>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" width="100%" cellspacing="0">
-                                        <thead>
-                                            <tr>
-                                                <th>Chat ID</th>
-                                                <th>Visitor</th>
-                                                <th>Department</th>
-                                                <th>Status</th>
-                                                <th>Started</th>
-                                                <th>Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1001</td>
-                                                <td>John Smith</td>
-                                                <td>Sales</td>
-                                                <td><span class="badge bg-success">Active</span></td>
-                                                <td>2 min ago</td>
-                                                <td>
-                                                    <button class="btn btn-sm btn-primary">View</button>
-                                                    <button class="btn btn-sm btn-secondary">Transfer</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>1002</td>
-                                                <td>Jane Doe</td>
-                                                <td>Support</td>
-                                                <td><span class="badge bg-warning">Pending</span></td>
-                                                <td>5 min ago</td>
-                                                <td>
-                                                    <button class="btn btn-sm btn-primary">View</button>
-                                                    <button class="btn btn-sm btn-secondary">Transfer</button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                        </div>
+
+                        <!-- Online Operators -->
+                        <div class="rounded-lg border border-stroke bg-white px-6 py-6 shadow-sm dark:border-gray-800 dark:bg-gray-dark">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-xs font-medium uppercase tracking-wide text-gray-500 mb-1">Online Operators</p>
+                                    <p class="text-2xl font-bold text-title-color dark:text-white">5</p>
+                                </div>
+                                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-info bg-opacity-10">
+                                    <i class="material-icons text-info">people</i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Today's Chats -->
+                        <div class="rounded-lg border border-stroke bg-white px-6 py-6 shadow-sm dark:border-gray-800 dark:bg-gray-dark">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-xs font-medium uppercase tracking-wide text-gray-500 mb-1">Today's Chats</p>
+                                    <p class="text-2xl font-bold text-title-color dark:text-white">142</p>
+                                </div>
+                                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-warning bg-opacity-10">
+                                    <i class="material-icons text-warning">trending_up</i>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Recent Chats Table -->
+                    <div class="rounded-lg border border-stroke bg-white shadow-sm dark:border-gray-800 dark:bg-gray-dark">
+                        <div class="px-6 py-4 border-b border-stroke dark:border-gray-800">
+                            <h3 class="text-lg font-semibold text-title-color dark:text-white">Recent Chats</h3>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full table-auto">
+                                <thead>
+                                    <tr class="bg-gray-light dark:bg-gray-800">
+                                        <th class="min-w-[220px] px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Chat ID</th>
+                                        <th class="min-w-[150px] px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Visitor</th>
+                                        <th class="min-w-[120px] px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Department</th>
+                                        <th class="min-w-[100px] px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                                        <th class="min-w-[100px] px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Started</th>
+                                        <th class="min-w-[100px] px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-stroke dark:divide-gray-800">
+                                    <tr class="hover:bg-gray-light dark:hover:bg-gray-800">
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-title-color dark:text-white">1001</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-body-color">John Smith</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-body-color">Sales</td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-success bg-opacity-10 text-success">Active</span>
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-body-color">2 min ago</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm space-x-2">
+                                            <button class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-md border border-primary text-primary hover:bg-primary hover:text-white transition-colors">
+                                                View
+                                            </button>
+                                            <button class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-md border border-gray-300 text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800">
+                                                Transfer
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-light dark:hover:bg-gray-800">
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-title-color dark:text-white">1002</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-body-color">Jane Doe</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-body-color">Support</td>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-warning bg-opacity-10 text-warning">Pending</span>
+                                        </td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-body-color">5 min ago</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm space-x-2">
+                                            <button class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-md border border-primary text-primary hover:bg-primary hover:text-white transition-colors">
+                                                View
+                                            </button>
+                                            <button class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-md border border-gray-300 text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800">
+                                                Transfer
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </main>
         </div>
     </div>
 </body>

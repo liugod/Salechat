@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./design/defaulttheme/tpl/**/*.php",
+
     "./design/defaulttheme/tpl/**/*.tpl.php",
     "./design/defaulttheme/js/**/*.js",
     "./*.html"
@@ -31,10 +32,11 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'sans-serif'],
       },
+
     },
   },
   plugins: [
     require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
+
   ],
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html <?php if (($detect = new Mobile_Detect()) && ($detect->isMobile() || $detect->isTablet())) : ?>data-mobile="true"<?php endif; ?> <?php if (!isset($Result['anonymous']) && (int)erLhcoreClassModelUserSetting::getSetting('dark_mode',0) == 1) : ?>dark="true" data-bs-theme="dark"<?php else : ?>bright="true" data-bs-theme="bright"<?php endif;?> lang="<?php echo erConfigClassLhConfig::getInstance()->getDirLanguage('content_language')?>" dir="<?php echo erConfigClassLhConfig::getInstance()->getDirLanguage('dir_language')?>" ng-app="lhcApp">
+
 <head>
     <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/page_head.tpl.php'));?>
 </head>
@@ -59,6 +60,7 @@
                         <?php endforeach;?>
                     <?php endif; ?>
                 </div>
+
                 <?php endif; ?>
 
                 <?php if ($currentUser->hasAccessTo('lhsystem','use')) : ?>
@@ -68,6 +70,7 @@
                     <span><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Settings')?></span>
                 </a>
                 <?php endif; ?>
+
 
                 <!-- Additional menu items -->
                 <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_modules_container.tpl.php.tpl.php'));?>
