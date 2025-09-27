@@ -33,14 +33,13 @@
     <!-- Alpine.js for interactivity -->
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <?php if (!isset($Result['anonymous']) && (int)erLhcoreClassModelUserSetting::getSetting('dark_mode',0) == 1) : ?>
-        <link rel="stylesheet" type="text/css" href="<?php echo erLhcoreClassDesign::designCSS('css/tailwind-admin.css;css/material_font.css;css/app.css;css/app-dark.css;css/override.css;css/datepicker.css;css/gbot.css;css/color-picker.css');?>" />
+
+        <link rel="stylesheet" type="text/css" href="<?php echo erLhcoreClassDesign::designCSS('vendor/bootstrap/css/bootstrap.min.css;css/material_font.css;css/app.css;css/app-dark.css;css/tailadmin-compiled.css;css/override.css;css/datepicker.css;css/gbot.css;css/color-picker.css');?>" />
     <?php else : ?>
-        <link rel="stylesheet" type="text/css" href="<?php echo erLhcoreClassDesign::designCSS('css/tailwind-admin.css;css/material_font.css;css/app.css;css/override.css;css/datepicker.css;css/gbot.css;css/color-picker.css');?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo erLhcoreClassDesign::designCSS('vendor/bootstrap/css/bootstrap.min.css;css/material_font.css;css/app.css;css/tailadmin-compiled.css;css/override.css;css/datepicker.css;css/gbot.css;css/color-picker.css');?>" />
     <?php endif; ?>
 <?php else : ?>
-    <!-- TailwindCSS CDN for modern interface -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php echo erLhcoreClassDesign::designCSS('css/tailwind-admin.css;css/bootstrap-rtl.min.css;css/material_font.css;css/app.css;css/app-rtl.css;css/override_rtl.css;css/datepicker.css;css/gbot.css;css/color-picker.css');?>" />
+<link rel="stylesheet" type="text/css" href="<?php echo erLhcoreClassDesign::designCSS('vendor/bootstrap/css/bootstrap.min.css;css/bootstrap-rtl.min.css;css/material_font.css;css/app.css;css/app-rtl.css;css/tailadmin-compiled.css;css/override_rtl.css;css/datepicker.css;css/gbot.css;css/color-picker.css');?>" />
+
 <?php endif;?>
 <?php echo isset($Result['additional_header_css']) ? $Result['additional_header_css'] : ''?>

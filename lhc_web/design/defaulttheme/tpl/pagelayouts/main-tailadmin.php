@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
 <html <?php if (($detect = new Mobile_Detect()) && ($detect->isMobile() || $detect->isTablet())) : ?>data-mobile="true"<?php endif; ?> <?php if (!isset($Result['anonymous']) && (int)erLhcoreClassModelUserSetting::getSetting('dark_mode',0) == 1) : ?>dark="true" data-bs-theme="dark"<?php else : ?>bright="true" data-bs-theme="bright"<?php endif;?> lang="<?php echo erConfigClassLhConfig::getInstance()->getDirLanguage('content_language')?>" dir="<?php echo erConfigClassLhConfig::getInstance()->getDirLanguage('dir_language')?>" ng-app="lhcApp">
-
 <head>
     <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/page_head.tpl.php'));?>
 </head>
-<body id="admin-body" class="bg-gray-50 font-sans antialiased <?php isset($Result['body_class']) ? print $Result['body_class'] : ''?>">
+<body id="admin-body" class="bg-gray-50 font-sans antialiased">
     <lhc-app></lhc-app>
     <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/page_top_content_multiinclude.tpl.php'));?>
     <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_head_multiinclude.tpl.php'));?>
@@ -13,14 +12,14 @@
     <!-- TailAdmin-style layout -->
     <div class="flex h-screen overflow-hidden">
         <!-- Sidebar -->
-        <div id="sidebar" class="flex flex-col w-64 bg-sidebar-900 border-r border-sidebar-800 transition-transform duration-300 ease-in-out lg:translate-x-0 -translate-x-full fixed lg:relative z-30">
+        <div id="sidebar" class="flex flex-col w-64 bg-sidebar-900 border-r border-sidebar-800 transition-transform duration-300 ease-in-out">
             <!-- Sidebar header -->
             <div class="flex items-center justify-between h-16 px-6 bg-sidebar-900 border-b border-sidebar-800">
                 <div class="flex items-center">
                     <h2 class="text-white font-semibold text-lg">LiveHelper Chat</h2>
                 </div>
-                <button id="sidebar-close" class="lg:hidden text-gray-300 hover:text-white">
-                    <i class="material-icons">close</i>
+                <button id="sidebar-toggle" class="lg:hidden text-gray-300 hover:text-white">
+                    <i class="material-icons">menu</i>
                 </button>
             </div>
 
@@ -60,7 +59,6 @@
                         <?php endforeach;?>
                     <?php endif; ?>
                 </div>
-
                 <?php endif; ?>
 
                 <?php if ($currentUser->hasAccessTo('lhsystem','use')) : ?>
@@ -70,7 +68,6 @@
                     <span><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Settings')?></span>
                 </a>
                 <?php endif; ?>
-
 
                 <!-- Additional menu items -->
                 <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_modules_container.tpl.php.tpl.php'));?>
@@ -82,9 +79,6 @@
                 <lhc-connection-status></lhc-connection-status>
             </div>
         </div>
-
-        <!-- Overlay for mobile -->
-        <div id="sidebar-overlay" class="fixed inset-0 z-20 bg-black bg-opacity-50 lg:hidden hidden"></div>
 
         <!-- Main content area -->
         <div class="flex flex-col flex-1 overflow-hidden">
@@ -136,25 +130,12 @@
         // Mobile menu toggle functionality
         document.addEventListener('DOMContentLoaded', function() {
             const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const sidebarClose = document.getElementById('sidebar-close');
             const sidebar = document.getElementById('sidebar');
-            const overlay = document.getElementById('sidebar-overlay');
             
-            function toggleSidebar() {
-                sidebar.classList.toggle('-translate-x-full');
-                overlay.classList.toggle('hidden');
-            }
-            
-            if (mobileMenuButton) {
-                mobileMenuButton.addEventListener('click', toggleSidebar);
-            }
-            
-            if (sidebarClose) {
-                sidebarClose.addEventListener('click', toggleSidebar);
-            }
-            
-            if (overlay) {
-                overlay.addEventListener('click', toggleSidebar);
+            if (mobileMenuButton && sidebar) {
+                mobileMenuButton.addEventListener('click', function() {
+                    sidebar.classList.toggle('-translate-x-full');
+                });
             }
         });
     </script>
