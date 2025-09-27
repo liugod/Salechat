@@ -1,0 +1,164 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@layer base {
+  body {
+    @apply font-outfit;
+  }
+  
+  html {
+    @apply h-full;
+  }
+}
+
+@layer components {
+  /* Sidebar Styles */
+  .sidebar {
+    @apply fixed left-0 top-0 z-50 flex h-screen w-72 flex-col overflow-y-hidden border-r border-gray-200 bg-white px-5 shadow-sidebar transition-all duration-300 ease-in-out;
+  }
+  
+  .sidebar.collapsed {
+    @apply w-20;
+  }
+  
+  .sidebar-header {
+    @apply flex items-center gap-2 pt-8 pb-7;
+  }
+  
+  .sidebar-menu {
+    @apply flex flex-col overflow-y-auto duration-300 ease-linear;
+  }
+  
+  .sidebar-nav-item {
+    @apply group relative flex items-center gap-3 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-600 transition-all hover:bg-gray-100 hover:text-primary;
+  }
+  
+  .sidebar-nav-item.active {
+    @apply bg-primary bg-opacity-10 text-primary;
+  }
+  
+  .sidebar-nav-icon {
+    @apply h-5 w-5 fill-current;
+  }
+  
+  /* Header Styles */
+  .header {
+    @apply sticky top-0 z-40 flex w-full border-b border-gray-200 bg-white shadow-sm;
+  }
+  
+  .header-content {
+    @apply flex grow items-center justify-between px-6 py-4;
+  }
+  
+  .hamburger-btn {
+    @apply flex h-11 w-11 items-center justify-center rounded-lg border border-gray-200 text-gray-500 hover:bg-gray-100;
+  }
+  
+  /* Main Content */
+  .main-content {
+    @apply relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden bg-gray-light;
+  }
+  
+  .content-area {
+    @apply p-4 md:p-6;
+  }
+  
+  /* Cards */
+  .dashboard-card {
+    @apply rounded-lg border border-gray-200 bg-white p-6 shadow-card transition-shadow hover:shadow-card-hover;
+  }
+  
+  .stat-card {
+    @apply rounded-lg border border-gray-200 bg-white p-6 shadow-card;
+  }
+  
+  .stat-card-icon {
+    @apply flex h-12 w-12 items-center justify-center rounded-full;
+  }
+  
+  .stat-card-content {
+    @apply flex items-center justify-between;
+  }
+  
+  .stat-card-info {
+    @apply space-y-1;
+  }
+  
+  .stat-card-title {
+    @apply text-xs font-medium uppercase tracking-wide text-gray-500;
+  }
+  
+  .stat-card-value {
+    @apply text-2xl font-bold text-title-color;
+  }
+  
+  /* Dark mode styles */
+  .dark .sidebar {
+    @apply border-gray-800 bg-gray-dark;
+  }
+  
+  .dark .sidebar-nav-item {
+    @apply text-gray-300 hover:bg-gray-800 hover:text-white;
+  }
+  
+  .dark .sidebar-nav-item.active {
+    @apply bg-primary bg-opacity-20 text-primary;
+  }
+  
+  .dark .header {
+    @apply border-gray-800 bg-gray-dark;
+  }
+  
+  .dark .hamburger-btn {
+    @apply border-gray-800 text-gray-400 hover:bg-gray-800;
+  }
+  
+  .dark .main-content {
+    @apply bg-gray-darker;
+  }
+  
+  .dark .dashboard-card {
+    @apply border-gray-800 bg-gray-dark;
+  }
+  
+  .dark .stat-card {
+    @apply border-gray-800 bg-gray-dark;
+  }
+  
+  .dark .stat-card-value {
+    @apply text-white;
+  }
+  
+  /* Responsive adjustments */
+  @screen lg {
+    .sidebar {
+      @apply static translate-x-0;
+    }
+    
+    .sidebar.collapsed {
+      @apply w-20;
+    }
+    
+    .main-content {
+      @apply ml-72;
+    }
+    
+    .main-content.sidebar-collapsed {
+      @apply ml-20;
+    }
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

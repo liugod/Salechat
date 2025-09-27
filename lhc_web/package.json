@@ -20,5 +20,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "@tailwindcss/forms": "^0.5.10",
+    "tailwindcss": "^4.1.13"
   }
 }
